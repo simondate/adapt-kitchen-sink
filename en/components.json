@@ -836,15 +836,21 @@
         "_items": [
             {
                 "title": "List item 1 title",
-                "body": "This is display text 1."
+                "body": "This is display text 1.",
+                "titleGraphic": "course/en/images/base_assets/list_item_up.png",
+                "titleGraphicSelected": "course/en/images/base_assets/list_item_selected.png"
             },
             {
                 "title": "List item 2 title",
-                "body": "This is display text 2."
+                "body": "This is display text 2.",
+                "titleGraphic": "course/en/images/base_assets/list_item_up.png",
+                "titleGraphicSelected": "course/en/images/base_assets/list_item_selected.png"
             },
             {
                 "title": "List item 3 title",
-                "body": "This is display text 3."
+                "body": "This is display text 3.",
+                "titleGraphic": "course/en/images/base_assets/list_item_up.png",
+                "titleGraphicSelected": "course/en/images/base_assets/list_item_selected.png"
             }
         ]
     },
