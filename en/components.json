@@ -57,23 +57,23 @@
         "_layout": "right",
         "title": "Accordion single width",
         "displayTitle": "Accordion single width",
-        "body": "This is optional body text. Select the headings below to reveal the text.",
+        "body": "<b>Accordion</b> components present learners with a series of clickable headings and associated text.",
         "instruction": "Select the headings to find out more",
         "_items": [
             {
-                "alt": "Heading 1",
-                "title": "Heading 1",
-                "body": "This is display text 1."
+                "alt": "Accordion item 1",
+                "title": "Accordion item 1",
+                "body": "This is display text 1.<br/><br/>If a list needs expanding on, but doesn’t lend itself to a graphical treatment, this component is perfect. List the key points as headings then explore further in the reveal text."
             },
             {
-                "alt": "Heading 2",
-                "title": "Heading 2",
-                "body": "This is display text 2."
+                "alt": "Accordion item 2",
+                "title": "Accordion item 2",
+                "body": "This is display text 2.<br/><br/>Walk through the steps of an activity in order and then reveal more about them."
             },
             {
-                "alt": "Heading 3",
-                "title": "Heading 3",
-                "body": "This is display text 3."
+                "alt": "Accordion item 3",
+                "title": "Accordion item 3",
+                "body": "This is display text 3.<br/><br/>Recap the page’s content in a brief, succinct way by breaking down the key points into headings."
             }
         ],
         "_pageLevelProgress": {
@@ -89,23 +89,23 @@
         "_layout": "full",
         "title": "Accordion full width",
         "displayTitle": "Accordion full width",
-        "body": "This is optional body text. Select the headings below to reveal the text.",
+        "body": "<b>Accordion</b> components present learners with a series of clickable headings and associated text.",
         "instruction": "Select the headings to find out more",
         "_items": [
             {
-                "alt": "Heading 1",
-                "title": "Heading 1",
-                "body": "This is display text 1."
+                "alt": "Accordion item 1",
+                "title": "Accordion item 1",
+                "body": "This is display text 1.<br/><br/>If a list needs expanding on, but doesn’t lend itself to a graphical treatment, this component is perfect. List the key points as headings then explore further in the reveal text."
             },
             {
-                "alt": "Heading 2",
-                "title": "Heading 2",
-                "body": "This is display text 2."
+                "alt": "Accordion item 2",
+                "title": "Accordion item 2",
+                "body": "This is display text 2.<br/><br/>Walk through the steps of an activity in order and then reveal more about them."
             },
             {
-                "alt": "Heading 3",
-                "title": "Heading 3",
-                "body": "This is display text 3."
+                "alt": "Accordion item 3",
+                "title": "Accordion item 3",
+                "body": "This is display text 3.<br/><br/>Recap the page’s content in a brief, succinct way by breaking down the key points into headings.<br/><br/><img src='course/en/images/base_assets/pin_point.jpg' alt='alt' title='title'/>"
             }
         ],
         "_pageLevelProgress": {
@@ -166,41 +166,41 @@
         },
         "_items": [
             {
-                "title": "Hotspot 1 title",
-                "body": "This is display text 1.",
+                "title": "Hot graphic item 1",
+                "body": "This is display text 1.<br/><br/>Selecting one of the buttons will launch a pop up box, like this. Next to the numbers in the top left you can see navigation arrows. These should allow you to scroll through all the hot graphic items without closing and selecting the other icons.",
                 "_graphic": {
                     "src": "course/en/images/base_assets/narrative.jpg",
                     "alt": "alt text",
                     "title": "title text"
                 },
                 "pinAlt": "Pin 1. Select here to open.",
-                "strapline": "strapline...",
+                "strapline": "Hot graphic item 1",
                 "_top": 50,
                 "_left": 20
             },
             {
-                "title": "Hotspot 2 title",
-                "body": "This is display text 2.",
+                "title": "Hot graphic item 2",
+                "body": "This is display text 2.<br/><br/>Similar to the narrative, case studies work well here. Use a split screen graphic to show a character in various scenes, then describe the situation in the reveal text boxes. Just be careful not to go into too much detail in the individual boxes – keep it to a short paragraph or two.",
                 "_graphic": {
                     "src": "course/en/images/base_assets/narrative.jpg",
                     "alt": "alt text",
                     "title": "title text"
                 },
                 "pinAlt": "Pin 2. Select here to open.",
-                "strapline": "strapline...",
+                "strapline": "Hot graphic item 2",
                 "_top": 50,
                 "_left": 60
             },
             {
-                "title": "Hotspot 3 title",
-                "body": "This is display text 3.",
+                "title": "Hot graphic item 3",
+                "body": "This is display text 3.<br/><br/>That’s not all though. Show a process diagram, with learners able to select exact areas of the diagram to find out more. Show a map or landscape and get learners to dive into a particular part of the image. Present a close up of a product and ask learners to discover more about its individual sections.",
                 "_graphic": {
                     "src": "course/en/images/base_assets/narrative.jpg",
                     "alt": "alt text",
                     "title": "title text"
                 },
                 "pinAlt": "Pin 3. Select here to open.",
-                "strapline": "strapline...",
+                "strapline": "Hot graphic item 3",
                 "_top": 50,
                 "_left": 40
             }
@@ -218,8 +218,8 @@
         "_layout": "full",
         "title": "Title of the media component",
         "displayTitle": "Title of the media component",
-        "body": "This is optional body text. Select the play button to start the video.",
-        "instruction": "",
+        "body": "Sometimes static text isn’t enough. Want to add a video of an expert to get learners excited about a subject? Or an animation talking through the crucial points? Say it with a media component and let your learners explore further.",
+        "instruction": "Select the play button to start the video.",
         "_setCompletionOn": "inview",
         "_media": {
             "mp4": "course/en/assets/video/big_buck_bunny.mp4",
