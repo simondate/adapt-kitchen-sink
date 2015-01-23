@@ -6,7 +6,7 @@
         "_classes":"",
         "title":"Core Presentation Components",
         "displayTitle":"Core Presentation Components",
-        "body":"Interactivity is crucial to getting learners engaged with your content. No matter how interesting the information you’re trying to present is, a learner who’s not engaged is a learner who’s not learning. Add some spark to their learning experience by offering them an interactive journey through the content.<br><br>All core components will work with IE8, offer RTL language support and accessibility to at least AA.",
+        "body":"Interactivity is crucial to getting learners engaged with your content. No matter how interesting the information you’re trying to present is, a learner who’s not engaged is a learner who’s not learning. Add some spark to their learning experience by offering them an interactive journey through the content.<br/><br/>All core components will work with IE8, offer RTL language support and accessibility to at least AA.",
         "instruction":"Scroll down to see what presentation components we have on offer.",
         "_graphic": {
             "alt": "Welcome to Adapt Learning",
@@ -37,7 +37,8 @@
         "_classes":"",
         "title":"Core Question Components",
         "displayTitle":"Core Question Components",
-        "body":"This page contains a working Adapt page with all core question components.",
+        "body":"Interactivity is crucial to getting learners engaged with your content. No matter how interesting the information you’re trying to present is, a learner who’s not engaged is a learner who’s not learning. Add some spark to their learning experience by offering them an interactive journey through the content.<br/><br/>All core components will work with IE8, offer RTL language support and accessibility to at least AA.",
+        "instruction":"Scroll down to see what question components we have on offer.",
         "_graphic": {
             "alt": "Welcome to Adapt Learning",
             "src": "course/en/images/origami-menu-one.jpg"
