@@ -20,12 +20,14 @@
                 "_layout": "left",
                 "_showScrollButton": true,
                 "_backgroundImage": {
-                    "_desktop": "course/en/images/base_assets/hero_image.jpg",
-                    "_mobile": "course/en/images/base_assets/hero_image_mobile.jpg"
+                    "_large": "course/en/images/base_assets/hero_image.jpg",
+                    "_medium": "course/en/images/base_assets/hero_image.jpg",
+                    "_small": "course/en/images/base_assets/hero_image_mobile.jpg"
                 },
                 "_minimumHeaderHeights": {
-                    "_desktop": 500,
-                    "_mobile": 300
+                    "_large": 500,
+                    "_medium": 500,
+                    "_small": 300
                 }
             }
         }
@@ -51,12 +53,14 @@
                 "_layout": "left",
                 "_showScrollButton": true,
                 "_backgroundImage": {
-                    "_desktop": "course/en/images/base_assets/hero_image.jpg",
-                    "_mobile": "course/en/images/base_assets/hero_image_mobile.jpg"
+                    "_large": "course/en/images/base_assets/hero_image.jpg",
+                    "_medium": "course/en/images/base_assets/hero_image.jpg",
+                    "_small": "course/en/images/base_assets/hero_image_mobile.jpg"
                 },
                 "_minimumHeaderHeights": {
-                    "_desktop": 500,
-                    "_mobile": 300
+                    "_large": 500,
+                    "_medium": 500,
+                    "_small": 300
                 }
             }
         }
@@ -81,12 +85,14 @@
                 "_layout": "left",
                 "_showScrollButton": true,
                 "_backgroundImage": {
-                    "_desktop": "course/en/images/base_assets/hero_image.jpg",
-                    "_mobile": "course/en/images/base_assets/hero_image_mobile.jpg"
+                    "_large": "course/en/images/base_assets/hero_image.jpg",
+                    "_medium": "course/en/images/base_assets/hero_image.jpg",
+                    "_small": "course/en/images/base_assets/hero_image_mobile.jpg"
                 },
                 "_minimumHeaderHeights": {
-                    "_desktop": 500,
-                    "_mobile": 300
+                    "_large": 500,
+                    "_medium": 500,
+                    "_small": 300
                 }
             }
         }
@@ -111,12 +117,142 @@
                 "_layout": "left",
                 "_showScrollButton": true,
                 "_backgroundImage": {
-                    "_desktop": "course/en/images/base_assets/hero_image.jpg",
-                    "_mobile": "course/en/images/base_assets/hero_image_mobile.jpg"
+                    "_large": "course/en/images/base_assets/hero_image.jpg",
+                    "_medium": "course/en/images/base_assets/hero_image.jpg",
+                    "_small": "course/en/images/base_assets/hero_image_mobile.jpg"
                 },
                 "_minimumHeaderHeights": {
-                    "_desktop": 500,
-                    "_mobile": 300
+                    "_large": 500,
+                    "_medium": 500,
+                    "_small": 300
+                }
+            }
+        }
+    },
+    {
+        "_id":"co-25",
+        "_parentId":"course",
+        "_type":"page",
+        "_classes":"",
+        "title":"Quick Nav",
+        "displayTitle":"Quick Nav",
+        "body":"Under construction.",
+        "_graphic": {
+            "alt": "Welcome to Adapt Learning",
+            "src": "course/en/images/origami-menu-one.jpg"
+        },
+        "linkText":"View",
+        "duration":"2 mins",
+        "_theme": {
+            "_pageHeader": {
+                "_isEnabled": true,
+                "_layout": "left",
+                "_showScrollButton": true,
+                "_backgroundImage": {
+                    "_large": "course/en/images/base_assets/hero_image.jpg",
+                    "_medium": "course/en/images/base_assets/hero_image.jpg",
+                    "_small": "course/en/images/base_assets/hero_image_mobile.jpg"
+                },
+                "_minimumHeaderHeights": {
+                    "_large": 500,
+                    "_medium": 500,
+                    "_small": 300
+                }
+            }
+        }
+    },
+    {
+        "_id":"co-30",
+        "_parentId":"course",
+        "_type":"page",
+        "_classes":"",
+        "title":"Strickle",
+        "displayTitle":"Strickle",
+        "body":"Under construction.",
+        "_graphic": {
+            "alt": "Welcome to Adapt Learning",
+            "src": "course/en/images/origami-menu-one.jpg"
+        },
+        "linkText":"View",
+        "duration":"2 mins",
+        "_theme": {
+            "_pageHeader": {
+                "_isEnabled": true,
+                "_layout": "left",
+                "_showScrollButton": true,
+                "_backgroundImage": {
+                    "_large": "course/en/images/base_assets/hero_image.jpg",
+                    "_medium": "course/en/images/base_assets/hero_image.jpg",
+                    "_small": "course/en/images/base_assets/hero_image_mobile.jpg"
+                },
+                "_minimumHeaderHeights": {
+                    "_large": 500,
+                    "_medium": 500,
+                    "_small": 300
+                }
+            }
+        }
+    },
+    {
+        "_id":"co-35",
+        "_parentId":"course",
+        "_type":"page",
+        "_classes":"",
+        "title":"Background Switcher",
+        "displayTitle":"Background Switcher",
+        "body":"Under construction.",
+        "_graphic": {
+            "alt": "Welcome to Adapt Learning",
+            "src": "course/en/images/origami-menu-one.jpg"
+        },
+        "linkText":"View",
+        "duration":"2 mins",
+        "_theme": {
+            "_pageHeader": {
+                "_isEnabled": true,
+                "_layout": "left",
+                "_showScrollButton": true,
+                "_backgroundImage": {
+                    "_large": "course/en/images/base_assets/hero_image.jpg",
+                    "_medium": "course/en/images/base_assets/hero_image.jpg",
+                    "_small": "course/en/images/base_assets/hero_image_mobile.jpg"
+                },
+                "_minimumHeaderHeights": {
+                    "_large": 500,
+                    "_medium": 500,
+                    "_small": 300
+                }
+            }
+        }
+    },
+    {
+        "_id":"co-40",
+        "_parentId":"course",
+        "_type":"page",
+        "_classes":"",
+        "title":"Search",
+        "displayTitle":"Search",
+        "body":"Under construction.",
+        "_graphic": {
+            "alt": "Welcome to Adapt Learning",
+            "src": "course/en/images/origami-menu-one.jpg"
+        },
+        "linkText":"View",
+        "duration":"2 mins",
+        "_theme": {
+            "_pageHeader": {
+                "_isEnabled": true,
+                "_layout": "left",
+                "_showScrollButton": true,
+                "_backgroundImage": {
+                    "_large": "course/en/images/base_assets/hero_image.jpg",
+                    "_medium": "course/en/images/base_assets/hero_image.jpg",
+                    "_small": "course/en/images/base_assets/hero_image_mobile.jpg"
+                },
+                "_minimumHeaderHeights": {
+                    "_large": 500,
+                    "_medium": 500,
+                    "_small": 300
                 }
             }
         }
