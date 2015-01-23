@@ -1,0 +1,122 @@
+[
+    {
+        "_id":"co-05",
+        "_parentId":"course",
+        "_type":"page",
+        "_classes":"",
+        "title":"Core Presentation Components",
+        "displayTitle":"Presentation Components",
+        "body":"This page contains a working Adapt page with all core presentation components.",
+        "_graphic": {
+            "alt": "Welcome to Adapt Learning",
+            "src": "course/en/images/origami-menu-one.jpg"
+        },
+        "linkText":"View",
+        "duration":"2 mins",
+        "_theme": {
+            "_pageHeader": {
+                "_isEnabled": true,
+                "_layout": "left",
+                "_showScrollButton": true,
+                "_backgroundImage": {
+                    "_desktop": "course/en/images/base_assets/hero_image.jpg",
+                    "_mobile": "course/en/images/base_assets/hero_image_mobile.jpg"
+                },
+                "_minimumHeaderHeights": {
+                    "_desktop": 500,
+                    "_mobile": 300
+                }
+            }
+        }
+    },
+    {
+        "_id":"co-10",
+        "_parentId":"course",
+        "_type":"page",
+        "_classes":"",
+        "title":"Core Question Components",
+        "displayTitle":"Question Components",
+        "body":"This page contains a working Adapt page with all core question components.",
+        "_graphic": {
+            "alt": "Welcome to Adapt Learning",
+            "src": "course/en/images/origami-menu-one.jpg"
+        },
+        "linkText":"View",
+        "duration":"2 mins",
+        "_theme": {
+            "_pageHeader": {
+                "_isEnabled": true,
+                "_layout": "left",
+                "_showScrollButton": true,
+                "_backgroundImage": {
+                    "_desktop": "course/en/images/base_assets/hero_image.jpg",
+                    "_mobile": "course/en/images/base_assets/hero_image_mobile.jpg"
+                },
+                "_minimumHeaderHeights": {
+                    "_desktop": 500,
+                    "_mobile": 300
+                }
+            }
+        }
+    },
+    {
+        "_id":"co-15",
+        "_parentId":"course",
+        "_type":"page",
+        "_classes":"",
+        "title":"Kineo Presentation Components",
+        "displayTitle":"Kineo Presentation Components",
+        "body":"This page contains a working Adapt page with Kineo presentation components.",
+        "_graphic": {
+            "alt": "Welcome to Adapt Learning",
+            "src": "course/en/images/origami-menu-one.jpg"
+        },
+        "linkText":"View",
+        "duration":"2 mins",
+        "_theme": {
+            "_pageHeader": {
+                "_isEnabled": true,
+                "_layout": "left",
+                "_showScrollButton": true,
+                "_backgroundImage": {
+                    "_desktop": "course/en/images/base_assets/hero_image.jpg",
+                    "_mobile": "course/en/images/base_assets/hero_image_mobile.jpg"
+                },
+                "_minimumHeaderHeights": {
+                    "_desktop": 500,
+                    "_mobile": 300
+                }
+            }
+        }
+    },
+    {
+        "_id":"co-20",
+        "_parentId":"course",
+        "_type":"page",
+        "_classes":"",
+        "title":"Article Reveal",
+        "displayTitle":"Article Reveal",
+        "body":"This page contains an Article Reveal.",
+        "_graphic": {
+            "alt": "Welcome to Adapt Learning",
+            "src": "course/en/images/origami-menu-one.jpg"
+        },
+        "linkText":"View",
+        "duration":"2 mins",
+        "_theme": {
+            "_pageHeader": {
+                "_isEnabled": true,
+                "_layout": "left",
+                "_showScrollButton": true,
+                "_backgroundImage": {
+                    "_desktop": "course/en/images/base_assets/hero_image.jpg",
+                    "_mobile": "course/en/images/base_assets/hero_image_mobile.jpg"
+                },
+                "_minimumHeaderHeights": {
+                    "_desktop": 500,
+                    "_mobile": 300
+                }
+            }
+        }
+    }
+]

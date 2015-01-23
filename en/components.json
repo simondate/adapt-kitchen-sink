@@ -1,0 +1,782 @@
+[
+    {
+        "_id": "c-05",
+        "_parentId": "b-05",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "",
+        "_layout": "left",
+        "title": "Graphic",
+        "displayTitle": "",
+        "body": "",
+        "instruction": "",
+        "_graphic": {
+            "alt": "alt text",
+            "large": "course/en/images/base_assets/single_width.jpg",
+            "small": "course/en/images/base_assets/single_width.jpg"
+        }
+    },
+    {
+        "_id": "c-10",
+        "_parentId": "b-05",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "",
+        "_layout": "right",
+        "title": "Text",
+        "displayTitle": "Text",
+        "body": "This component you're reading is a text component. All components take this form of a title and body - except a blank component. However it's important to realise that title and body attributes are not needed. <br><br>Take for instance the media component opposite or below on a smaller device - has no body attribute. Instead of the HTML being rendered Adapt simply doesn't render it. The title attribute is simply a break tag to push the media component level with the opposite component.",
+        "instruction": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-15",
+        "_parentId": "b-10",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "",
+        "_layout": "left",
+        "title": "Graphic",
+        "displayTitle": "Graphic",
+        "body": "Graphic component body.",
+        "instruction": "",
+        "_graphic": {
+            "alt": "alt text",
+            "large": "course/en/images/base_assets/single_width.jpg",
+            "small": "course/en/images/base_assets/single_width.jpg"
+        }
+    },
+    {
+        "_id": "c-20",
+        "_parentId": "b-10",
+        "_type": "component",
+        "_component": "accordion",
+        "_classes": "",
+        "_layout": "right",
+        "title": "Accordion single width",
+        "displayTitle": "Accordion single width",
+        "body": "This is optional body text. Select the headings below to reveal the text.",
+        "instruction": "Select the headings to find out more",
+        "_items": [
+            {
+                "alt": "Heading 1",
+                "title": "Heading 1",
+                "body": "This is display text 1."
+            },
+            {
+                "alt": "Heading 2",
+                "title": "Heading 2",
+                "body": "This is display text 2."
+            },
+            {
+                "alt": "Heading 3",
+                "title": "Heading 3",
+                "body": "This is display text 3."
+            }
+        ],
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-25",
+        "_parentId": "b-15",
+        "_type": "component",
+        "_component": "accordion",
+        "_classes": "",
+        "_layout": "full",
+        "title": "Accordion full width",
+        "displayTitle": "Accordion full width",
+        "body": "This is optional body text. Select the headings below to reveal the text.",
+        "instruction": "Select the headings to find out more",
+        "_items": [
+            {
+                "alt": "Heading 1",
+                "title": "Heading 1",
+                "body": "This is display text 1."
+            },
+            {
+                "alt": "Heading 2",
+                "title": "Heading 2",
+                "body": "This is display text 2."
+            },
+            {
+                "alt": "Heading 3",
+                "title": "Heading 3",
+                "body": "This is display text 3."
+            }
+        ],
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-30",
+        "_parentId": "b-20",
+        "_classes": "",
+        "_type": "component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Narrative",
+        "displayTitle": "Narrative",
+        "body": "This is optional body text. Select the forward arrows to move through the narrative on a desktop, or swipe the images and select the plus icons to do so on mobile.",
+        "instruction": "Select the arrow to find out more",
+        "_items": [
+            {
+                "title": "Narrative stage 1 title",
+                "body": "This is display text 1. If viewing on desktop or tablet, this text will appear to the right of the image. On mobile, you’ll need to select the plus icon to reveal this text.",
+                "_graphic": {
+                    "src": "course/en/images/base_assets/narrative.jpg",
+                    "alt": "First graphic"
+                },
+                "strapline": "Here is the first..."
+            },
+            {
+                "title": "Narrative stage 2 title",
+                "body": "This is display text 2.",
+                "_graphic": {
+                    "src": "course/en/images/base_assets/narrative.jpg",
+                    "alt": "Second graphic"
+                },
+                "strapline": "Now comes the second..."
+            },
+            {
+                "title": "Narrative stage 3 title",
+                "body": "This is display text 3.",
+                "_graphic": {
+                    "src": "course/en/images/base_assets/narrative.jpg",
+                    "alt": "Third graphic"
+                },
+                "strapline": "Third here!"
+            }
+        ],
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-35",
+        "_parentId": "b-25",
+        "_classes": "",
+        "_type": "component",
+        "_component": "hotgraphic",
+        "_layout": "full",
+        "title": "Hot graphic",
+        "displayTitle": "Hot graphic",
+        "body": "This is optional body text. Select the hotspots on the image to reveal the text. This component will scale down to a narrative when viewed on mobile.",
+        "mobileBody": "This is optional body text that will be shown when viewed on mobile.",
+        "instruction": "",
+        "_graphic": {
+            "src": "course/en/images/base_assets/pin_point.jpg",
+            "alt": "alt text",
+            "title": "title"
+        },
+        "_items": [
+            {
+                "title": "Hotspot 1 title",
+                "body": "This is display text 1.",
+                "_graphic": {
+                    "src": "course/en/images/base_assets/narrative.jpg",
+                    "alt": "alt text",
+                    "title": "title text"
+                },
+                "pinAlt": "Pin 1. Select here to open.",
+                "strapline": "strapline...",
+                "_top": 50,
+                "_left": 20
+            },
+            {
+                "title": "Hotspot 2 title",
+                "body": "This is display text 2.",
+                "_graphic": {
+                    "src": "course/en/images/base_assets/narrative.jpg",
+                    "alt": "alt text",
+                    "title": "title text"
+                },
+                "pinAlt": "Pin 2. Select here to open.",
+                "strapline": "strapline...",
+                "_top": 50,
+                "_left": 60
+            },
+            {
+                "title": "Hotspot 3 title",
+                "body": "This is display text 3.",
+                "_graphic": {
+                    "src": "course/en/images/base_assets/narrative.jpg",
+                    "alt": "alt text",
+                    "title": "title text"
+                },
+                "pinAlt": "Pin 3. Select here to open.",
+                "strapline": "strapline...",
+                "_top": 50,
+                "_left": 40
+            }
+        ],
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-40",
+        "_parentId": "b-30",
+        "_type": "component",
+        "_component": "media",
+        "_classes": "",
+        "_layout": "full",
+        "title": "Title of the media component",
+        "displayTitle": "Title of the media component",
+        "body": "This is optional body text. Select the play button to start the video.",
+        "instruction": "",
+        "_setCompletionOn": "inview",
+        "_media": {
+            "mp4": "course/en/assets/video/big_buck_bunny.mp4",
+            "ogv": "course/en/assets/video/big_buck_bunny.ogv",
+            "poster": "course/en/images/base_assets/video.jpg",
+            "transcriptLink": "assets/transcript.pdf",
+            "transcriptText": "Transcript"
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-45",
+        "_parentId": "b-35",
+        "_type": "component",
+        "_component": "gmcq",
+        "_classes": "",
+        "_layout": "full",
+        "_attempts": 1,
+        "_questionWeight": 1,
+        "_isRandom": false,
+        "_selectable": 1,
+        "title": "Graphical Multiple Choice Question",
+        "displayTitle": "Graphical Multiple Choice Question",
+        "body": "Which of the following options would you consider to be correct?",
+        "instruction": "Select an image and select Submit",
+        "_items": [
+            {
+                "text": "This is option 1.",
+                "_shouldBeSelected": true,
+                "_graphic": {
+                    "alt": "Alt text for option 1",
+                    "large": "course/en/images/base_assets/GMCQ_option.png",
+                    "small": "course/en/images/base_assets/GMCQ_option.png"
+                }
+            },
+            {
+                "text": "This is option 2.",
+                "_shouldBeSelected": false,
+                "_graphic": {
+                    "alt": "Alt text for option 2",
+                    "large": "course/en/images/base_assets/GMCQ_option.png",
+                    "small": "course/en/images/base_assets/GMCQ_option.png"
+                }
+            },
+            {
+                "text": "This is option 3.",
+                "_shouldBeSelected": false,
+                "_graphic": {
+                    "alt": "Alt text for option 1",
+                    "large": "course/en/images/base_assets/GMCQ_option.png",
+                    "small": "course/en/images/base_assets/GMCQ_option.png"
+                }
+            },
+            {
+                "text": "This is option 4.",
+                "_shouldBeSelected": false,
+                "_graphic": {
+                    "alt": "Alt text for option 1",
+                    "large": "course/en/images/base_assets/GMCQ_option.png",
+                    "small": "course/en/images/base_assets/GMCQ_option.png"
+                }
+            }
+        ],
+        "_feedback": {
+            "correct": "Congratulations, this is the correct feedback.",
+            "_incorrect": {
+                "notFinal": "",
+                "final": "Unfortunately this is the incorrect feedback."
+            },
+            "_partlyCorrect": {
+                "notFinal": "",
+                "final": "This is the partly correct feedback."
+            }
+        },
+        "_buttons": {
+            "_submit": {
+                "buttonText": "Submit",
+                "ariaLabel": "Select here to submit your answer."
+            },
+            "_reset": {
+                "buttonText": "Reset",
+                "ariaLabel": ""
+            },
+            "_showCorrectAnswer": {
+                "buttonText": "Correct Answer",
+                "ariaLabel": ""
+            },
+            "_hideCorrectAnswer": {
+                "buttonText": "My Answer",
+                "ariaLabel": ""
+            },
+            "_showFeedback": {
+                "buttonText": "Show feedback",
+                "ariaLabel": ""
+            },
+            "remainingAttemptsText": "attempts remaining",
+            "remainingAttemptText": "final attempt",
+            "disabledAriaLabel": "This button is disabled at the moment"
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-50",
+        "_parentId": "b-40",
+        "_type": "component",
+        "_component": "mcq",
+        "_classes": "",
+        "_layout": "medium",
+        "_attempts": 1,
+        "_questionWeight": 1,
+        "_isRandom": false,
+        "_selectable": 1,
+        "title": "Multiple Choice Question",
+        "displayTitle": "Multiple Choice Question",
+        "body": "Which of the following options would you consider to be correct?",
+        "instruction": "Choose one of the options and select Submit",
+        "_items": [
+            {
+                "text": "This is option 1.",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "This is option 2.",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "This is option 3.",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback": {
+            "correct": "Congratulations, this is the correct feedback.",
+            "_incorrect": {
+                "notFinal": "",
+                "final": "This feedback will appear if you answered the question incorrectly."
+            },
+            "_partlyCorrect": {
+                "notFinal": "",
+                "final": "This feedback will appear if you answered part of the question correctly."
+            }
+        },
+        "_buttons": {
+            "_submit": {
+                "buttonText": "Submit",
+                "ariaLabel": "Select here to submit your answer."
+            },
+            "_reset": {
+                "buttonText": "Reset",
+                "ariaLabel": ""
+            },
+            "_showCorrectAnswer": {
+                "buttonText": "Correct Answer",
+                "ariaLabel": ""
+            },
+            "_hideCorrectAnswer": {
+                "buttonText": "My Answer",
+                "ariaLabel": ""
+            },
+            "_showFeedback": {
+                "buttonText": "Show feedback",
+                "ariaLabel": ""
+            },
+            "remainingAttemptsText": "attempts remaining",
+            "remainingAttemptText": "final attempt",
+            "disabledAriaLabel": "This button is disabled at the moment"
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-55",
+        "_parentId": "b-45",
+        "_classes": "",
+        "_layout": "left",
+        "_type": "component",
+        "_component": "matching",
+        "_attempts": 1,
+        "_isRandom": true,
+        "_questionWeight": 10,
+        "title": "Matching",
+        "displayTitle": "Matching",
+        "body": "Basically what you need to do is match the questions below with the drop down box option.",
+        "instruction": "Choose an option from each drop down list and select Submit",
+        "_buttons": {
+            "_submit": {
+                "buttonText": "Submit",
+                "ariaLabel": "Select here to submit your answer."
+            },
+            "_reset": {
+                "buttonText": "Reset",
+                "ariaLabel": ""
+            },
+            "_showCorrectAnswer": {
+                "buttonText": "Correct Answer",
+                "ariaLabel": ""
+            },
+            "_hideCorrectAnswer": {
+                "buttonText": "My Answer",
+                "ariaLabel": ""
+            },
+            "_showFeedback": {
+                "buttonText": "Show feedback",
+                "ariaLabel": ""
+            },
+            "remainingAttemptsText": "attempts remaining",
+            "remainingAttemptText": "final attempt",
+            "disabledAriaLabel": "This button is disabled at the moment"
+        },
+        "_feedback": {
+            "correct": "This feedback will appear if you answered the question correctly.",
+            "_incorrect": {
+                "notFinal": "",
+                "final": "This feedback will appear if you answered the question incorrectly."
+            },
+            "_partlyCorrect": {
+                "notFinal": "",
+                "final": "This feedback will appear if you answered part of the question correctly."
+            }
+        },
+        "placeholder": "select an option",
+        "_items": [
+            {
+                "text": "Pick option two",
+                "_options": [
+                    {
+                        "text": "Option one",
+                        "_isCorrect": false
+                    },
+                    {
+                        "text": "Option two (correct)",
+                        "_isCorrect": true
+                    },
+                    {
+                        "text": "Option three",
+                        "_isCorrect": false
+                    }
+                ]
+            },
+            {
+                "text": "Pick option three",
+                "_options": [
+                    {
+                        "text": "Option one",
+                        "_isCorrect": false
+                    },
+                    {
+                        "text": "Option two",
+                        "_isCorrect": false
+                    },
+                    {
+                        "text": "Option three (correct)",
+                        "_isCorrect": true
+                    }
+                ]
+            },
+            {
+                "text": "Pick option one",
+                "_options": [
+                    {
+                        "text": "Option one (correct)",
+                        "_isCorrect": true
+                    },
+                    {
+                        "text": "Option two",
+                        "_isCorrect": false
+                    },
+                    {
+                        "text": "Option three",
+                        "_isCorrect": false
+                    }
+                ]
+            }
+        ],
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-60",
+        "_parentId": "b-45",
+        "_type": "component",
+        "_component": "textinput",
+        "_classes": "",
+        "_layout": "right",
+        "title": "Text input",
+        "displayTitle": "Text input",
+        "body": "If A is 1% and Z is 26%, what are B, C and D?",
+        "instruction": "Input your answers and select Submit.",
+        "_attempts": 1,
+        "_questionWeight": 10,
+        "placeholder": "Enter answer here",
+        "_allowsAnyCase": true,
+        "_allowsPunctuation": true,
+        "_buttons": {
+            "_submit": {
+                "buttonText": "Submit",
+                "ariaLabel": "Select here to submit your answer."
+            },
+            "_reset": {
+                "buttonText": "Reset",
+                "ariaLabel": ""
+            },
+            "_showCorrectAnswer": {
+                "buttonText": "Correct Answer",
+                "ariaLabel": ""
+            },
+            "_hideCorrectAnswer": {
+                "buttonText": "My Answer",
+                "ariaLabel": ""
+            },
+            "_showFeedback": {
+                "buttonText": "Show feedback",
+                "ariaLabel": ""
+            },
+            "remainingAttemptsText": "attempts remaining",
+            "remainingAttemptText": "final attempt",
+            "disabledAriaLabel": "This button is disabled at the moment"
+        },
+        "_feedback": {
+            "correct": "This feedback will appear if you answered the question correctly.",
+            "_incorrect": {
+                "notFinal": "",
+                "final": "This feedback will appear if you answered the question incorrectly."
+            },
+            "_partlyCorrect": {
+                "notFinal": "",
+                "final": "This feedback will appear if you answered part of the question correctly."
+            }
+        },
+        "_items": [
+            {
+                "prefix": "B:",
+                "suffix": "%",
+                "_answers": [
+                    "2",
+                    "two"
+                ]
+            },
+            {
+                "prefix": "C:",
+                "suffix": "%",
+                "_answers": [
+                    "3",
+                    "three"
+                ]
+            },
+            {
+                "prefix": "D:",
+                "suffix": "%",
+                "_answers": [
+                    "4",
+                    "four"
+                ]
+            }
+        ],
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-70",
+        "_parentId": "b-50",
+        "_type": "component",
+        "_component": "slider",
+        "_classes": "",
+        "_layout": "medium",
+        "title": "Slider",
+        "displayTitle": "Slider",
+        "body": "Question text here",
+        "instruction": "Drag the slider to make your choice and select Submit.",
+        "_attempts": 1,
+        "_questionWeight": 1,
+        "_showNumber": true,
+        "_showScaleIndicator": true,
+        "labelStart": "incomplete",
+        "labelEnd": "complete",
+        "_scaleStart": 1,
+        "_scaleEnd": 10,
+        "_correctAnswer": "",
+        "_correctRange": {
+            "_bottom": 4,
+            "_top": 9
+        },
+        "_buttons": {
+            "submit": "",
+            "reset": "",
+            "showCorrectAnswer": "",
+            "hideCorrectAnswer": ""
+        },
+        "_feedback": {
+            "correct": "This feedback will appear if you answered the question correctly.",
+            "_incorrect": {
+                "notFinal": "",
+                "final": "This feedback will appear if you answered the question incorrectly."
+            },
+            "_partlyCorrect": {
+                "notFinal": "",
+                "final": "This feedback will appear if you answered part of the question correctly."
+            }
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-75",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"hotgrid",
+        "_classes":"",
+        "_layout":"full",
+        "title":"Adapt Hotgrid",
+        "displayTitle":"Adapt Hotgrid",
+        "body":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis.",
+        "instruction":"Select the images below to find out more.",
+        "_columns":3,
+        "_items": [
+            {
+                "title": "Grid Item 1",
+                "body": "This is display text 1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+                "itemAria": "Item 1. Select here to open.",
+                "_graphic": {
+                    "src": "course/en/images/base_assets/hot_grid_item_up.png",
+                    "srcHover":"course/en/images/base_assets/hot_grid_item_over.png",
+                    "srcVisited":"course/en/images/base_assets/hot_grid_item_selected.png",
+                    "alt": "",
+                    "title": ""
+                },
+                 "_itemGraphic": {
+                    "src": "course/en/images/base_assets/single_width.jpg",
+                    "alt": "alt text"
+                }
+            },
+            {
+                "title": "Grid Item 2",
+                "body": "This is display text 1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+                "itemAria": "Item 2. Select here to open.",
+                "_graphic": {
+                   "src": "course/en/images/base_assets/hot_grid_item_up.png",
+                    "srcHover":"course/en/images/base_assets/hot_grid_item_over.png",
+                    "srcVisited":"course/en/images/base_assets/hot_grid_item_selected.png",
+                    "alt": "",
+                    "title": ""
+                },
+                 "_itemGraphic": {
+                    "src": "course/en/images/base_assets/single_width.jpg",
+                    "alt": "alt text"
+                }
+            },
+            {
+                "title": "Grid Item 3",
+                "body": "This is display text 1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+                "itemAria": "Item 3. Select here to open.",
+                "_graphic": {
+                    "src": "course/en/images/base_assets/hot_grid_item_up.png",
+                    "srcHover":"course/en/images/base_assets/hot_grid_item_over.png",
+                    "srcVisited":"course/en/images/base_assets/hot_grid_item_selected.png",
+                    "alt": "",
+                    "title": ""
+                },
+                 "_itemGraphic": {
+                    "src": "course/en/images/base_assets/single_width.jpg",
+                    "alt": "alt text"
+                }
+            },
+            {
+                "title": "Grid Item 4",
+                "body": "This is display text 1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+                "itemAria": "Item 4. Select here to open.",
+                "_graphic": {
+                    "src": "course/en/images/base_assets/hot_grid_item_up.png",
+                    "srcHover":"course/en/images/base_assets/hot_grid_item_over.png",
+                    "srcVisited":"course/en/images/base_assets/hot_grid_item_selected.png",
+                    "alt": "",
+                    "title": ""
+                },
+                 "_itemGraphic": {
+                    "src": "course/en/images/base_assets/single_width.jpg",
+                    "alt": "alt text"
+                }
+            },
+            {
+                "title": "Grid Item 5",
+                "body": "This is display text 1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+                "itemAria": "Item 5. Select here to open.",
+                "_graphic": {
+                    "src": "course/en/images/base_assets/hot_grid_item_up.png",
+                    "srcHover":"course/en/images/base_assets/hot_grid_item_over.png",
+                    "srcVisited":"course/en/images/base_assets/hot_grid_item_selected.png",
+                    "alt": "",
+                    "title": ""
+                },
+                 "_itemGraphic": {
+                    "src": "course/en/images/base_assets/single_width.jpg",
+                    "alt": "alt text"
+                }
+            },
+            {
+                "title": "Grid Item 6",
+                "body": "This is display text 1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+                "itemAria": "Item 6. Select here to open.",
+                "_graphic": {
+                    "src": "course/en/images/base_assets/hot_grid_item_up.png",
+                    "srcHover":"course/en/images/base_assets/hot_grid_item_over.png",
+                    "srcVisited":"course/en/images/base_assets/hot_grid_item_selected.png",
+                    "alt": "",
+                    "title": ""
+                },
+                 "_itemGraphic": {
+                    "src": "course/en/images/base_assets/single_width.jpg",
+                    "alt": "alt text"
+                }
+            }
+        ]
+    },
+    {
+        "_id": "c-80",
+        "_parentId": "b-60",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "",
+        "_layout": "full",
+        "title": "Text",
+        "displayTitle": "Text",
+        "body": "This component you're reading is a text component. All components take this form of a title and body - except a blank component. However it's important to realise that title and body attributes are not needed. <br><br>Take for instance the media component opposite or below on a smaller device - has no body attribute. Instead of the HTML being rendered Adapt simply doesn't render it. The title attribute is simply a break tag to push the media component level with the opposite component.",
+        "instruction": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-85",
+        "_parentId": "b-65",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "",
+        "_layout": "full",
+        "title": "Text",
+        "displayTitle": "Text",
+        "body": "This component you're reading is a text component. All components take this form of a title and body - except a blank component. However it's important to realise that title and body attributes are not needed. <br><br>Take for instance the media component opposite or below on a smaller device - has no body attribute. Instead of the HTML being rendered Adapt simply doesn't render it. The title attribute is simply a break tag to push the media component level with the opposite component.",
+        "instruction": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    }
+]
