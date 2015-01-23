@@ -245,11 +245,11 @@
         "_selectable": 1,
         "title": "Graphical Multiple Choice Question",
         "displayTitle": "Graphical Multiple Choice Question",
-        "body": "Which of the following options would you consider to be correct?",
-        "instruction": "Select an image and select Submit",
+        "body": "Graphical MCQs let you set a more visual question for the learner. For example, take a look at the images below – which of them shows the more accurate version of the rocket ship?",
+        "instruction": "Choose an image and select Submit.",
         "_items": [
             {
-                "text": "This is option 1.",
+                "text": "Option 1.",
                 "_shouldBeSelected": true,
                 "_graphic": {
                     "alt": "Alt text for option 1",
@@ -258,7 +258,7 @@
                 }
             },
             {
-                "text": "This is option 2.",
+                "text": "Option 2.",
                 "_shouldBeSelected": false,
                 "_graphic": {
                     "alt": "Alt text for option 2",
@@ -267,7 +267,7 @@
                 }
             },
             {
-                "text": "This is option 3.",
+                "text": "Option 3.",
                 "_shouldBeSelected": false,
                 "_graphic": {
                     "alt": "Alt text for option 1",
@@ -276,7 +276,7 @@
                 }
             },
             {
-                "text": "This is option 4.",
+                "text": "Option 4.",
                 "_shouldBeSelected": false,
                 "_graphic": {
                     "alt": "Alt text for option 1",
@@ -286,14 +286,14 @@
             }
         ],
         "_feedback": {
-            "correct": "Congratulations, this is the correct feedback.",
+            "correct": "Correct feedback text.<br/><br/>Congrats, you got the right answer. And that means you’ve received the correct feedback pop up. This is where we explain why this answer was the best fit.<br/><br/>Select the <b>X</b> icon to return to the learning page.",
             "_incorrect": {
                 "notFinal": "",
-                "final": "Unfortunately this is the incorrect feedback."
+                "final": "Incorrect feedback text.<br/><br/>That’s not right, which means you’ve received the incorrect feedback pop up. This is where we explain why the other option was the best fit.<br/><br/>Select the <b>X</b> icon to return to the learning page."
             },
             "_partlyCorrect": {
                 "notFinal": "",
-                "final": "This is the partly correct feedback."
+                "final": "Partly correct feedback text.<br/><br/>That’s not right, which means you’ve received the partly correct feedback pop up. This is where we explain why the other option was the best fit.<br/><br/>Select the <b>X</b> icon to return to the learning page."
             }
         },
         "_buttons": {
