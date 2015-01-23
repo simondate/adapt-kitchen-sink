@@ -335,34 +335,34 @@
         "_attempts": 1,
         "_questionWeight": 1,
         "_isRandom": false,
-        "_selectable": 1,
+        "_selectable": 3,
         "title": "Multiple Choice Question",
         "displayTitle": "Multiple Choice Question",
-        "body": "Which of the following options would you consider to be correct?",
-        "instruction": "Choose one of the options and select Submit",
+        "body": "Don’t go for frills if the content doesn’t call for it. <b>MCQs</b> let you present learners with a classic, text-based question. Let’s see what type of content you think would fit this component. ",
+        "instruction": "Choose one or more options and select Submit.",
         "_items": [
             {
-                "text": "This is option 1.",
+                "text": " Attention-grabbing statistics (correct)",
                 "_shouldBeSelected": true
             },
             {
-                "text": "This is option 2.",
-                "_shouldBeSelected": false
+                "text": "A decision point for a character (correct)",
+                "_shouldBeSelected": true
             },
             {
-                "text": "This is option 3.",
-                "_shouldBeSelected": false
+                "text": "A knowledge check point (correct)",
+                "_shouldBeSelected": true
             }
         ],
         "_feedback": {
-            "correct": "Congratulations, this is the correct feedback.",
+            "correct": "Correct feedback text.<br/><br/>Well done, you got that spot on. As with the GMCQ, this feedback pop up will explain why the chosen answers are the right answers.<br/><br/>Select the <b>X</b> icon to return to the learning page.",
             "_incorrect": {
                 "notFinal": "",
-                "final": "This feedback will appear if you answered the question incorrectly."
+                "final": "Incorrect feedback text.<br/><br/>That’s not the right answer. As with the GMCQ this feedback pop up will explain which answers are the right answers.<br/><br/>Select the <b>X</b> icon to return to the learning page."
             },
             "_partlyCorrect": {
                 "notFinal": "",
-                "final": "This feedback will appear if you answered part of the question correctly."
+                "final": "Partly correct feedback text.<br/><br/>Not quite. This is partially correct feedback – it will appear when learners get a mix of correct and incorrect answers.<br/><br/>Select the <b>X</b> icon to return to the learning page."
             }
         },
         "_buttons": {
