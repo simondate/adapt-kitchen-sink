@@ -873,8 +873,8 @@
         "_isAccordianOnMobile": true,
         "_reveal": {
             "_isInfoBoxAriaOnly": true,
-            "_background": "assets/male-naked.png",
-            "_foreground": "assets/male-clothed.png",
+            "_background": "course/en/images/base_assets/reveal_image.jpg",
+            "_foreground": "course/en/images/base_assets/reveal_image.jpg",
             "_button": {
                 "textLeft": "Slide >",
                 "textRight": "< Slide",
@@ -953,7 +953,115 @@
             "_isEnabled": true
         }
     },
-
+    {
+        "_id":"c-105",
+        "_parentId":"b-85",
+        "_type":"component",
+        "_component": "narrativestrip",
+        "_classes":"",
+        "_layout":"left",
+        "title": "Bank 1 - Question 8",
+        "displayTitle": "Bank 1 - Question 8",
+        "body": "Body text",
+        "instruction":"Instruction text",
+        "_images": [
+            {
+                "_id": 1,
+                "src": "course/en/images/base_assets/narrative.jpg",
+                "alt": "Origami birds",
+                "title": ""
+            },
+            {
+                "_id": 2,
+                "src": "course/en/images/base_assets/narrative.jpg",
+                "alt": "Origami birds",
+                "title": ""
+            },
+            {
+                "_id": 3,
+                "src": "course/en/images/base_assets/narrative.jpg",
+                "alt": "Origami birds",
+                "title": ""
+            },
+            {
+                "_id": 4,
+                "src": "course/en/images/base_assets/narrative.jpg",
+                "alt": "Origami birds",
+                "title": ""
+            }
+        ],
+        "_items": [
+            {
+                "_id": "top",
+                "_initialItemIndex": 1,
+                "_subItems": [
+                    {
+                        "_imageId": 1,
+                        "strapline": "Top 1"
+                    },
+                    {
+                        "_imageId": 3,
+                        "strapline": "Top 3"
+                    },
+                    {
+                        "_imageId": 4,
+                        "strapline": "Top 4"
+                    },
+                    {
+                        "_imageId": 2,
+                        "strapline": "Top 2"
+                    }
+                ]
+            },
+            {
+                "_id": "middle",
+                "_initialItemIndex": 1,
+                "_subItems": [
+                    {
+                        "_imageId": 2,
+                        "strapline": "Middle 2"
+                    },
+                    {
+                        "_imageId": 1,
+                        "strapline": "Middle 1"
+                    },
+                    {
+                        "_imageId": 3,
+                        "strapline": "Middle 3"
+                    },
+                    {
+                        "_imageId": 4,
+                        "strapline": "Middle 4"
+                    }
+                ]
+            },
+            {
+                "_id": "bottom",
+                "_initialItemIndex": 1,
+                "_subItems": [
+                    {
+                        "_imageId": 4,
+                        "strapline": "Bottom 4"
+                    },
+                    {
+                        "_imageId": 1,
+                        "strapline": "Bottom 1"
+                    },
+                    {
+                        "_imageId": 2,
+                        "strapline": "Bottom 2"
+                    },
+                    {
+                        "_imageId": 3,
+                        "strapline": "Bottom 3"
+                    }
+                ]
+            }
+        ],
+        "_pageLevelProgress": {
+            "_isEnabled": false
+        }
+    },
     {
         "_id": "c-200",
         "_parentId": "b-100",
