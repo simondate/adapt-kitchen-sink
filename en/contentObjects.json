@@ -37,10 +37,10 @@
             "_buttons": {
                 "_root": {
                     "_isHidden": false,
-                    "text": "Go to main menu"
+                    "text": "Menu"
                 },
                 "_up": {
-                    "_isHidden": false,
+                    "_isHidden": true,
                     "text": "Back to menu"
                 },
                 "_previous": {
