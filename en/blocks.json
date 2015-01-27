@@ -7,7 +7,14 @@
         "title": "Block Title",
         "displayTitle": "",
         "body": "",
-        "_trackingId": 0
+        "_trackingId": 0,
+        "_theme": {
+            "_minimumBlockHeights": {
+                "_large": 500,
+                "_medium": 500,
+                "_small": 300
+            }
+        }
     },
     {
         "_id": "b-10",
@@ -181,6 +188,16 @@
     },
     {
         "_id": "b-100",
+        "_parentId": "a-20",
+        "_type": "block",
+        "_classes": "",
+        "title": "Block Title",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 0
+    },
+    {
+        "_id": "b-102",
         "_parentId": "a-20",
         "_type": "block",
         "_classes": "",
