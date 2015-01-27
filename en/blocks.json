@@ -7,14 +7,7 @@
         "title": "Block Title",
         "displayTitle": "",
         "body": "",
-        "_trackingId": 0,
-        "_theme": {
-            "_minimumBlockHeights": {
-                "_large": 500,
-                "_medium": 500,
-                "_small": 300
-            }
-        }
+        "_trackingId": 0
     },
     {
         "_id": "b-10",
