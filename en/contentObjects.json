@@ -30,6 +30,29 @@
                     "_small": 300
                 }
             }
+        },
+        "_quicknav": {
+            "_isEnabled": true,
+            "_isContinuous": "global",
+            "_buttons": {
+                "_root": {
+                    "_isHidden": false,
+                    "text": "Go to main menu"
+                },
+                "_up": {
+                    "_isHidden": false,
+                    "text": "Back to menu"
+                },
+                "_previous": {
+                    "_isHidden": false,
+                    "text": "Previous"
+                },
+                "_next": {
+                    "_isHidden": false,
+                    "text": "Next"
+                }
+            },
+            "_isEnableNextOnCompletion": false
         }
     },
     {
