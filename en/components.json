@@ -406,7 +406,7 @@
         "_questionWeight": 10,
         "title": "Matching",
         "displayTitle": "Matching",
-        "body": "Basically what you need to do is match the questions below with the drop down box option.",
+        "body": "The <b>matching</b> component lets you match a series of questions or statements with the corresponding options from the dropdown box. Try this out with the questions below.",
         "instruction": "Choose an option from each drop down list and select Submit",
         "_buttons": {
             "_submit": {
@@ -434,65 +434,65 @@
             "disabledAriaLabel": "This button is disabled at the moment"
         },
         "_feedback": {
-            "correct": "This feedback will appear if you answered the question correctly.",
+            "correct": "Correct answer feedback.<br/><br/>Yes, that’s the right answer. The correct feedback pop up will reinforce why the correct answers are correct.",
             "_incorrect": {
                 "notFinal": "",
-                "final": "This feedback will appear if you answered the question incorrectly."
+                "final": "Incorrect answer feedback.<br/><br/>Nearly there. The partially correct feedback pop up will reinforce why the correct answers are correct."
             },
             "_partlyCorrect": {
                 "notFinal": "",
-                "final": "This feedback will appear if you answered part of the question correctly."
+                "final": "Partially correct answer feedback.<br/><br/>Nearly there. The partially correct feedback pop up will reinforce why the correct answers are correct."
             }
         },
         "placeholder": "select an option",
         "_items": [
             {
-                "text": "Pick option two",
+                "text": "Pick the smallest device",
                 "_options": [
                     {
-                        "text": "Option one",
+                        "text": "Desktop",
                         "_isCorrect": false
                     },
                     {
-                        "text": "Option two (correct)",
-                        "_isCorrect": true
-                    },
-                    {
-                        "text": "Option three",
-                        "_isCorrect": false
-                    }
-                ]
-            },
-            {
-                "text": "Pick option three",
-                "_options": [
-                    {
-                        "text": "Option one",
+                        "text": "Tablet",
                         "_isCorrect": false
                     },
                     {
-                        "text": "Option two",
-                        "_isCorrect": false
-                    },
-                    {
-                        "text": "Option three (correct)",
+                        "text": "Smartphone (correct)",
                         "_isCorrect": true
                     }
                 ]
             },
             {
-                "text": "Pick option one",
+                "text": "Pick the mid-size device",
                 "_options": [
                     {
-                        "text": "Option one (correct)",
-                        "_isCorrect": true
-                    },
-                    {
-                        "text": "Option two",
+                        "text": "Desktop",
                         "_isCorrect": false
                     },
                     {
-                        "text": "Option three",
+                        "text": "Tablet (correct)",
+                        "_isCorrect": true
+                    },
+                    {
+                        "text": "Smartphone",
+                        "_isCorrect": false
+                    }
+                ]
+            },
+            {
+                "text": "Pick the largest device",
+                "_options": [
+                    {
+                        "text": "Desktop (correct)",
+                        "_isCorrect": true
+                    },
+                    {
+                        "text": "Tablet",
+                        "_isCorrect": false
+                    },
+                    {
+                        "text": "Smartphone",
                         "_isCorrect": false
                     }
                 ]
@@ -511,7 +511,7 @@
         "_layout": "right",
         "title": "Text input",
         "displayTitle": "Text input",
-        "body": "If A is 1% and Z is 26%, what are B, C and D?",
+        "body": "<b>Text input</b> components let learners enter their own answers, which is great for questions that require a bit more flexibility, like those with answers that could be written as both full words and numbers. Let’s test this flexibility out – if A is 1% and 2 is 26%, what are B, C and D? ",
         "instruction": "Input your answers and select Submit.",
         "_attempts": 1,
         "_questionWeight": 10,
@@ -544,14 +544,14 @@
             "disabledAriaLabel": "This button is disabled at the moment"
         },
         "_feedback": {
-            "correct": "This feedback will appear if you answered the question correctly.",
+            "correct": "Correct answer feedback.<br/><br/>Yes, that’s the right answer. The correct feedback pop up will reinforce why the correct answers are correct.",
             "_incorrect": {
                 "notFinal": "",
-                "final": "This feedback will appear if you answered the question incorrectly."
+                "final": "Incorrect answer feedback.<br/><br/>Nearly there. The partially correct feedback pop up will reinforce why the correct answers are correct."
             },
             "_partlyCorrect": {
                 "notFinal": "",
-                "final": "This feedback will appear if you answered part of the question correctly."
+                "final": "Partially correct answer feedback.<br/><br/>Nearly there. The partially correct feedback pop up will reinforce why the correct answers are correct."
             }
         },
         "_items": [
@@ -593,7 +593,7 @@
         "_layout": "medium",
         "title": "Slider",
         "displayTitle": "Slider",
-        "body": "Question text here",
+        "body": "Want the learner to rate something against specific criteria? That’s where the slider comes in, letting you test the learner with a graded scale. To test this out for yourself, have a go at rating, on a scale of 1 to 10, what level of risk is involved with that fin-less rocket ship we showed you earlier.",
         "instruction": "Drag the slider to make your choice and select Submit.",
         "_attempts": 1,
         "_questionWeight": 1,
@@ -605,8 +605,8 @@
         "_scaleEnd": 10,
         "_correctAnswer": "",
         "_correctRange": {
-            "_bottom": 4,
-            "_top": 9
+            "_bottom": 6,
+            "_top": 10
         },
         "_buttons": {
             "submit": "",
@@ -615,14 +615,10 @@
             "hideCorrectAnswer": ""
         },
         "_feedback": {
-            "correct": "This feedback will appear if you answered the question correctly.",
+            "correct": "Correct answer feedback.<br/><br/>Yes, that’s the right answer. The correct feedback pop up will reinforce why the correct answers are correct.",
             "_incorrect": {
                 "notFinal": "",
-                "final": "This feedback will appear if you answered the question incorrectly."
-            },
-            "_partlyCorrect": {
-                "notFinal": "",
-                "final": "This feedback will appear if you answered part of the question correctly."
+                "final": "Incorrect answer feedback.<br/><br/>Nearly there. The partially correct feedback pop up will reinforce why the correct answers are correct."
             }
         },
         "_pageLevelProgress": {
