@@ -95,7 +95,8 @@
         "_classes":"",
         "title":"Kineo Presentation Components",
         "displayTitle":"Kineo Presentation Components",
-        "body":"This page contains a working Adapt page with Kineo presentation components.",
+        "body":"Kineo have added the following question components to the core bundle. Remember that anything outside of the core bundle might not be IE8 compatible or accessible so check the details.",
+        "instruction":"Scroll down to see what we have on offer.",
         "_graphic": {
             "alt": "Welcome to Adapt Learning",
             "src": "course/en/images/origami-menu-one.jpg"

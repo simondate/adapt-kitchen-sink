@@ -828,8 +828,8 @@
         "_layout":"full",
         "title":"Adapt List",
         "displayTitle":"Adapt List",
-        "body":"List component body text.",
-        "instruction":"List component instruction text.",
+        "body":"Want to walk through a process in a linear fashion, but need images to tell the story too? The <b>list</b> component is perfect for that. It’s similar to a hot graphic, but text is displayed to the right of the images.",
+        "instruction":"Select the icons to find out more.",
         "_items": [
             {
                 "title": "List item 1 title",
@@ -927,10 +927,10 @@
         "_classes": "",
         "_layout": "full",
         "_component": "youtube",
-        "title": "What’s coming next?",
-        "displayTitle": "What’s coming next?",
-        "body": "Find out what’s on the roadmap for 2014 for Adapt Learning.",
-        "instruction":"",
+        "title": "Youtube",
+        "displayTitle": "Youtube",
+        "body": "Youtube component",
+        "instruction":"Click play to watch.",
         "_setCompletionOn": "play",
         "_media": {
             "_source": "https://www.youtube.com/embed/YiQWgWiwBqc",
@@ -957,9 +957,9 @@
         "_component": "narrativestrip",
         "_classes":"",
         "_layout":"left",
-        "title": "Bank 1 - Question 8",
-        "displayTitle": "Bank 1 - Question 8",
-        "body": "Body text",
+        "title": "Narrative Strip",
+        "displayTitle": "Narrative Strip",
+        "body": "Narrative that strips.",
         "instruction":"Instruction text",
         "_images": [
             {
