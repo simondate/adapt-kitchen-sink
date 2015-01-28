@@ -870,8 +870,8 @@
         "_isAccordianOnMobile": true,
         "_reveal": {
             "_isInfoBoxAriaOnly": true,
-            "_background": "course/en/images/base_assets/reveal_image.jpg",
-            "_foreground": "course/en/images/base_assets/reveal_image.jpg",
+            "_background": "course/en/images/base_assets/pin_point.jpg",
+            "_foreground": "course/en/images/base_assets/reveal_full.jpg",
             "_button": {
                 "textLeft": "Slide >",
                 "textRight": "< Slide",
@@ -1060,8 +1060,98 @@
         }
     },
     {
-        "_id": "c-200",
-        "_parentId": "b-100",
+        "_id":"c-200",
+        "_parentId":"b-100",
+        "_type":"component",
+        "_component":"ppq",
+        "_classes":"",
+        "_layout":"full",
+        "title":"PPQ",
+        "displayTitle":"PPQ",
+        "body":"Pin point questions (or PPQs) are full scale graphics which learners can place pins onto to give their answer. They do this by selecting an area of the image. Try it out now – where on the globe do you think the UK, Italy and India sit?",
+        "instruction":"<span class='no-touch-text'>Click the areas of the image you want to drop a pin onto and select Submit</span><span class='touch-text'>Tap the areas of the image you want to drop a pin onto and select Submit.</span>",
+        "_isResetOnRevisit": false,
+        "_attempts":1,
+        "_questionWeight":1,
+        "_developerMode":false,
+        "_pinboardDesktop": {
+            "src": "course/en/images/base_assets/pin_point.jpg",
+            "alt": "alt text",
+            "title": "title text"
+        },
+        "_pinboardMobile": {
+            "src": "course/en/images/base_assets/pin_point.jpg",
+            "alt": "alt text",
+            "title": "title text"
+        },
+        "_items": [
+            {
+                "desktop": {
+                    "left": 0,
+                    "top": 0,
+                    "width": 45,
+                    "height": 45 
+                },
+                "mobile": {
+                    "left": 0,
+                    "top": 0,
+                    "width": 45,
+                    "height": 45 
+                }
+            },
+            {
+                "desktop": {
+                    "left": 62,
+                    "top": 62,
+                    "width": 38,
+                    "height": 38 
+                },
+                "mobile": {
+                    "left": 62,
+                    "top": 62,
+                    "width": 38,
+                    "height": 38 
+                }
+            },
+            {
+                "desktop": {
+                    "left": 75,
+                    "top": 0,
+                    "width": 25,
+                    "height": 25 
+                },
+                "mobile": {
+                    "left": 75,
+                    "top": 0,
+                    "width": 25,
+                    "height": 25 
+                }
+            }
+        ],
+        "_feedback": {
+            "correct": "Correct answer feedback.<br/><br/>Well done, that’s right. This feedback pop up will give more information on why learners are correct in their choices.",
+            "_incorrect": {
+                "notFinal": "",
+                "final": "Incorrect answer feedback.<br/><br/>That’s not right. This incorrect feedback pop up will give more information on where the pins should have been placed."
+            },
+            "_partlyCorrect": {
+                "notFinal": "",
+                "final": "Partially correct answer feedback.<br/><br/>Almost. This partially correct feedback pop up will give more information on where the pins should have been placed."
+            }
+        },
+        "_buttons":{
+            "submit":"Submit",
+            "reset":"Reset",
+            "showCorrectAnswer":"Model Answer",
+            "hideCorrectAnswer":"Your Answer"
+        }, 
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "c-202",
+        "_parentId": "b-102",
         "_type": "component",
         "_component": "timed-sequence",
         "_classes": "",
@@ -1139,94 +1229,6 @@
                 "final": "Incorrect feedback."
             }
         },
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        }
-    },
-    {
-        "_id":"c-202",
-        "_parentId":"b-102",
-        "_type":"component",
-        "_component":"ppq",
-        "_classes":"",
-        "_layout":"full",
-        "title":"PPQ",
-        "displayTitle":"PPQ",
-        "body":"Select 50, 27 and 42",
-        "instruction":"",
-        "_isResetOnRevisit": false,
-        "_attempts":1,
-        "_questionWeight":1,
-        "_developerMode":false,
-        "_pinboardDesktop": {
-            "src": "assets/ppq-example.png",
-            "alt": "alt text",
-            "title": "title text"
-        },
-        "_pinboardMobile": {
-            "src": "assets/ppq-example.png",
-            "alt": "alt text",
-            "title": "title text"
-        },
-        "_items": [
-            {
-                "desktop": {
-                    "left": 0,
-                    "top": 0,
-                    "width": 45,
-                    "height": 45 
-                },
-                "mobile": {
-                    "left": 0,
-                    "top": 0,
-                    "width": 45,
-                    "height": 45 
-                }
-            },
-            {
-                "desktop": {
-                    "left": 62,
-                    "top": 62,
-                    "width": 38,
-                    "height": 38 
-                },
-                "mobile": {
-                    "left": 62,
-                    "top": 62,
-                    "width": 38,
-                    "height": 38 
-                }
-            },
-            {
-                "desktop": {
-                    "left": 75,
-                    "top": 0,
-                    "width": 25,
-                    "height": 25 
-                },
-                "mobile": {
-                    "left": 75,
-                    "top": 0,
-                    "width": 25,
-                    "height": 25 
-                }
-            }
-        ],
-        "_feedback":{
-            "correct":"Congratulations, this is the correct feedback.",
-            "_partlyCorrect": {
-                "final":"This is the partly correct feedback."
-            },
-            "_incorrect": {
-                "final":"Unfortunately this is the incorrect feedback."
-            }
-        },
-        "_buttons":{
-            "submit":"Submit",
-            "reset":"Reset",
-            "showCorrectAnswer":"Model Answer",
-            "hideCorrectAnswer":"Your Answer"
-        }, 
         "_pageLevelProgress": {
             "_isEnabled": true
         }
