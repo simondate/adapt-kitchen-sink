@@ -1799,6 +1799,89 @@
         }
     },
     {
+        "_id":"c-203",
+        "_parentId":"b-102",
+        "_type":"component",
+        "_component":"shallowBranchingMCQ",
+        "_classes":"",
+        "_layout":"right",
+        "_attempts":2,
+        "_questionWeight":1,
+        "_isRandom":false,
+        "_selectable":1,
+        "_shouldAutoReset": true,
+        "title": "Shallow Branching MCQ",
+        "displayTitle": "Shallow Branching MCQ",
+        "body": "Which of the following options would you consider to be correct?",
+        "instruction": "",
+        "_items": [
+            {
+                "text": "This is option 1.",
+                "_shouldBeSelected":true,
+                "questionStem": "Option one question stem",
+                "feedback": "Option one feedback"
+            },
+            {
+                "text": "This is option 2.",
+                "_shouldBeSelected":false,
+                "questionStem": "Option two question stem",
+                "feedback": "Option two feedback"
+            },
+            {
+                "text": "This is option 3.",
+                "_shouldBeSelected":false,
+                "questionStem": "Option three question stem",
+                "feedback": "Option three feedback"
+            }
+        ],
+        "_feedback":{
+            "correct":"This is the instruction that is appended to bottom of <strong>correct</strong> feedback",
+            "_incorrect": {
+                "notFinal": "This is the instruction that is appended to bottom of option specific feedback, on <strong>incorrect 1st attempt</strong>",
+                "final": "This is the instruction that is appended to bottom of option specific feedback. on <strong>incorrect 2nd attempt</strong>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "",
+                "final": "This feedback will appear if you answered part of the question correctly."
+          }
+        },
+        "_buttons":{
+            "submit":"",
+            "reset":"",
+            "showCorrectAnswer":"",
+            "hideCorrectAnswer":""
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        },
+        "_componentSpec": {
+            "_browserSupport": {
+                "title": "Browser Support",
+                "minimumSupport": "IE8+",
+                "notes": "Browser Support Notes"
+            },
+            "_accessibilitySupport": {
+                "title": "Accessibility Support",
+                "supported": "AA",
+                "notes": "Accessibility notes"
+            },
+            "_additionalInformation": {
+                "title": "Additional Information",
+                "_additionalInformationItems": [
+                    {
+                        "information": "Information item 1"
+                    },
+                    {
+                        "information": "Information item 2"
+                    },
+                    {
+                        "information": "Information item 3"
+                    }
+                ]
+            }   
+        }
+    },
+    {
         "_id": "c-205",
         "_parentId": "b-105",
         "_type": "component",
