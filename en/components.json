@@ -2000,5 +2000,146 @@
         "_pageLevelProgress": {
             "_isEnabled": true
         }
+    },
+    {
+        "_id": "c-260",
+        "_parentId": "b-145",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "",
+        "_layout": "left",
+        "title": "Graphic",
+        "displayTitle": "",
+        "body": "",
+        "instruction": "",
+        "_graphic": {
+            "alt": "alt text",
+            "large": "course/en/images/base_assets/single_width.jpg",
+            "small": "course/en/images/base_assets/single_width.jpg"
+        },
+        "_trigger": {
+            "title": "Title",
+            "body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.<br/><br/> Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.<br/><br/> Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat."
+        }
+    },
+    {
+        "_id": "c-270",
+        "_parentId": "b-145",
+        "_type": "component",
+        "_component": "accordion",
+        "_classes": "",
+        "_layout": "right",
+        "title": "Accordion single width",
+        "displayTitle": "Accordion single width",
+        "body": "<b>Accordion</b> components present learners with a series of clickable headings and associated text.",
+        "instruction": "Select the headings to find out more",
+        "_items": [
+            {
+                "alt": "Accordion item 1",
+                "title": "Accordion item 1",
+                "body": "This is display text 1.<br/><br/>If a list needs expanding on, but doesn’t lend itself to a graphical treatment, this component is perfect. List the key points as headings then explore further in the reveal text."
+            },
+            {
+                "alt": "Accordion item 2",
+                "title": "Accordion item 2",
+                "body": "This is display text 2.<br/><br/>Walk through the steps of an activity in order and then reveal more about them."
+            },
+            {
+                "alt": "Accordion item 3",
+                "title": "Accordion item 3",
+                "body": "This is display text 3.<br/><br/>Recap the page’s content in a brief, succinct way by breaking down the key points into headings."
+            }
+        ],
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        },
+        "_trigger": {
+            "title": "Title",
+            "body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.<br/><br/> Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.<br/><br/> Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat."
+        }
+    },
+    {
+        "_id": "c-280",
+        "_parentId": "b-150",
+        "_classes": "",
+        "_type": "component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "Narrative",
+        "displayTitle": "Narrative",
+        "body": "The <b>narrative</b> component lets you scroll through a series of images with accompanying text. This is where the initial text and instruction text sits.",
+        "instruction": "<span class='desktop-text'>Select the arrow to find out more.</span><span class='mobile-text'>Select the arrow followed by the plus icon to find out more.</span>",
+        "_items": [
+            {
+                "title": "Narrative item 1",
+                "body": "This is display text 1.<br/><br/>Want to immerse your learners in a case study? Narratives are perfect for this. Let them walk through a character’s story step by step, using both images and text to flesh out the scenario.",
+                "_graphic": {
+                    "src": "course/en/images/base_assets/narrative.jpg",
+                    "alt": "First graphic"
+                },
+                "strapline": "Narrative item 1"
+            },
+            {
+                "title": "Narrative item 2",
+                "body": "This is display text 2.<br/><br/>These can also be good for breaking down a complex process. Learners can work through the stages at their own pace, and in manageable chunks that give the content space to sink in. We can show sections of a diagram to add context to this too.",
+                "_graphic": {
+                    "src": "course/en/images/base_assets/narrative.jpg",
+                    "alt": "Second graphic"
+                },
+                "strapline": "Narrative item 2"
+            }
+        ],
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        },
+        "_trigger": {
+            "title": "Title",
+            "body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.<br/><br/> Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.<br/><br/> Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat."
+        }
+    },
+    {
+        "_id": "c-290",
+        "_parentId": "b-155",
+        "_type": "component",
+        "_component": "slider",
+        "_classes": "",
+        "_layout": "medium",
+        "title": "Slider",
+        "displayTitle": "Slider",
+        "body": "Want the learner to rate something against specific criteria? That’s where the slider comes in, letting you test the learner with a graded scale. To test this out for yourself, have a go at rating, on a scale of 1 to 10, what level of risk is involved with that fin-less rocket ship we showed you earlier.",
+        "instruction": "Drag the slider to make your choice and select Submit.",
+        "_attempts": 1,
+        "_questionWeight": 1,
+        "_showNumber": true,
+        "_showScaleIndicator": true,
+        "labelStart": "incomplete",
+        "labelEnd": "complete",
+        "_scaleStart": 1,
+        "_scaleEnd": 10,
+        "_correctAnswer": "",
+        "_correctRange": {
+            "_bottom": 6,
+            "_top": 10
+        },
+        "_buttons": {
+            "submit": "",
+            "reset": "",
+            "showCorrectAnswer": "",
+            "hideCorrectAnswer": ""
+        },
+        "_feedback": {
+            "correct": "Correct answer feedback.<br/><br/>Yes, that’s the right answer. The correct feedback pop up will reinforce why the correct answers are correct.",
+            "_incorrect": {
+                "notFinal": "",
+                "final": "Incorrect answer feedback.<br/><br/>Nearly there. The partially correct feedback pop up will reinforce why the correct answers are correct."
+            }
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        },
+        "_trigger": {
+            "title": "Title",
+            "body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.<br/><br/> Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.<br/><br/> Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat."
+        }
     }
 ]
