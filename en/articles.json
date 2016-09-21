@@ -66,6 +66,31 @@
     }
   },
   {
+    "_id": "a-35",
+    "_parentId": "co-30",
+    "_type": "article",
+    "_classes": "",
+    "title": "Article Title",
+    "displayTitle": "",
+    "body": "",
+    "_assessment": {
+      "_isEnabled": true,
+      "_id": "a-35",
+      "_questions": {
+        "_resetType": "hard",
+        "_canShowFeedback": false,
+        "_canShowMarking": false,
+        "_canShowModelAnswer": false
+      },
+      "_isPercentageBased": true,
+      "_scoreToPass": 75,
+      "_includeInTotalScore": true,
+      "_assessmentWeight": 1,
+      "_isResetOnRevisit": false,
+      "_attempts": 2
+    }
+  },
+  {
     "_id": "a-60",
     "_parentId": "co-55",
     "_type": "article",

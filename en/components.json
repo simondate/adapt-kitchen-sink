@@ -1,990 +1,1231 @@
 [
-    {
-        "_id": "c-05",
-        "_parentId": "b-05",
-        "_type": "component",
-        "_component": "graphic",
-        "_classes": "",
-        "_layout": "left",
-        "title": "Graphic",
-        "displayTitle": "",
-        "body": "",
-        "instruction": "",
-        "_graphic": {
-            "alt": "alt text",
-            "large": "course/en/images/base_assets/single_width.jpg",
-            "small": "course/en/images/base_assets/single_width.jpg"
-        }
-    },
-    {
-        "_id": "c-10",
-        "_parentId": "b-05",
-        "_type": "component",
-        "_component": "text",
-        "_classes": "",
-        "_layout": "right",
-        "title": "Text",
-        "displayTitle": "Text",
-        "body": "For short, simple pieces of information, a <b>text</b> component can often be best. If an area of content doesn’t warrant an interaction, don’t go overboard – less can often be more. Intersperse these alongside your interactive components to give learners the most rewarding experience.<br/><br/>As you scroll down through the first section of this page, you can see how placing graphics and text next to each other can be a simple yet effective way of weaving a story down a page.",
-        "instruction": "",
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        }
-    },
-    {
-        "_id": "c-15",
-        "_parentId": "b-10",
-        "_type": "component",
-        "_component": "graphic",
-        "_classes": "",
-        "_layout": "left",
-        "title": "Graphic",
-        "displayTitle": "Graphic",
-        "body": "This is the initial text field – you can add text here to lead up to the image if you want, or you can just let the graphic do the talking.",
-        "instruction": "",
-        "_graphic": {
-            "alt": "alt text",
-            "large": "course/en/images/base_assets/single_width.jpg",
-            "small": "course/en/images/base_assets/single_width.jpg"
-        }
-    },
-    {
-        "_id": "c-20",
-        "_parentId": "b-10",
-        "_type": "component",
-        "_component": "accordion",
-        "_classes": "",
-        "_layout": "right",
-        "title": "Accordion single width",
-        "displayTitle": "Accordion single width",
-        "body": "<b>Accordion</b> components present learners with a series of clickable headings and associated text.",
-        "instruction": "Select the headings to find out more",
-        "_items": [
-            {
-                "alt": "Accordion item 1",
-                "title": "Accordion item 1",
-                "body": "This is display text 1.<br/><br/>If a list needs expanding on, but doesn’t lend itself to a graphical treatment, this component is perfect. List the key points as headings then explore further in the reveal text."
-            },
-            {
-                "alt": "Accordion item 2",
-                "title": "Accordion item 2",
-                "body": "This is display text 2.<br/><br/>Walk through the steps of an activity in order and then reveal more about them."
-            },
-            {
-                "alt": "Accordion item 3",
-                "title": "Accordion item 3",
-                "body": "This is display text 3.<br/><br/>Recap the page’s content in a brief, succinct way by breaking down the key points into headings."
-            }
-        ],
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        }
-    },
-    {
-        "_id": "c-25",
-        "_parentId": "b-15",
-        "_type": "component",
-        "_component": "accordion",
-        "_classes": "",
-        "_layout": "full",
-        "title": "Accordion full width",
-        "displayTitle": "Accordion full width",
-        "body": "<b>Accordion</b> components present learners with a series of clickable headings and associated text.",
-        "instruction": "Select the headings to find out more",
-        "_items": [
-            {
-                "alt": "Accordion item 1",
-                "title": "Accordion item 1",
-                "body": "This is display text 1.<br/><br/>If a list needs expanding on, but doesn’t lend itself to a graphical treatment, this component is perfect. List the key points as headings then explore further in the reveal text."
-            },
-            {
-                "alt": "Accordion item 2",
-                "title": "Accordion item 2",
-                "body": "This is display text 2.<br/><br/>Walk through the steps of an activity in order and then reveal more about them."
-            },
-            {
-                "alt": "Accordion item 3",
-                "title": "Accordion item 3",
-                "body": "This is display text 3.<br/><br/>Recap the page’s content in a brief, succinct way by breaking down the key points into headings.<br/><br/><img src='course/en/images/base_assets/pin_point.jpg' alt='alt' title='title'/>"
-            }
-        ],
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        }
-    },
-    {
-        "_id": "c-30",
-        "_parentId": "b-20",
-        "_classes": "",
-        "_type": "component",
-        "_layout": "full",
-        "_component": "narrative",
-        "title": "Narrative",
-        "displayTitle": "Narrative",
-        "body": "The <b>narrative</b> component lets you scroll through a series of images with accompanying text. This is where the initial text and instruction text sits.",
-        "instruction": "<span class='desktop-text'>Select the arrow to find out more.</span><span class='mobile-text'>Select the arrow followed by the plus icon to find out more.</span>",
-        "_items": [
-            {
-                "title": "Narrative item 1",
-                "body": "This is display text 1.<br/><br/>Want to immerse your learners in a case study? Narratives are perfect for this. Let them walk through a character’s story step by step, using both images and text to flesh out the scenario.",
-                "_graphic": {
-                    "src": "course/en/images/base_assets/narrative.jpg",
-                    "alt": "First graphic"
-                },
-                "strapline": "Narrative item 1"
-            },
-            {
-                "title": "Narrative item 2",
-                "body": "This is display text 2.<br/><br/>These can also be good for breaking down a complex process. Learners can work through the stages at their own pace, and in manageable chunks that give the content space to sink in. We can show sections of a diagram to add context to this too.",
-                "_graphic": {
-                    "src": "course/en/images/base_assets/narrative.jpg",
-                    "alt": "Second graphic"
-                },
-                "strapline": "Narrative item 2"
-            }
-        ],
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        }
-    },
-    {
-        "_id": "c-35",
-        "_parentId": "b-25",
-        "_classes": "",
-        "_type": "component",
-        "_component": "hotgraphic",
-        "_layout": "full",
-        "title": "Hot graphic",
-        "displayTitle": "Hot graphic",
-        "body": "With a <b>hot graphic</b> you can select icons like these teardrops to reveal more text and an accompanying image. This component will scale down to a narrative when viewed on mobile. This is where the initial text and instruction text sits.",
-        "mobileBody": "This is optional body text that will be shown when viewed on mobile.",
-        "instruction": "Select the icons to find out more.",
-        "_graphic": {
-            "src": "course/en/images/base_assets/pin_point.jpg",
-            "alt": "alt text",
-            "title": "title"
-        },
-        "_items": [
-            {
-                "title": "Hot graphic item 1",
-                "body": "This is display text 1.<br/><br/>Selecting one of the buttons will launch a pop up box, like this. Next to the numbers in the top left you can see navigation arrows. These should allow you to scroll through all the hot graphic items without closing and selecting the other icons.",
-                "_graphic": {
-                    "src": "course/en/images/base_assets/narrative.jpg",
-                    "alt": "alt text",
-                    "title": "title text"
-                },
-                "pinAlt": "Pin 1. Select here to open.",
-                "strapline": "Hot graphic item 1",
-                "_top": 50,
-                "_left": 20
-            },
-            {
-                "title": "Hot graphic item 2",
-                "body": "This is display text 2.<br/><br/>Similar to the narrative, case studies work well here. Use a split screen graphic to show a character in various scenes, then describe the situation in the reveal text boxes. Just be careful not to go into too much detail in the individual boxes – keep it to a short paragraph or two.",
-                "_graphic": {
-                    "src": "course/en/images/base_assets/narrative.jpg",
-                    "alt": "alt text",
-                    "title": "title text"
-                },
-                "pinAlt": "Pin 2. Select here to open.",
-                "strapline": "Hot graphic item 2",
-                "_top": 50,
-                "_left": 60
-            },
-            {
-                "title": "Hot graphic item 3",
-                "body": "This is display text 3.<br/><br/>That’s not all though. Show a process diagram, with learners able to select exact areas of the diagram to find out more. Show a map or landscape and get learners to dive into a particular part of the image. Present a close up of a product and ask learners to discover more about its individual sections.",
-                "_graphic": {
-                    "src": "course/en/images/base_assets/narrative.jpg",
-                    "alt": "alt text",
-                    "title": "title text"
-                },
-                "pinAlt": "Pin 3. Select here to open.",
-                "strapline": "Hot graphic item 3",
-                "_top": 50,
-                "_left": 40
-            }
-        ],
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        }
-    },
-    {
-        "_id": "c-40",
-        "_parentId": "b-30",
-        "_type": "component",
-        "_component": "media",
-        "_classes": "",
-        "_layout": "full",
-        "title": "Title of the media component",
-        "displayTitle": "Title of the media component",
-        "body": "Sometimes static text isn’t enough. Want to add a video of an expert to get learners excited about a subject? Or an animation talking through the crucial points? Say it with a media component and let your learners explore further.",
-        "instruction": "Select the play button to start the video.",
-        "_setCompletionOn": "inview",
-        "_media": {
-            "mp4": "course/en/assets/video/big_buck_bunny.mp4",
-            "ogv": "course/en/assets/video/big_buck_bunny.ogv",
-            "poster": "course/en/images/base_assets/video.jpg",
-            "transcriptLink": "assets/transcript.pdf",
-            "transcriptText": "Transcript"
-        },
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        }
-    },
-    {
-        "_id": "c-45",
-        "_parentId": "b-35",
-        "_type": "component",
-        "_component": "gmcq",
-        "_classes": "",
-        "_layout": "full",
-        "_attempts": 1,
-        "_questionWeight": 1,
-        "_isRandom": false,
-        "_selectable": 1,
-        "title": "Graphical Multiple Choice Question",
-        "displayTitle": "Graphical Multiple Choice Question",
-        "body": "Graphical MCQs let you set a more visual question for the learner. For example, take a look at the images below – which of them shows the more accurate version of the rocket ship?",
-        "instruction": "Choose an image and select Submit.",
-        "_items": [
-            {
-                "text": "Option 1.",
-                "_shouldBeSelected": true,
-                "_graphic": {
-                    "alt": "Alt text for option 1",
-                    "large": "course/en/images/base_assets/GMCQ_option.png",
-                    "small": "course/en/images/base_assets/GMCQ_option.png"
-                }
-            },
-            {
-                "text": "Option 2.",
-                "_shouldBeSelected": false,
-                "_graphic": {
-                    "alt": "Alt text for option 2",
-                    "large": "course/en/images/base_assets/GMCQ_option.png",
-                    "small": "course/en/images/base_assets/GMCQ_option.png"
-                }
-            },
-            {
-                "text": "Option 3.",
-                "_shouldBeSelected": false,
-                "_graphic": {
-                    "alt": "Alt text for option 1",
-                    "large": "course/en/images/base_assets/GMCQ_option.png",
-                    "small": "course/en/images/base_assets/GMCQ_option.png"
-                }
-            },
-            {
-                "text": "Option 4.",
-                "_shouldBeSelected": false,
-                "_graphic": {
-                    "alt": "Alt text for option 1",
-                    "large": "course/en/images/base_assets/GMCQ_option.png",
-                    "small": "course/en/images/base_assets/GMCQ_option.png"
-                }
-            }
-        ],
-        "_feedback": {
-            "correct": "Correct feedback text.<br/><br/>Congrats, you got the right answer. And that means you’ve received the correct feedback pop up. This is where we explain why this answer was the best fit.<br/><br/>Select the <b>X</b> icon to return to the learning page.",
-            "_incorrect": {
-                "notFinal": "",
-                "final": "Incorrect feedback text.<br/><br/>That’s not right, which means you’ve received the incorrect feedback pop up. This is where we explain why the other option was the best fit.<br/><br/>Select the <b>X</b> icon to return to the learning page."
-            },
-            "_partlyCorrect": {
-                "notFinal": "",
-                "final": "Partly correct feedback text.<br/><br/>That’s not right, which means you’ve received the partly correct feedback pop up. This is where we explain why the other option was the best fit.<br/><br/>Select the <b>X</b> icon to return to the learning page."
-            }
-        },
-        "_buttons": {
-            "_submit": {
-                "buttonText": "Submit",
-                "ariaLabel": "Select here to submit your answer."
-            },
-            "_reset": {
-                "buttonText": "Reset",
-                "ariaLabel": ""
-            },
-            "_showCorrectAnswer": {
-                "buttonText": "Correct Answer",
-                "ariaLabel": ""
-            },
-            "_hideCorrectAnswer": {
-                "buttonText": "My Answer",
-                "ariaLabel": ""
-            },
-            "_showFeedback": {
-                "buttonText": "Show feedback",
-                "ariaLabel": ""
-            },
-            "remainingAttemptsText": "attempts remaining",
-            "remainingAttemptText": "final attempt",
-            "disabledAriaLabel": "This button is disabled at the moment"
-        },
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        }
-    },
-    {
-        "_id": "c-50",
-        "_parentId": "b-40",
-        "_type": "component",
-        "_component": "mcq",
-        "_classes": "",
-        "_layout": "medium",
-        "_attempts": 1,
-        "_questionWeight": 1,
-        "_isRandom": false,
-        "_selectable": 3,
-        "title": "Multiple Choice Question",
-        "displayTitle": "Multiple Choice Question",
-        "body": "Don’t go for frills if the content doesn’t call for it. <b>MCQs</b> let you present learners with a classic, text-based question. Let’s see what type of content you think would fit this component. ",
-        "instruction": "Choose one or more options and select Submit.",
-        "_items": [
-            {
-                "text": " Attention-grabbing statistics (correct)",
-                "_shouldBeSelected": true
-            },
-            {
-                "text": "A decision point for a character (correct)",
-                "_shouldBeSelected": true
-            },
-            {
-                "text": "A knowledge check point (correct)",
-                "_shouldBeSelected": true
-            }
-        ],
-        "_feedback": {
-            "correct": "Correct feedback text.<br/><br/>Well done, you got that spot on. As with the GMCQ, this feedback pop up will explain why the chosen answers are the right answers.<br/><br/>Select the <b>X</b> icon to return to the learning page.",
-            "_incorrect": {
-                "notFinal": "",
-                "final": "Incorrect feedback text.<br/><br/>That’s not the right answer. As with the GMCQ this feedback pop up will explain which answers are the right answers.<br/><br/>Select the <b>X</b> icon to return to the learning page."
-            },
-            "_partlyCorrect": {
-                "notFinal": "",
-                "final": "Partly correct feedback text.<br/><br/>Not quite. This is partially correct feedback – it will appear when learners get a mix of correct and incorrect answers.<br/><br/>Select the <b>X</b> icon to return to the learning page."
-            }
-        },
-        "_buttons": {
-            "_submit": {
-                "buttonText": "Submit",
-                "ariaLabel": "Select here to submit your answer."
-            },
-            "_reset": {
-                "buttonText": "Reset",
-                "ariaLabel": ""
-            },
-            "_showCorrectAnswer": {
-                "buttonText": "Correct Answer",
-                "ariaLabel": ""
-            },
-            "_hideCorrectAnswer": {
-                "buttonText": "My Answer",
-                "ariaLabel": ""
-            },
-            "_showFeedback": {
-                "buttonText": "Show feedback",
-                "ariaLabel": ""
-            },
-            "remainingAttemptsText": "attempts remaining",
-            "remainingAttemptText": "final attempt",
-            "disabledAriaLabel": "This button is disabled at the moment"
-        },
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        }
-    },
-    {
-        "_id": "c-55",
-        "_parentId": "b-45",
-        "_classes": "",
-        "_layout": "left",
-        "_type": "component",
-        "_component": "matching",
-        "_attempts": 1,
-        "_isRandom": true,
-        "_questionWeight": 10,
-        "title": "Matching",
-        "displayTitle": "Matching",
-        "body": "The <b>matching</b> component lets you match a series of questions or statements with the corresponding options from the dropdown box. Try this out with the questions below.",
-        "instruction": "Choose an option from each drop down list and select Submit",
-        "_buttons": {
-            "_submit": {
-                "buttonText": "Submit",
-                "ariaLabel": "Select here to submit your answer."
-            },
-            "_reset": {
-                "buttonText": "Reset",
-                "ariaLabel": ""
-            },
-            "_showCorrectAnswer": {
-                "buttonText": "Correct Answer",
-                "ariaLabel": ""
-            },
-            "_hideCorrectAnswer": {
-                "buttonText": "My Answer",
-                "ariaLabel": ""
-            },
-            "_showFeedback": {
-                "buttonText": "Show feedback",
-                "ariaLabel": ""
-            },
-            "remainingAttemptsText": "attempts remaining",
-            "remainingAttemptText": "final attempt",
-            "disabledAriaLabel": "This button is disabled at the moment"
-        },
-        "_feedback": {
-            "correct": "Correct answer feedback.<br/><br/>Yes, that’s the right answer. The correct feedback pop up will reinforce why the correct answers are correct.",
-            "_incorrect": {
-                "notFinal": "",
-                "final": "Incorrect answer feedback.<br/><br/>Nearly there. The partially correct feedback pop up will reinforce why the correct answers are correct."
-            },
-            "_partlyCorrect": {
-                "notFinal": "",
-                "final": "Partially correct answer feedback.<br/><br/>Nearly there. The partially correct feedback pop up will reinforce why the correct answers are correct."
-            }
-        },
-        "placeholder": "select an option",
-        "_items": [
-            {
-                "text": "Pick the smallest device",
-                "_options": [
-                    {
-                        "text": "Desktop",
-                        "_isCorrect": false
-                    },
-                    {
-                        "text": "Tablet",
-                        "_isCorrect": false
-                    },
-                    {
-                        "text": "Smartphone (correct)",
-                        "_isCorrect": true
-                    }
-                ]
-            },
-            {
-                "text": "Pick the mid-size device",
-                "_options": [
-                    {
-                        "text": "Desktop",
-                        "_isCorrect": false
-                    },
-                    {
-                        "text": "Tablet (correct)",
-                        "_isCorrect": true
-                    },
-                    {
-                        "text": "Smartphone",
-                        "_isCorrect": false
-                    }
-                ]
-            },
-            {
-                "text": "Pick the largest device",
-                "_options": [
-                    {
-                        "text": "Desktop (correct)",
-                        "_isCorrect": true
-                    },
-                    {
-                        "text": "Tablet",
-                        "_isCorrect": false
-                    },
-                    {
-                        "text": "Smartphone",
-                        "_isCorrect": false
-                    }
-                ]
-            }
-        ],
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        }
-    },
-    {
-        "_id": "c-60",
-        "_parentId": "b-45",
-        "_type": "component",
-        "_component": "textinput",
-        "_classes": "",
-        "_layout": "right",
-        "title": "Text input",
-        "displayTitle": "Text input",
-        "body": "<b>Text input</b> components let learners enter their own answers, which is great for questions that require a bit more flexibility, like those with answers that could be written as both full words and numbers. Let’s test this flexibility out – if A is 1% and 2 is 26%, what are B, C and D? ",
-        "instruction": "Input your answers and select Submit.",
-        "_attempts": 1,
-        "_questionWeight": 10,
-        "placeholder": "Enter answer here",
-        "_allowsAnyCase": true,
-        "_allowsPunctuation": true,
-        "_buttons": {
-            "_submit": {
-                "buttonText": "Submit",
-                "ariaLabel": "Select here to submit your answer."
-            },
-            "_reset": {
-                "buttonText": "Reset",
-                "ariaLabel": ""
-            },
-            "_showCorrectAnswer": {
-                "buttonText": "Correct Answer",
-                "ariaLabel": ""
-            },
-            "_hideCorrectAnswer": {
-                "buttonText": "My Answer",
-                "ariaLabel": ""
-            },
-            "_showFeedback": {
-                "buttonText": "Show feedback",
-                "ariaLabel": ""
-            },
-            "remainingAttemptsText": "attempts remaining",
-            "remainingAttemptText": "final attempt",
-            "disabledAriaLabel": "This button is disabled at the moment"
-        },
-        "_feedback": {
-            "correct": "Correct answer feedback.<br/><br/>Yes, that’s the right answer. The correct feedback pop up will reinforce why the correct answers are correct.",
-            "_incorrect": {
-                "notFinal": "",
-                "final": "Incorrect answer feedback.<br/><br/>Nearly there. The partially correct feedback pop up will reinforce why the correct answers are correct."
-            },
-            "_partlyCorrect": {
-                "notFinal": "",
-                "final": "Partially correct answer feedback.<br/><br/>Nearly there. The partially correct feedback pop up will reinforce why the correct answers are correct."
-            }
-        },
-        "_items": [
-            {
-                "prefix": "B:",
-                "suffix": "%",
-                "_answers": [
-                    "2",
-                    "two"
-                ]
-            },
-            {
-                "prefix": "C:",
-                "suffix": "%",
-                "_answers": [
-                    "3",
-                    "three"
-                ]
-            },
-            {
-                "prefix": "D:",
-                "suffix": "%",
-                "_answers": [
-                    "4",
-                    "four"
-                ]
-            }
-        ],
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        }
-    },
-    {
-        "_id": "c-70",
-        "_parentId": "b-50",
-        "_type": "component",
-        "_component": "slider",
-        "_classes": "",
-        "_layout": "medium",
-        "title": "Slider",
-        "displayTitle": "Slider",
-        "body": "Want the learner to rate something against specific criteria? That’s where the slider comes in, letting you test the learner with a graded scale. To test this out for yourself, have a go at rating, on a scale of 1 to 10, what level of risk is involved with that fin-less rocket ship we showed you earlier.",
-        "instruction": "Drag the slider to make your choice and select Submit.",
-        "_attempts": 1,
-        "_questionWeight": 1,
-        "_showNumber": true,
-        "_showScaleIndicator": true,
-        "labelStart": "incomplete",
-        "labelEnd": "complete",
-        "_scaleStart": 1,
-        "_scaleEnd": 10,
-        "_correctAnswer": "",
-        "_correctRange": {
-            "_bottom": 6,
-            "_top": 10
-        },
-        "_buttons": {
-            "submit": "",
-            "reset": "",
-            "showCorrectAnswer": "",
-            "hideCorrectAnswer": ""
-        },
-        "_feedback": {
-            "correct": "Correct answer feedback.<br/><br/>Yes, that’s the right answer. The correct feedback pop up will reinforce why the correct answers are correct.",
-            "_incorrect": {
-                "notFinal": "",
-                "final": "Incorrect answer feedback.<br/><br/>Nearly there. The partially correct feedback pop up will reinforce why the correct answers are correct."
-            }
-        },
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        }
-    },
-    {
-        "_id":"c-75",
-        "_parentId":"b-55",
-        "_type":"component",
-        "_component":"hotgrid",
-        "_classes":"",
-        "_layout":"full",
-        "title":"Adapt Hotgrid",
-        "displayTitle":"Adapt Hotgrid",
-        "body":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis.",
-        "instruction":"Select the images below to find out more.",
-        "_columns":3,
-        "_items": [
-            {
-                "title": "Grid Item 1",
-                "body": "This is display text 1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
-                "itemAria": "Item 1. Select here to open.",
-                "_graphic": {
-                    "src": "course/en/images/base_assets/hot_grid_item_up.png",
-                    "srcHover":"course/en/images/base_assets/hot_grid_item_over.png",
-                    "srcVisited":"course/en/images/base_assets/hot_grid_item_selected.png",
-                    "alt": "",
-                    "title": ""
-                },
-                 "_itemGraphic": {
-                    "src": "course/en/images/base_assets/single_width.jpg",
-                    "alt": "alt text"
-                }
-            },
-            {
-                "title": "Grid Item 2",
-                "body": "This is display text 1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
-                "itemAria": "Item 2. Select here to open.",
-                "_graphic": {
-                   "src": "course/en/images/base_assets/hot_grid_item_up.png",
-                    "srcHover":"course/en/images/base_assets/hot_grid_item_over.png",
-                    "srcVisited":"course/en/images/base_assets/hot_grid_item_selected.png",
-                    "alt": "",
-                    "title": ""
-                },
-                 "_itemGraphic": {
-                    "src": "course/en/images/base_assets/single_width.jpg",
-                    "alt": "alt text"
-                }
-            },
-            {
-                "title": "Grid Item 3",
-                "body": "This is display text 1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
-                "itemAria": "Item 3. Select here to open.",
-                "_graphic": {
-                    "src": "course/en/images/base_assets/hot_grid_item_up.png",
-                    "srcHover":"course/en/images/base_assets/hot_grid_item_over.png",
-                    "srcVisited":"course/en/images/base_assets/hot_grid_item_selected.png",
-                    "alt": "",
-                    "title": ""
-                },
-                 "_itemGraphic": {
-                    "src": "course/en/images/base_assets/single_width.jpg",
-                    "alt": "alt text"
-                }
-            },
-            {
-                "title": "Grid Item 4",
-                "body": "This is display text 1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
-                "itemAria": "Item 4. Select here to open.",
-                "_graphic": {
-                    "src": "course/en/images/base_assets/hot_grid_item_up.png",
-                    "srcHover":"course/en/images/base_assets/hot_grid_item_over.png",
-                    "srcVisited":"course/en/images/base_assets/hot_grid_item_selected.png",
-                    "alt": "",
-                    "title": ""
-                },
-                 "_itemGraphic": {
-                    "src": "course/en/images/base_assets/single_width.jpg",
-                    "alt": "alt text"
-                }
-            },
-            {
-                "title": "Grid Item 5",
-                "body": "This is display text 1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
-                "itemAria": "Item 5. Select here to open.",
-                "_graphic": {
-                    "src": "course/en/images/base_assets/hot_grid_item_up.png",
-                    "srcHover":"course/en/images/base_assets/hot_grid_item_over.png",
-                    "srcVisited":"course/en/images/base_assets/hot_grid_item_selected.png",
-                    "alt": "",
-                    "title": ""
-                },
-                 "_itemGraphic": {
-                    "src": "course/en/images/base_assets/single_width.jpg",
-                    "alt": "alt text"
-                }
-            },
-            {
-                "title": "Grid Item 6",
-                "body": "This is display text 1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
-                "itemAria": "Item 6. Select here to open.",
-                "_graphic": {
-                    "src": "course/en/images/base_assets/hot_grid_item_up.png",
-                    "srcHover":"course/en/images/base_assets/hot_grid_item_over.png",
-                    "srcVisited":"course/en/images/base_assets/hot_grid_item_selected.png",
-                    "alt": "",
-                    "title": ""
-                },
-                 "_itemGraphic": {
-                    "src": "course/en/images/base_assets/single_width.jpg",
-                    "alt": "alt text"
-                }
-            }
-        ]
-    },
-    {
-        "_id":"c-90",
-        "_parentId":"b-70",
-        "_type":"component",
-        "_component":"tabs",
-        "_classes":"",
-        "_layout":"full",
-        "title":"Adapt Tabs",
-        "displayTitle":"Adapt Tabs",
-        "body":"Body text.",
-        "instruction":"Select the tabs to find out more.",
-        "_tabLayout": "top",
-        "_items": [
-            {
-                "title": "Tab item 1 title",
-                "body": "This is display text 1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.<br/><br/>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.",
-                "graphic": "course/en/images/base_assets/list_item_selected.png"
-            },
-            {
-                "title": "Tab item 2 title",
-                "body": "This is display text 2. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.",
-                "graphic": "course/en/images/base_assets/list_item_selected.png"
-            },
-            {
-                "title": "Tab item 3 title",
-                "body": "This is display text 3. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.<br/><br/>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.",
-                "graphic": "course/en/images/base_assets/list_item_selected.png"
-            },
-            {
-                "title": "Tab item 4 title",
-                "body": "This is display text 4. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
-                "graphic": "course/en/images/base_assets/list_item_selected.png"
-            },
-            {
-                "title": "Tab item 5 title",
-                "body": "This is display text 5. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.<br/><br/>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus.",
-                "graphic": "course/en/images/base_assets/list_item_selected.png"
-            }
-        ]
-    },
-    {
-        "_id":"c-91",
-        "_parentId":"b-71",
-        "_type":"component",
-        "_component":"tabs",
-        "_classes":"",
-        "_layout":"full",
-        "title":"Adapt Tabs",
-        "displayTitle":"Adapt Tabs",
-        "body":"Body text.",
-        "instruction":"Select the tabs to find out more.",
-        "_tabLayout": "left",
-        "_items": [
-            {
-                "title": "Tab item 1 title",
-                "body": "This is display text 1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.<br/><br/>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram.",
-                "graphic": "course/en/images/base_assets/list_item_selected.png"
-            },
-            {
-                "title": "Tab item 2 title",
-                "body": "This is display text 2. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.",
-                "graphic": "course/en/images/base_assets/list_item_selected.png"
-            },
-            {
-                "title": "Tab item 3 title",
-                "body": "This is display text 3. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.<br/><br/>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.",
-                "graphic": "course/en/images/base_assets/list_item_selected.png"
-            },
-            {
-                "title": "Tab item 4 title",
-                "body": "This is display text 4. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
-                "graphic": "course/en/images/base_assets/list_item_selected.png"
-            },
-            {
-                "title": "Tab item 5 title",
-                "body": "This is display text 5. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.<br/><br/>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.",
-                "graphic": "course/en/images/base_assets/list_item_selected.png"
-            }
-        ]
-    },
-    {
-        "_id": "c-205",
-        "_parentId": "b-105",
-        "_type": "component",
-        "_component": "text",
-        "_classes": "",
-        "_layout": "full",
-        "title": "Text",
-        "displayTitle": "Text",
-        "body": "This component you're reading is a text component. All components take this form of a title and body - except a blank component. However it's important to realise that title and body attributes are not needed. <br><br>Take for instance the media component opposite or below on a smaller device - has no body attribute. Instead of the HTML being rendered Adapt simply doesn't render it. The title attribute is simply a break tag to push the media component level with the opposite component.",
-        "instruction": "",
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        }
-    },
-    {
-        "_id": "c-210",
-        "_parentId": "b-110",
-        "_type": "component",
-        "_component": "text",
-        "_classes": "",
-        "_layout": "full",
-        "title": "Text",
-        "displayTitle": "Text",
-        "body": "This component you're reading is a text component. All components take this form of a title and body - except a blank component. However it's important to realise that title and body attributes are not needed. <br><br>Take for instance the media component opposite or below on a smaller device - has no body attribute. Instead of the HTML being rendered Adapt simply doesn't render it. The title attribute is simply a break tag to push the media component level with the opposite component.",
-        "instruction": "",
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        }
-    },
-    {
-        "_id": "c-260",
-        "_parentId": "b-145",
-        "_type": "component",
-        "_component": "graphic",
-        "_classes": "",
-        "_layout": "left",
-        "title": "Graphic",
-        "displayTitle": "",
-        "body": "",
-        "instruction": "",
-        "_graphic": {
-            "alt": "alt text",
-            "large": "course/en/images/base_assets/single_width.jpg",
-            "small": "course/en/images/base_assets/single_width.jpg"
-        },
-        "_trigger": {
-            "title": "Title",
-            "body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.<br/><br/> Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.<br/><br/> Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat."
-        }
-    },
-    {
-        "_id": "c-270",
-        "_parentId": "b-145",
-        "_type": "component",
-        "_component": "accordion",
-        "_classes": "",
-        "_layout": "right",
-        "title": "Accordion single width",
-        "displayTitle": "Accordion single width",
-        "body": "<b>Accordion</b> components present learners with a series of clickable headings and associated text.",
-        "instruction": "Select the headings to find out more",
-        "_items": [
-            {
-                "alt": "Accordion item 1",
-                "title": "Accordion item 1",
-                "body": "This is display text 1.<br/><br/>If a list needs expanding on, but doesn’t lend itself to a graphical treatment, this component is perfect. List the key points as headings then explore further in the reveal text."
-            },
-            {
-                "alt": "Accordion item 2",
-                "title": "Accordion item 2",
-                "body": "This is display text 2.<br/><br/>Walk through the steps of an activity in order and then reveal more about them."
-            },
-            {
-                "alt": "Accordion item 3",
-                "title": "Accordion item 3",
-                "body": "This is display text 3.<br/><br/>Recap the page’s content in a brief, succinct way by breaking down the key points into headings."
-            }
-        ],
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        },
-        "_trigger": {
-            "title": "Title",
-            "body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.<br/><br/> Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.<br/><br/> Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat."
-        }
-    },
-    {
-        "_id": "c-280",
-        "_parentId": "b-150",
-        "_classes": "",
-        "_type": "component",
-        "_layout": "full",
-        "_component": "narrative",
-        "title": "Narrative",
-        "displayTitle": "Narrative",
-        "body": "The <b>narrative</b> component lets you scroll through a series of images with accompanying text. This is where the initial text and instruction text sits.",
-        "instruction": "<span class='desktop-text'>Select the arrow to find out more.</span><span class='mobile-text'>Select the arrow followed by the plus icon to find out more.</span>",
-        "_items": [
-            {
-                "title": "Narrative item 1",
-                "body": "This is display text 1.<br/><br/>Want to immerse your learners in a case study? Narratives are perfect for this. Let them walk through a character’s story step by step, using both images and text to flesh out the scenario.",
-                "_graphic": {
-                    "src": "course/en/images/base_assets/narrative.jpg",
-                    "alt": "First graphic"
-                },
-                "strapline": "Narrative item 1"
-            },
-            {
-                "title": "Narrative item 2",
-                "body": "This is display text 2.<br/><br/>These can also be good for breaking down a complex process. Learners can work through the stages at their own pace, and in manageable chunks that give the content space to sink in. We can show sections of a diagram to add context to this too.",
-                "_graphic": {
-                    "src": "course/en/images/base_assets/narrative.jpg",
-                    "alt": "Second graphic"
-                },
-                "strapline": "Narrative item 2"
-            }
-        ],
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        },
-        "_trigger": {
-            "title": "Title",
-            "body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.<br/><br/> Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.<br/><br/> Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat."
-        }
-    },
-    {
-        "_id": "c-290",
-        "_parentId": "b-155",
-        "_type": "component",
-        "_component": "slider",
-        "_classes": "",
-        "_layout": "medium",
-        "title": "Slider",
-        "displayTitle": "Slider",
-        "body": "Want the learner to rate something against specific criteria? That’s where the slider comes in, letting you test the learner with a graded scale. To test this out for yourself, have a go at rating, on a scale of 1 to 10, what level of risk is involved with that fin-less rocket ship we showed you earlier.",
-        "instruction": "Drag the slider to make your choice and select Submit.",
-        "_attempts": 1,
-        "_questionWeight": 1,
-        "_showNumber": true,
-        "_showScaleIndicator": true,
-        "labelStart": "incomplete",
-        "labelEnd": "complete",
-        "_scaleStart": 1,
-        "_scaleEnd": 10,
-        "_correctAnswer": "",
-        "_correctRange": {
-            "_bottom": 6,
-            "_top": 10
-        },
-        "_buttons": {
-            "submit": "",
-            "reset": "",
-            "showCorrectAnswer": "",
-            "hideCorrectAnswer": ""
-        },
-        "_feedback": {
-            "correct": "Correct answer feedback.<br/><br/>Yes, that’s the right answer. The correct feedback pop up will reinforce why the correct answers are correct.",
-            "_incorrect": {
-                "notFinal": "",
-                "final": "Incorrect answer feedback.<br/><br/>Nearly there. The partially correct feedback pop up will reinforce why the correct answers are correct."
-            }
-        },
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        },
-        "_trigger": {
-            "title": "Title",
-            "body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.<br/><br/> Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.<br/><br/> Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat."
-        }
+  {
+    "_id": "c-05",
+    "_parentId": "b-05",
+    "_type": "component",
+    "_component": "graphic",
+    "_classes": "",
+    "_layout": "left",
+    "title": "Graphic",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "alt text",
+      "large": "course/en/images/base_assets/single_width.jpg",
+      "small": "course/en/images/base_assets/single_width.jpg"
     }
+  },
+  {
+    "_id": "c-10",
+    "_parentId": "b-05",
+    "_type": "component",
+    "_component": "text",
+    "_classes": "",
+    "_layout": "right",
+    "title": "Text",
+    "displayTitle": "Text",
+    "body": "For short, simple pieces of information, a <b>text</b> component can often be best. If an area of content doesn’t warrant an interaction, don’t go overboard – less can often be more. Intersperse these alongside your interactive components to give learners the most rewarding experience.<br/><br/>As you scroll down through the first section of this page, you can see how placing graphics and text next to each other can be a simple yet effective way of weaving a story down a page.",
+    "instruction": "",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
+  {
+    "_id": "c-15",
+    "_parentId": "b-10",
+    "_type": "component",
+    "_component": "graphic",
+    "_classes": "",
+    "_layout": "left",
+    "title": "Graphic",
+    "displayTitle": "Graphic",
+    "body": "This is the initial text field – you can add text here to lead up to the image if you want, or you can just let the graphic do the talking.",
+    "instruction": "",
+    "_graphic": {
+      "alt": "alt text",
+      "large": "course/en/images/base_assets/single_width.jpg",
+      "small": "course/en/images/base_assets/single_width.jpg"
+    }
+  },
+  {
+    "_id": "c-20",
+    "_parentId": "b-10",
+    "_type": "component",
+    "_component": "accordion",
+    "_classes": "",
+    "_layout": "right",
+    "title": "Accordion single width",
+    "displayTitle": "Accordion single width",
+    "body": "<b>Accordion</b> components present learners with a series of clickable headings and associated text.",
+    "instruction": "Select the headings to find out more",
+    "_items": [
+      {
+        "alt": "Accordion item 1",
+        "title": "Accordion item 1",
+        "body": "This is display text 1.<br/><br/>If a list needs expanding on, but doesn’t lend itself to a graphical treatment, this component is perfect. List the key points as headings then explore further in the reveal text."
+      },
+      {
+        "alt": "Accordion item 2",
+        "title": "Accordion item 2",
+        "body": "This is display text 2.<br/><br/>Walk through the steps of an activity in order and then reveal more about them."
+      },
+      {
+        "alt": "Accordion item 3",
+        "title": "Accordion item 3",
+        "body": "This is display text 3.<br/><br/>Recap the page’s content in a brief, succinct way by breaking down the key points into headings."
+      }
+    ],
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
+  {
+    "_id": "c-25",
+    "_parentId": "b-15",
+    "_type": "component",
+    "_component": "accordion",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Accordion full width",
+    "displayTitle": "Accordion full width",
+    "body": "<b>Accordion</b> components present learners with a series of clickable headings and associated text.",
+    "instruction": "Select the headings to find out more",
+    "_items": [
+      {
+        "alt": "Accordion item 1",
+        "title": "Accordion item 1",
+        "body": "This is display text 1.<br/><br/>If a list needs expanding on, but doesn’t lend itself to a graphical treatment, this component is perfect. List the key points as headings then explore further in the reveal text."
+      },
+      {
+        "alt": "Accordion item 2",
+        "title": "Accordion item 2",
+        "body": "This is display text 2.<br/><br/>Walk through the steps of an activity in order and then reveal more about them."
+      },
+      {
+        "alt": "Accordion item 3",
+        "title": "Accordion item 3",
+        "body": "This is display text 3.<br/><br/>Recap the page’s content in a brief, succinct way by breaking down the key points into headings.<br/><br/><img src='course/en/images/base_assets/pin_point.jpg' alt='alt' title='title'/>"
+      }
+    ],
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
+  {
+    "_id": "c-30",
+    "_parentId": "b-20",
+    "_classes": "",
+    "_type": "component",
+    "_layout": "full",
+    "_component": "narrative",
+    "title": "Narrative",
+    "displayTitle": "Narrative",
+    "body": "The <b>narrative</b> component lets you scroll through a series of images with accompanying text. This is where the initial text and instruction text sits.",
+    "instruction": "<span class='desktop-text'>Select the arrow to find out more.</span><span class='mobile-text'>Select the arrow followed by the plus icon to find out more.</span>",
+    "_items": [
+      {
+        "title": "Narrative item 1",
+        "body": "This is display text 1.<br/><br/>Want to immerse your learners in a case study? Narratives are perfect for this. Let them walk through a character’s story step by step, using both images and text to flesh out the scenario.",
+        "_graphic": {
+          "src": "course/en/images/base_assets/narrative.jpg",
+          "alt": "First graphic"
+        },
+        "strapline": "Narrative item 1"
+      },
+      {
+        "title": "Narrative item 2",
+        "body": "This is display text 2.<br/><br/>These can also be good for breaking down a complex process. Learners can work through the stages at their own pace, and in manageable chunks that give the content space to sink in. We can show sections of a diagram to add context to this too.",
+        "_graphic": {
+          "src": "course/en/images/base_assets/narrative.jpg",
+          "alt": "Second graphic"
+        },
+        "strapline": "Narrative item 2"
+      }
+    ],
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
+  {
+    "_id": "c-35",
+    "_parentId": "b-25",
+    "_classes": "",
+    "_type": "component",
+    "_component": "hotgraphic",
+    "_layout": "full",
+    "title": "Hot graphic",
+    "displayTitle": "Hot graphic",
+    "body": "With a <b>hot graphic</b> you can select icons like these teardrops to reveal more text and an accompanying image. This component will scale down to a narrative when viewed on mobile. This is where the initial text and instruction text sits.",
+    "mobileBody": "This is optional body text that will be shown when viewed on mobile.",
+    "instruction": "Select the icons to find out more.",
+    "_graphic": {
+      "src": "course/en/images/base_assets/pin_point.jpg",
+      "alt": "alt text",
+      "title": "title"
+    },
+    "_items": [
+      {
+        "title": "Hot graphic item 1",
+        "body": "This is display text 1.<br/><br/>Selecting one of the buttons will launch a pop up box, like this. Next to the numbers in the top left you can see navigation arrows. These should allow you to scroll through all the hot graphic items without closing and selecting the other icons.",
+        "_graphic": {
+          "src": "course/en/images/base_assets/narrative.jpg",
+          "alt": "alt text",
+          "title": "title text"
+        },
+        "pinAlt": "Pin 1. Select here to open.",
+        "strapline": "Hot graphic item 1",
+        "_top": 50,
+        "_left": 20
+      },
+      {
+        "title": "Hot graphic item 2",
+        "body": "This is display text 2.<br/><br/>Similar to the narrative, case studies work well here. Use a split screen graphic to show a character in various scenes, then describe the situation in the reveal text boxes. Just be careful not to go into too much detail in the individual boxes – keep it to a short paragraph or two.",
+        "_graphic": {
+          "src": "course/en/images/base_assets/narrative.jpg",
+          "alt": "alt text",
+          "title": "title text"
+        },
+        "pinAlt": "Pin 2. Select here to open.",
+        "strapline": "Hot graphic item 2",
+        "_top": 50,
+        "_left": 60
+      },
+      {
+        "title": "Hot graphic item 3",
+        "body": "This is display text 3.<br/><br/>That’s not all though. Show a process diagram, with learners able to select exact areas of the diagram to find out more. Show a map or landscape and get learners to dive into a particular part of the image. Present a close up of a product and ask learners to discover more about its individual sections.",
+        "_graphic": {
+          "src": "course/en/images/base_assets/narrative.jpg",
+          "alt": "alt text",
+          "title": "title text"
+        },
+        "pinAlt": "Pin 3. Select here to open.",
+        "strapline": "Hot graphic item 3",
+        "_top": 50,
+        "_left": 40
+      }
+    ],
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
+  {
+    "_id": "c-40",
+    "_parentId": "b-30",
+    "_type": "component",
+    "_component": "media",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Title of the media component",
+    "displayTitle": "Title of the media component",
+    "body": "Sometimes static text isn’t enough. Want to add a video of an expert to get learners excited about a subject? Or an animation talking through the crucial points? Say it with a media component and let your learners explore further.",
+    "instruction": "Select the play button to start the video.",
+    "_setCompletionOn": "inview",
+    "_media": {
+      "mp4": "course/en/assets/video/big_buck_bunny.mp4",
+      "ogv": "course/en/assets/video/big_buck_bunny.ogv",
+      "poster": "course/en/images/base_assets/video.jpg",
+      "transcriptLink": "assets/transcript.pdf",
+      "transcriptText": "Transcript"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
+  {
+    "_id": "c-45",
+    "_parentId": "b-35",
+    "_type": "component",
+    "_component": "gmcq",
+    "_classes": "",
+    "_layout": "full",
+    "_attempts": 1,
+    "_questionWeight": 1,
+    "_isRandom": false,
+    "_selectable": 1,
+    "title": "Graphical Multiple Choice Question",
+    "displayTitle": "Graphical Multiple Choice Question",
+    "body": "Graphical MCQs let you set a more visual question for the learner. For example, take a look at the images below – which of them shows the more accurate version of the rocket ship?",
+    "instruction": "Choose an image and select Submit.",
+    "_items": [
+      {
+        "text": "Option 1.",
+        "_shouldBeSelected": true,
+        "_graphic": {
+          "alt": "Alt text for option 1",
+          "large": "course/en/images/base_assets/GMCQ_option.png",
+          "small": "course/en/images/base_assets/GMCQ_option.png"
+        }
+      },
+      {
+        "text": "Option 2.",
+        "_shouldBeSelected": false,
+        "_graphic": {
+          "alt": "Alt text for option 2",
+          "large": "course/en/images/base_assets/GMCQ_option.png",
+          "small": "course/en/images/base_assets/GMCQ_option.png"
+        }
+      },
+      {
+        "text": "Option 3.",
+        "_shouldBeSelected": false,
+        "_graphic": {
+          "alt": "Alt text for option 1",
+          "large": "course/en/images/base_assets/GMCQ_option.png",
+          "small": "course/en/images/base_assets/GMCQ_option.png"
+        }
+      },
+      {
+        "text": "Option 4.",
+        "_shouldBeSelected": false,
+        "_graphic": {
+          "alt": "Alt text for option 1",
+          "large": "course/en/images/base_assets/GMCQ_option.png",
+          "small": "course/en/images/base_assets/GMCQ_option.png"
+        }
+      }
+    ],
+    "_feedback": {
+      "correct": "Correct feedback text.<br/><br/>Congrats, you got the right answer. And that means you’ve received the correct feedback pop up. This is where we explain why this answer was the best fit.<br/><br/>Select the <b>X</b> icon to return to the learning page.",
+      "_incorrect": {
+        "notFinal": "",
+        "final": "Incorrect feedback text.<br/><br/>That’s not right, which means you’ve received the incorrect feedback pop up. This is where we explain why the other option was the best fit.<br/><br/>Select the <b>X</b> icon to return to the learning page."
+      },
+      "_partlyCorrect": {
+        "notFinal": "",
+        "final": "Partly correct feedback text.<br/><br/>That’s not right, which means you’ve received the partly correct feedback pop up. This is where we explain why the other option was the best fit.<br/><br/>Select the <b>X</b> icon to return to the learning page."
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "Submit",
+        "ariaLabel": "Select here to submit your answer."
+      },
+      "_reset": {
+        "buttonText": "Reset",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "Correct Answer",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "My Answer",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "Show feedback",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "attempts remaining",
+      "remainingAttemptText": "final attempt",
+      "disabledAriaLabel": "This button is disabled at the moment"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
+  {
+    "_id": "c-50",
+    "_parentId": "b-40",
+    "_type": "component",
+    "_component": "mcq",
+    "_classes": "",
+    "_layout": "medium",
+    "_attempts": 1,
+    "_questionWeight": 1,
+    "_isRandom": false,
+    "_selectable": 3,
+    "title": "Multiple Choice Question",
+    "displayTitle": "Multiple Choice Question",
+    "body": "Don’t go for frills if the content doesn’t call for it. <b>MCQs</b> let you present learners with a classic, text-based question. Let’s see what type of content you think would fit this component. ",
+    "instruction": "Choose one or more options and select Submit.",
+    "_items": [
+      {
+        "text": " Attention-grabbing statistics (correct)",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "A decision point for a character (correct)",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "A knowledge check point (correct)",
+        "_shouldBeSelected": true
+      }
+    ],
+    "_feedback": {
+      "correct": "Correct feedback text.<br/><br/>Well done, you got that spot on. As with the GMCQ, this feedback pop up will explain why the chosen answers are the right answers.<br/><br/>Select the <b>X</b> icon to return to the learning page.",
+      "_incorrect": {
+        "notFinal": "",
+        "final": "Incorrect feedback text.<br/><br/>That’s not the right answer. As with the GMCQ this feedback pop up will explain which answers are the right answers.<br/><br/>Select the <b>X</b> icon to return to the learning page."
+      },
+      "_partlyCorrect": {
+        "notFinal": "",
+        "final": "Partly correct feedback text.<br/><br/>Not quite. This is partially correct feedback – it will appear when learners get a mix of correct and incorrect answers.<br/><br/>Select the <b>X</b> icon to return to the learning page."
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "Submit",
+        "ariaLabel": "Select here to submit your answer."
+      },
+      "_reset": {
+        "buttonText": "Reset",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "Correct Answer",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "My Answer",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "Show feedback",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "attempts remaining",
+      "remainingAttemptText": "final attempt",
+      "disabledAriaLabel": "This button is disabled at the moment"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
+  {
+    "_id": "c-55",
+    "_parentId": "b-45",
+    "_classes": "",
+    "_layout": "left",
+    "_type": "component",
+    "_component": "matching",
+    "_attempts": 1,
+    "_isRandom": true,
+    "_questionWeight": 10,
+    "title": "Matching",
+    "displayTitle": "Matching",
+    "body": "The <b>matching</b> component lets you match a series of questions or statements with the corresponding options from the dropdown box. Try this out with the questions below.",
+    "instruction": "Choose an option from each drop down list and select Submit",
+    "_buttons": {
+      "_submit": {
+        "buttonText": "Submit",
+        "ariaLabel": "Select here to submit your answer."
+      },
+      "_reset": {
+        "buttonText": "Reset",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "Correct Answer",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "My Answer",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "Show feedback",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "attempts remaining",
+      "remainingAttemptText": "final attempt",
+      "disabledAriaLabel": "This button is disabled at the moment"
+    },
+    "_feedback": {
+      "correct": "Correct answer feedback.<br/><br/>Yes, that’s the right answer. The correct feedback pop up will reinforce why the correct answers are correct.",
+      "_incorrect": {
+        "notFinal": "",
+        "final": "Incorrect answer feedback.<br/><br/>Nearly there. The partially correct feedback pop up will reinforce why the correct answers are correct."
+      },
+      "_partlyCorrect": {
+        "notFinal": "",
+        "final": "Partially correct answer feedback.<br/><br/>Nearly there. The partially correct feedback pop up will reinforce why the correct answers are correct."
+      }
+    },
+    "placeholder": "select an option",
+    "_items": [
+      {
+        "text": "Pick the smallest device",
+        "_options": [
+          {
+            "text": "Desktop",
+            "_isCorrect": false
+          },
+          {
+            "text": "Tablet",
+            "_isCorrect": false
+          },
+          {
+            "text": "Smartphone (correct)",
+            "_isCorrect": true
+          }
+        ]
+      },
+      {
+        "text": "Pick the mid-size device",
+        "_options": [
+          {
+            "text": "Desktop",
+            "_isCorrect": false
+          },
+          {
+            "text": "Tablet (correct)",
+            "_isCorrect": true
+          },
+          {
+            "text": "Smartphone",
+            "_isCorrect": false
+          }
+        ]
+      },
+      {
+        "text": "Pick the largest device",
+        "_options": [
+          {
+            "text": "Desktop (correct)",
+            "_isCorrect": true
+          },
+          {
+            "text": "Tablet",
+            "_isCorrect": false
+          },
+          {
+            "text": "Smartphone",
+            "_isCorrect": false
+          }
+        ]
+      }
+    ],
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
+  {
+    "_id": "c-60",
+    "_parentId": "b-45",
+    "_type": "component",
+    "_component": "textinput",
+    "_classes": "",
+    "_layout": "right",
+    "title": "Text input",
+    "displayTitle": "Text input",
+    "body": "<b>Text input</b> components let learners enter their own answers, which is great for questions that require a bit more flexibility, like those with answers that could be written as both full words and numbers. Let’s test this flexibility out – if A is 1% and 2 is 26%, what are B, C and D? ",
+    "instruction": "Input your answers and select Submit.",
+    "_attempts": 1,
+    "_questionWeight": 10,
+    "placeholder": "Enter answer here",
+    "_allowsAnyCase": true,
+    "_allowsPunctuation": true,
+    "_buttons": {
+      "_submit": {
+        "buttonText": "Submit",
+        "ariaLabel": "Select here to submit your answer."
+      },
+      "_reset": {
+        "buttonText": "Reset",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "Correct Answer",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "My Answer",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "Show feedback",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "attempts remaining",
+      "remainingAttemptText": "final attempt",
+      "disabledAriaLabel": "This button is disabled at the moment"
+    },
+    "_feedback": {
+      "correct": "Correct answer feedback.<br/><br/>Yes, that’s the right answer. The correct feedback pop up will reinforce why the correct answers are correct.",
+      "_incorrect": {
+        "notFinal": "",
+        "final": "Incorrect answer feedback.<br/><br/>Nearly there. The partially correct feedback pop up will reinforce why the correct answers are correct."
+      },
+      "_partlyCorrect": {
+        "notFinal": "",
+        "final": "Partially correct answer feedback.<br/><br/>Nearly there. The partially correct feedback pop up will reinforce why the correct answers are correct."
+      }
+    },
+    "_items": [
+      {
+        "prefix": "B:",
+        "suffix": "%",
+        "_answers": [
+          "2",
+          "two"
+        ]
+      },
+      {
+        "prefix": "C:",
+        "suffix": "%",
+        "_answers": [
+          "3",
+          "three"
+        ]
+      },
+      {
+        "prefix": "D:",
+        "suffix": "%",
+        "_answers": [
+          "4",
+          "four"
+        ]
+      }
+    ],
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
+  {
+    "_id": "c-70",
+    "_parentId": "b-50",
+    "_type": "component",
+    "_component": "slider",
+    "_classes": "",
+    "_layout": "medium",
+    "title": "Slider",
+    "displayTitle": "Slider",
+    "body": "Want the learner to rate something against specific criteria? That’s where the slider comes in, letting you test the learner with a graded scale. To test this out for yourself, have a go at rating, on a scale of 1 to 10, what level of risk is involved with that fin-less rocket ship we showed you earlier.",
+    "instruction": "Drag the slider to make your choice and select Submit.",
+    "_attempts": 1,
+    "_questionWeight": 1,
+    "_showNumber": true,
+    "_showScaleIndicator": true,
+    "labelStart": "incomplete",
+    "labelEnd": "complete",
+    "_scaleStart": 1,
+    "_scaleEnd": 10,
+    "_correctAnswer": "",
+    "_correctRange": {
+      "_bottom": 6,
+      "_top": 10
+    },
+    "_buttons": {
+      "submit": "",
+      "reset": "",
+      "showCorrectAnswer": "",
+      "hideCorrectAnswer": ""
+    },
+    "_feedback": {
+      "correct": "Correct answer feedback.<br/><br/>Yes, that’s the right answer. The correct feedback pop up will reinforce why the correct answers are correct.",
+      "_incorrect": {
+        "notFinal": "",
+        "final": "Incorrect answer feedback.<br/><br/>Nearly there. The partially correct feedback pop up will reinforce why the correct answers are correct."
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
+  {
+    "_id": "c-75",
+    "_parentId": "b-55",
+    "_type": "component",
+    "_component": "hotgrid",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Adapt Hotgrid",
+    "displayTitle": "Adapt Hotgrid",
+    "body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis.",
+    "instruction": "Select the images below to find out more.",
+    "_columns": 3,
+    "_items": [
+      {
+        "title": "Grid Item 1",
+        "body": "This is display text 1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+        "itemAria": "Item 1. Select here to open.",
+        "_graphic": {
+          "src": "course/en/images/base_assets/hot_grid_item_up.png",
+          "srcHover": "course/en/images/base_assets/hot_grid_item_over.png",
+          "srcVisited": "course/en/images/base_assets/hot_grid_item_selected.png",
+          "alt": "",
+          "title": ""
+        },
+        "_itemGraphic": {
+          "src": "course/en/images/base_assets/single_width.jpg",
+          "alt": "alt text"
+        }
+      },
+      {
+        "title": "Grid Item 2",
+        "body": "This is display text 1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+        "itemAria": "Item 2. Select here to open.",
+        "_graphic": {
+          "src": "course/en/images/base_assets/hot_grid_item_up.png",
+          "srcHover": "course/en/images/base_assets/hot_grid_item_over.png",
+          "srcVisited": "course/en/images/base_assets/hot_grid_item_selected.png",
+          "alt": "",
+          "title": ""
+        },
+        "_itemGraphic": {
+          "src": "course/en/images/base_assets/single_width.jpg",
+          "alt": "alt text"
+        }
+      },
+      {
+        "title": "Grid Item 3",
+        "body": "This is display text 1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+        "itemAria": "Item 3. Select here to open.",
+        "_graphic": {
+          "src": "course/en/images/base_assets/hot_grid_item_up.png",
+          "srcHover": "course/en/images/base_assets/hot_grid_item_over.png",
+          "srcVisited": "course/en/images/base_assets/hot_grid_item_selected.png",
+          "alt": "",
+          "title": ""
+        },
+        "_itemGraphic": {
+          "src": "course/en/images/base_assets/single_width.jpg",
+          "alt": "alt text"
+        }
+      },
+      {
+        "title": "Grid Item 4",
+        "body": "This is display text 1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+        "itemAria": "Item 4. Select here to open.",
+        "_graphic": {
+          "src": "course/en/images/base_assets/hot_grid_item_up.png",
+          "srcHover": "course/en/images/base_assets/hot_grid_item_over.png",
+          "srcVisited": "course/en/images/base_assets/hot_grid_item_selected.png",
+          "alt": "",
+          "title": ""
+        },
+        "_itemGraphic": {
+          "src": "course/en/images/base_assets/single_width.jpg",
+          "alt": "alt text"
+        }
+      },
+      {
+        "title": "Grid Item 5",
+        "body": "This is display text 1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+        "itemAria": "Item 5. Select here to open.",
+        "_graphic": {
+          "src": "course/en/images/base_assets/hot_grid_item_up.png",
+          "srcHover": "course/en/images/base_assets/hot_grid_item_over.png",
+          "srcVisited": "course/en/images/base_assets/hot_grid_item_selected.png",
+          "alt": "",
+          "title": ""
+        },
+        "_itemGraphic": {
+          "src": "course/en/images/base_assets/single_width.jpg",
+          "alt": "alt text"
+        }
+      },
+      {
+        "title": "Grid Item 6",
+        "body": "This is display text 1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+        "itemAria": "Item 6. Select here to open.",
+        "_graphic": {
+          "src": "course/en/images/base_assets/hot_grid_item_up.png",
+          "srcHover": "course/en/images/base_assets/hot_grid_item_over.png",
+          "srcVisited": "course/en/images/base_assets/hot_grid_item_selected.png",
+          "alt": "",
+          "title": ""
+        },
+        "_itemGraphic": {
+          "src": "course/en/images/base_assets/single_width.jpg",
+          "alt": "alt text"
+        }
+      }
+    ]
+  },
+  {
+    "_id": "c-90",
+    "_parentId": "b-70",
+    "_type": "component",
+    "_component": "tabs",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Adapt Tabs",
+    "displayTitle": "Adapt Tabs",
+    "body": "Body text.",
+    "instruction": "Select the tabs to find out more.",
+    "_tabLayout": "top",
+    "_items": [
+      {
+        "title": "Tab item 1 title",
+        "body": "This is display text 1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.<br/><br/>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.",
+        "graphic": "course/en/images/base_assets/list_item_selected.png"
+      },
+      {
+        "title": "Tab item 2 title",
+        "body": "This is display text 2. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.",
+        "graphic": "course/en/images/base_assets/list_item_selected.png"
+      },
+      {
+        "title": "Tab item 3 title",
+        "body": "This is display text 3. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.<br/><br/>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.",
+        "graphic": "course/en/images/base_assets/list_item_selected.png"
+      },
+      {
+        "title": "Tab item 4 title",
+        "body": "This is display text 4. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+        "graphic": "course/en/images/base_assets/list_item_selected.png"
+      },
+      {
+        "title": "Tab item 5 title",
+        "body": "This is display text 5. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.<br/><br/>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus.",
+        "graphic": "course/en/images/base_assets/list_item_selected.png"
+      }
+    ]
+  },
+  {
+    "_id": "c-91",
+    "_parentId": "b-71",
+    "_type": "component",
+    "_component": "tabs",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Adapt Tabs",
+    "displayTitle": "Adapt Tabs",
+    "body": "Body text.",
+    "instruction": "Select the tabs to find out more.",
+    "_tabLayout": "left",
+    "_items": [
+      {
+        "title": "Tab item 1 title",
+        "body": "This is display text 1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.<br/><br/>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram.",
+        "graphic": "course/en/images/base_assets/list_item_selected.png"
+      },
+      {
+        "title": "Tab item 2 title",
+        "body": "This is display text 2. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.",
+        "graphic": "course/en/images/base_assets/list_item_selected.png"
+      },
+      {
+        "title": "Tab item 3 title",
+        "body": "This is display text 3. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.<br/><br/>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.",
+        "graphic": "course/en/images/base_assets/list_item_selected.png"
+      },
+      {
+        "title": "Tab item 4 title",
+        "body": "This is display text 4. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+        "graphic": "course/en/images/base_assets/list_item_selected.png"
+      },
+      {
+        "title": "Tab item 5 title",
+        "body": "This is display text 5. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.<br/><br/>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.",
+        "graphic": "course/en/images/base_assets/list_item_selected.png"
+      }
+    ]
+  },
+  {
+    "_id": "c-205",
+    "_parentId": "b-105",
+    "_type": "component",
+    "_component": "text",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Text",
+    "displayTitle": "Text",
+    "body": "This component you're reading is a text component. All components take this form of a title and body - except a blank component. However it's important to realise that title and body attributes are not needed. <br><br>Take for instance the media component opposite or below on a smaller device - has no body attribute. Instead of the HTML being rendered Adapt simply doesn't render it. The title attribute is simply a break tag to push the media component level with the opposite component.",
+    "instruction": "",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
+  {
+    "_id": "c-210",
+    "_parentId": "b-110",
+    "_type": "component",
+    "_component": "text",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Text",
+    "displayTitle": "Text",
+    "body": "This component you're reading is a text component. All components take this form of a title and body - except a blank component. However it's important to realise that title and body attributes are not needed. <br><br>Take for instance the media component opposite or below on a smaller device - has no body attribute. Instead of the HTML being rendered Adapt simply doesn't render it. The title attribute is simply a break tag to push the media component level with the opposite component.",
+    "instruction": "",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
+  {
+    "_id": "c-215",
+    "_parentId": "b-115",
+    "_type": "component",
+    "_component": "mcq",
+    "_classes": "",
+    "_layout": "full",
+    "_attempts": 1,
+    "_questionWeight": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_selectable": 1,
+    "title": "title",
+    "displayTitle": "title",
+    "body": "body",
+    "instruction": "instruction",
+    "_items": [
+      {
+        "text": "true",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "text",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "text",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "text",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_feedback": {
+      "correct": "correct",
+      "_incorrect": {
+        "final": "final"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
+  {
+    "_id": "c-220",
+    "_parentId": "b-120",
+    "_type": "component",
+    "_component": "mcq",
+    "_classes": "",
+    "_layout": "full",
+    "_attempts": 1,
+    "_questionWeight": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_selectable": 1,
+    "title": "title",
+    "displayTitle": "title",
+    "body": "body",
+    "instruction": "instruction",
+    "_items": [
+      {
+        "text": "true",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "text",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "text",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "text",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_feedback": {
+      "correct": "correct",
+      "_incorrect": {
+        "final": "final"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
+  {
+    "_id": "c-225",
+    "_parentId": "b-125",
+    "_type": "component",
+    "_component": "mcq",
+    "_classes": "",
+    "_layout": "full",
+    "_attempts": 1,
+    "_questionWeight": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_selectable": 1,
+    "title": "title",
+    "displayTitle": "title",
+    "body": "body",
+    "instruction": "instruction",
+    "_items": [
+      {
+        "text": "true",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "text",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "text",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "text",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_feedback": {
+      "correct": "correct",
+      "_incorrect": {
+        "final": "final"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
+  {
+    "_id": "c-230",
+    "_parentId": "b-130",
+    "_type": "component",
+    "_component": "mcq",
+    "_classes": "",
+    "_layout": "full",
+    "_attempts": 1,
+    "_questionWeight": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_selectable": 1,
+    "title": "title",
+    "displayTitle": "title",
+    "body": "body",
+    "instruction": "instruction",
+    "_items": [
+      {
+        "text": "true",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "text",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "text",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "text",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_feedback": {
+      "correct": "correct",
+      "_incorrect": {
+        "final": "final"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
+  {
+      "_id": "c-235",
+      "_parentId": "b-135",
+      "_type": "component",
+      "_component": "assessmentResults",
+      "_classes": "",
+      "_layout": "layout",
+      "_isVisibleBeforeCompletion": false,
+      "_assessmentId": "a-35",
+      "title": "assessmentResults",
+      "displayTitle": "assessmentResults",
+      "body": "",
+      "instruction": "instruction",
+      "_retry": {
+          "button": "Retry Assessment",
+          "_comment": "use {{attempts}}, {{attemptsSpent}} and {{attemptsLeft}} to display attempts",
+          "feedback": "feedback"
+      },
+      "_comment": "use {{score}}, {{maxScore}} and {{scoreAsPercent}} to display score and percentage",
+      "_completionBody": "You got {{score}} out of {{maxScore}}. {{{feedback}}}",
+      "_bands": [
+          {
+              "_score": 0,
+              "feedback": "You didn't pass this time!",
+              "_allowRetry": true,
+              "_classes": ""
+          },
+          {
+              "_score": 50,
+              "feedback": "You were close but you didn't pass.",
+              "_allowRetry": true,
+              "_classes": ""
+          },
+          {
+              "_score": 75,
+              "feedback": "Congratulations! You passed!",
+              "_allowRetry": false,
+              "_classes": ""
+          }
+      ],
+      "_pageLevelProgress": {
+          "_isEnabled": true
+      }
+  },
+  {
+    "_id": "c-260",
+    "_parentId": "b-145",
+    "_type": "component",
+    "_component": "graphic",
+    "_classes": "",
+    "_layout": "left",
+    "title": "Graphic",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "alt text",
+      "large": "course/en/images/base_assets/single_width.jpg",
+      "small": "course/en/images/base_assets/single_width.jpg"
+    },
+    "_trigger": {
+      "title": "Title",
+      "body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.<br/><br/> Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.<br/><br/> Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat."
+    }
+  },
+  {
+    "_id": "c-270",
+    "_parentId": "b-145",
+    "_type": "component",
+    "_component": "accordion",
+    "_classes": "",
+    "_layout": "right",
+    "title": "Accordion single width",
+    "displayTitle": "Accordion single width",
+    "body": "<b>Accordion</b> components present learners with a series of clickable headings and associated text.",
+    "instruction": "Select the headings to find out more",
+    "_items": [
+      {
+        "alt": "Accordion item 1",
+        "title": "Accordion item 1",
+        "body": "This is display text 1.<br/><br/>If a list needs expanding on, but doesn’t lend itself to a graphical treatment, this component is perfect. List the key points as headings then explore further in the reveal text."
+      },
+      {
+        "alt": "Accordion item 2",
+        "title": "Accordion item 2",
+        "body": "This is display text 2.<br/><br/>Walk through the steps of an activity in order and then reveal more about them."
+      },
+      {
+        "alt": "Accordion item 3",
+        "title": "Accordion item 3",
+        "body": "This is display text 3.<br/><br/>Recap the page’s content in a brief, succinct way by breaking down the key points into headings."
+      }
+    ],
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_trigger": {
+      "title": "Title",
+      "body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.<br/><br/> Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.<br/><br/> Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat."
+    }
+  },
+  {
+    "_id": "c-280",
+    "_parentId": "b-150",
+    "_classes": "",
+    "_type": "component",
+    "_layout": "full",
+    "_component": "narrative",
+    "title": "Narrative",
+    "displayTitle": "Narrative",
+    "body": "The <b>narrative</b> component lets you scroll through a series of images with accompanying text. This is where the initial text and instruction text sits.",
+    "instruction": "<span class='desktop-text'>Select the arrow to find out more.</span><span class='mobile-text'>Select the arrow followed by the plus icon to find out more.</span>",
+    "_items": [
+      {
+        "title": "Narrative item 1",
+        "body": "This is display text 1.<br/><br/>Want to immerse your learners in a case study? Narratives are perfect for this. Let them walk through a character’s story step by step, using both images and text to flesh out the scenario.",
+        "_graphic": {
+          "src": "course/en/images/base_assets/narrative.jpg",
+          "alt": "First graphic"
+        },
+        "strapline": "Narrative item 1"
+      },
+      {
+        "title": "Narrative item 2",
+        "body": "This is display text 2.<br/><br/>These can also be good for breaking down a complex process. Learners can work through the stages at their own pace, and in manageable chunks that give the content space to sink in. We can show sections of a diagram to add context to this too.",
+        "_graphic": {
+          "src": "course/en/images/base_assets/narrative.jpg",
+          "alt": "Second graphic"
+        },
+        "strapline": "Narrative item 2"
+      }
+    ],
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_trigger": {
+      "title": "Title",
+      "body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.<br/><br/> Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.<br/><br/> Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat."
+    }
+  },
+  {
+    "_id": "c-290",
+    "_parentId": "b-155",
+    "_type": "component",
+    "_component": "slider",
+    "_classes": "",
+    "_layout": "medium",
+    "title": "Slider",
+    "displayTitle": "Slider",
+    "body": "Want the learner to rate something against specific criteria? That’s where the slider comes in, letting you test the learner with a graded scale. To test this out for yourself, have a go at rating, on a scale of 1 to 10, what level of risk is involved with that fin-less rocket ship we showed you earlier.",
+    "instruction": "Drag the slider to make your choice and select Submit.",
+    "_attempts": 1,
+    "_questionWeight": 1,
+    "_showNumber": true,
+    "_showScaleIndicator": true,
+    "labelStart": "incomplete",
+    "labelEnd": "complete",
+    "_scaleStart": 1,
+    "_scaleEnd": 10,
+    "_correctAnswer": "",
+    "_correctRange": {
+      "_bottom": 6,
+      "_top": 10
+    },
+    "_buttons": {
+      "submit": "",
+      "reset": "",
+      "showCorrectAnswer": "",
+      "hideCorrectAnswer": ""
+    },
+    "_feedback": {
+      "correct": "Correct answer feedback.<br/><br/>Yes, that’s the right answer. The correct feedback pop up will reinforce why the correct answers are correct.",
+      "_incorrect": {
+        "notFinal": "",
+        "final": "Incorrect answer feedback.<br/><br/>Nearly there. The partially correct feedback pop up will reinforce why the correct answers are correct."
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_trigger": {
+      "title": "Title",
+      "body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.<br/><br/> Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.<br/><br/> Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat."
+    }
+  },
+  {
+    "_id": "c-295",
+    "_parentId": "b-160",
+    "_type": "component",
+    "_component": "blank",
+    "_classes": "",
+    "_layout": "full",
+    "title": ""
+  }
 ]

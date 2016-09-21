@@ -234,6 +234,65 @@
       "_isEnableNextOnCompletion": false
     }
   },
+    {
+    "_id": "co-30",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "title": "Assessment",
+    "displayTitle": "Assessment",
+    "body": "",
+    "instruction": "Scroll down to see what we have on offer.",
+    "_graphic": {
+      "alt": "Welcome to Adapt Learning",
+      "src": "course/en/images/origami-menu-one.jpg"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "linkText": "View",
+    "duration": "2 mins",
+    "_theme": {
+      "_pageHeader": {
+        "_isEnabled": true,
+        "_layout": "left",
+        "_showScrollButton": true,
+        "_backgroundImage": {
+          "_large": "course/en/images/base_assets/hero_image.jpg",
+          "_medium": "course/en/images/base_assets/hero_image.jpg",
+          "_small": "course/en/images/base_assets/hero_image_mobile.jpg"
+        },
+        "_minimumHeaderHeights": {
+          "_large": 500,
+          "_medium": 500,
+          "_small": 300
+        }
+      }
+    },
+    "_quicknav": {
+      "_isEnabled": true,
+      "_isContinuous": "global",
+      "_buttons": {
+        "_root": {
+          "_isHidden": false,
+          "text": "Menu"
+        },
+        "_up": {
+          "_isHidden": true,
+          "text": "Back to menu"
+        },
+        "_previous": {
+          "_isHidden": false,
+          "text": "Previous"
+        },
+        "_next": {
+          "_isHidden": false,
+          "text": "Next"
+        }
+      },
+      "_isEnableNextOnCompletion": false
+    }
+  },
   {
     "_id": "co-55",
     "_parentId": "course",
@@ -241,7 +300,7 @@
     "_classes": "",
     "title": "Trickle Extension",
     "displayTitle": "Trickle Extension",
-    "body": "Trickle is an extension that requires a learner to complete a block's compoenent(s) before they can progress.",
+    "body": "Trickle is an extension that requires a learner to complete a block's compoenent(s) before they can progress. ",
     "_graphic": {
       "alt": "Welcome to Adapt Learning",
       "src": "course/en/images/origami-menu-one.jpg"

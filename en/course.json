@@ -297,6 +297,12 @@
       }
     ]
   },
+  "_assessment": {
+    "_postTotalScoreToLms": true,
+    "_isPercentageBased": true,
+    "_scoreToPass": 75,
+    "_requireAssessmentPassed": true
+  },
   "_bookmarking": {
     "_isEnabled": true,
     "_level": "component",
