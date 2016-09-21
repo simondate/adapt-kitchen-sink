@@ -239,9 +239,9 @@
     "_parentId": "course",
     "_type": "page",
     "_classes": "",
-    "title": "Trigger Components",
-    "displayTitle": "Trigger Components",
-    "body": "Under construction.",
+    "title": "Trickle Extension",
+    "displayTitle": "Trickle Extension",
+    "body": "Trickle is an extension that requires a learner to complete a block's compoenent(s) before they can progress.",
     "_graphic": {
       "alt": "Welcome to Adapt Learning",
       "src": "course/en/images/origami-menu-one.jpg"
