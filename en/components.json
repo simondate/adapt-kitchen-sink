@@ -14,32 +14,6 @@
             "alt": "alt text",
             "large": "course/en/images/base_assets/single_width.jpg",
             "small": "course/en/images/base_assets/single_width.jpg"
-        },
-        "_componentSpec": {
-            "_browserSupport": {
-                "title": "Browser Support",
-                "minimumSupport": "IE8+",
-                "notes": "Browser Support Notes"
-            },
-            "_accessibilitySupport": {
-                "title": "Accessibility Support",
-                "supported": "AA",
-                "notes": "Accessibility notes"
-            },
-            "_additionalInformation": {
-                "title": "Additional Information",
-                "_additionalInformationItems": [
-                    {
-                        "information": "Information item 1"
-                    },
-                    {
-                        "information": "Information item 2"
-                    },
-                    {
-                        "information": "Information item 3"
-                    }
-                ]
-            }   
         }
     },
     {
@@ -55,32 +29,6 @@
         "instruction": "",
         "_pageLevelProgress": {
             "_isEnabled": true
-        },
-        "_componentSpec": {
-            "_browserSupport": {
-                "title": "Browser Support",
-                "minimumSupport": "IE8+",
-                "notes": "Browser Support Notes"
-            },
-            "_accessibilitySupport": {
-                "title": "Accessibility Support",
-                "supported": "AA",
-                "notes": "Accessibility notes"
-            },
-            "_additionalInformation": {
-                "title": "Additional Information",
-                "_additionalInformationItems": [
-                    {
-                        "information": "Information item 1"
-                    },
-                    {
-                        "information": "Information item 2"
-                    },
-                    {
-                        "information": "Information item 3"
-                    }
-                ]
-            }   
         }
     },
     {
@@ -98,32 +46,6 @@
             "alt": "alt text",
             "large": "course/en/images/base_assets/single_width.jpg",
             "small": "course/en/images/base_assets/single_width.jpg"
-        },
-        "_componentSpec": {
-            "_browserSupport": {
-                "title": "Browser Support",
-                "minimumSupport": "IE8+",
-                "notes": "Browser Support Notes"
-            },
-            "_accessibilitySupport": {
-                "title": "Accessibility Support",
-                "supported": "AA",
-                "notes": "Accessibility notes"
-            },
-            "_additionalInformation": {
-                "title": "Additional Information",
-                "_additionalInformationItems": [
-                    {
-                        "information": "Information item 1"
-                    },
-                    {
-                        "information": "Information item 2"
-                    },
-                    {
-                        "information": "Information item 3"
-                    }
-                ]
-            }   
         }
     },
     {
@@ -156,32 +78,6 @@
         ],
         "_pageLevelProgress": {
             "_isEnabled": true
-        },
-        "_componentSpec": {
-            "_browserSupport": {
-                "title": "Browser Support",
-                "minimumSupport": "IE8+",
-                "notes": "Browser Support Notes"
-            },
-            "_accessibilitySupport": {
-                "title": "Accessibility Support",
-                "supported": "AA",
-                "notes": "Accessibility notes"
-            },
-            "_additionalInformation": {
-                "title": "Additional Information",
-                "_additionalInformationItems": [
-                    {
-                        "information": "Information item 1"
-                    },
-                    {
-                        "information": "Information item 2"
-                    },
-                    {
-                        "information": "Information item 3"
-                    }
-                ]
-            }   
         }
     },
     {
@@ -214,32 +110,6 @@
         ],
         "_pageLevelProgress": {
             "_isEnabled": true
-        },
-        "_componentSpec": {
-            "_browserSupport": {
-                "title": "Browser Support",
-                "minimumSupport": "IE8+",
-                "notes": "Browser Support Notes"
-            },
-            "_accessibilitySupport": {
-                "title": "Accessibility Support",
-                "supported": "AA",
-                "notes": "Accessibility notes"
-            },
-            "_additionalInformation": {
-                "title": "Additional Information",
-                "_additionalInformationItems": [
-                    {
-                        "information": "Information item 1"
-                    },
-                    {
-                        "information": "Information item 2"
-                    },
-                    {
-                        "information": "Information item 3"
-                    }
-                ]
-            }   
         }
     },
     {
@@ -275,32 +145,6 @@
         ],
         "_pageLevelProgress": {
             "_isEnabled": true
-        },
-        "_componentSpec": {
-            "_browserSupport": {
-                "title": "Browser Support",
-                "minimumSupport": "IE8+",
-                "notes": "Browser Support Notes"
-            },
-            "_accessibilitySupport": {
-                "title": "Accessibility Support",
-                "supported": "AA",
-                "notes": "Accessibility notes"
-            },
-            "_additionalInformation": {
-                "title": "Additional Information",
-                "_additionalInformationItems": [
-                    {
-                        "information": "Information item 1"
-                    },
-                    {
-                        "information": "Information item 2"
-                    },
-                    {
-                        "information": "Information item 3"
-                    }
-                ]
-            }   
         }
     },
     {
@@ -363,32 +207,6 @@
         ],
         "_pageLevelProgress": {
             "_isEnabled": true
-        },
-        "_componentSpec": {
-            "_browserSupport": {
-                "title": "Browser Support",
-                "minimumSupport": "IE8+",
-                "notes": "Browser Support Notes"
-            },
-            "_accessibilitySupport": {
-                "title": "Accessibility Support",
-                "supported": "AA",
-                "notes": "Accessibility notes"
-            },
-            "_additionalInformation": {
-                "title": "Additional Information",
-                "_additionalInformationItems": [
-                    {
-                        "information": "Information item 1"
-                    },
-                    {
-                        "information": "Information item 2"
-                    },
-                    {
-                        "information": "Information item 3"
-                    }
-                ]
-            }   
         }
     },
     {
@@ -412,32 +230,6 @@
         },
         "_pageLevelProgress": {
             "_isEnabled": true
-        },
-        "_componentSpec": {
-            "_browserSupport": {
-                "title": "Browser Support",
-                "minimumSupport": "IE8+",
-                "notes": "Browser Support Notes"
-            },
-            "_accessibilitySupport": {
-                "title": "Accessibility Support",
-                "supported": "AA",
-                "notes": "Accessibility notes"
-            },
-            "_additionalInformation": {
-                "title": "Additional Information",
-                "_additionalInformationItems": [
-                    {
-                        "information": "Information item 1"
-                    },
-                    {
-                        "information": "Information item 2"
-                    },
-                    {
-                        "information": "Information item 3"
-                    }
-                ]
-            }   
         }
     },
     {
@@ -531,32 +323,6 @@
         },
         "_pageLevelProgress": {
             "_isEnabled": true
-        },
-        "_componentSpec": {
-            "_browserSupport": {
-                "title": "Browser Support",
-                "minimumSupport": "IE8+",
-                "notes": "Browser Support Notes"
-            },
-            "_accessibilitySupport": {
-                "title": "Accessibility Support",
-                "supported": "AA",
-                "notes": "Accessibility notes"
-            },
-            "_additionalInformation": {
-                "title": "Additional Information",
-                "_additionalInformationItems": [
-                    {
-                        "information": "Information item 1"
-                    },
-                    {
-                        "information": "Information item 2"
-                    },
-                    {
-                        "information": "Information item 3"
-                    }
-                ]
-            }   
         }
     },
     {
@@ -626,32 +392,6 @@
         },
         "_pageLevelProgress": {
             "_isEnabled": true
-        },
-        "_componentSpec": {
-            "_browserSupport": {
-                "title": "Browser Support",
-                "minimumSupport": "IE8+",
-                "notes": "Browser Support Notes"
-            },
-            "_accessibilitySupport": {
-                "title": "Accessibility Support",
-                "supported": "AA",
-                "notes": "Accessibility notes"
-            },
-            "_additionalInformation": {
-                "title": "Additional Information",
-                "_additionalInformationItems": [
-                    {
-                        "information": "Information item 1"
-                    },
-                    {
-                        "information": "Information item 2"
-                    },
-                    {
-                        "information": "Information item 3"
-                    }
-                ]
-            }   
         }
     },
     {
@@ -760,32 +500,6 @@
         ],
         "_pageLevelProgress": {
             "_isEnabled": true
-        },
-        "_componentSpec": {
-            "_browserSupport": {
-                "title": "Browser Support",
-                "minimumSupport": "IE8+",
-                "notes": "Browser Support Notes"
-            },
-            "_accessibilitySupport": {
-                "title": "Accessibility Support",
-                "supported": "AA",
-                "notes": "Accessibility notes"
-            },
-            "_additionalInformation": {
-                "title": "Additional Information",
-                "_additionalInformationItems": [
-                    {
-                        "information": "Information item 1"
-                    },
-                    {
-                        "information": "Information item 2"
-                    },
-                    {
-                        "information": "Information item 3"
-                    }
-                ]
-            }   
         }
     },
     {
@@ -868,32 +582,6 @@
         ],
         "_pageLevelProgress": {
             "_isEnabled": true
-        },
-        "_componentSpec": {
-            "_browserSupport": {
-                "title": "Browser Support",
-                "minimumSupport": "IE8+",
-                "notes": "Browser Support Notes"
-            },
-            "_accessibilitySupport": {
-                "title": "Accessibility Support",
-                "supported": "AA",
-                "notes": "Accessibility notes"
-            },
-            "_additionalInformation": {
-                "title": "Additional Information",
-                "_additionalInformationItems": [
-                    {
-                        "information": "Information item 1"
-                    },
-                    {
-                        "information": "Information item 2"
-                    },
-                    {
-                        "information": "Information item 3"
-                    }
-                ]
-            }   
         }
     },
     {
@@ -935,106 +623,6 @@
         },
         "_pageLevelProgress": {
             "_isEnabled": true
-        },
-        "_componentSpec": {
-            "_browserSupport": {
-                "title": "Browser Support",
-                "minimumSupport": "IE8+",
-                "notes": "Browser Support Notes"
-            },
-            "_accessibilitySupport": {
-                "title": "Accessibility Support",
-                "supported": "AA",
-                "notes": "Accessibility notes"
-            },
-            "_additionalInformation": {
-                "title": "Additional Information",
-                "_additionalInformationItems": [
-                    {
-                        "information": "Information item 1"
-                    },
-                    {
-                        "information": "Information item 2"
-                    },
-                    {
-                        "information": "Information item 3"
-                    }
-                ]
-            }   
-        }
-    },
-    {
-        "_id":"c-71",
-        "_parentId":"b-51",
-        "_type":"component",
-        "_component":"confidenceSlider",
-        "_classes":"",
-        "_layout":"medium",
-        "axisLabel":  "Confidence",
-        "_scale": {
-            "labels": {
-                "low": "Not confident",
-                "high": "Totally confident"
-            },
-            "_low": 1,
-            "_high": 10,
-            "_showNumberValues": "all",
-            "_snapToNumbers": true
-        },
-        "title": "Confidence Slider",
-        "displayTitle": "Confidence Slider",
-        "body": "Although presented like a question component, this component is actually a way to guage user confidence, rather than getting a right/wrong answer. Measure your starting confidence, and then select Submit.",
-        "_feedback": {
-            "feedbackSeparator": " ",
-            "generic": "Thanks for measuring your confidence.",
-            "_threshold": [
-                {
-                    "_values": {
-                        "_low": 1,
-                        "_high": 5
-                    },
-                    "text": "So you're not that confident eh? Don't worry, you will be soon."
-                },
-                {
-                    "_values": {
-                        "_low": 6,
-                        "_high": 10
-                    },
-                    "text": "Feeling pretty confident huh? Let's see how you get on."
-                }
-            ]
-        },
-        "buttons": {
-            "submit": ""
-        },
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        },
-        "_componentSpec": {
-            "_browserSupport": {
-                "title": "Browser Support",
-                "minimumSupport": "IE8+",
-                "notes": "Browser Support Notes"
-            },
-            "_accessibilitySupport": {
-                "title": "Accessibility Support",
-                "supported": "AA",
-                "notes": "Accessibility notes"
-            },
-            "_additionalInformation": {
-                "title": "Additional Information",
-                "_additionalInformationItems": [
-                    {
-                        "information": "Information item 1"
-                    },
-                    {
-                        "information": "Information item 2"
-                    },
-                    {
-                        "information": "Information item 3"
-                    }
-                ]
-            }   
         }
     },
     {
@@ -1146,120 +734,7 @@
                     "alt": "alt text"
                 }
             }
-        ],
-        "_componentSpec": {
-            "_browserSupport": {
-                "title": "Browser Support",
-                "minimumSupport": "IE8+",
-                "notes": "Browser Support Notes"
-            },
-            "_accessibilitySupport": {
-                "title": "Accessibility Support",
-                "supported": "AA",
-                "notes": "Accessibility notes"
-            },
-            "_additionalInformation": {
-                "title": "Additional Information",
-                "_additionalInformationItems": [
-                    {
-                        "information": "Information item 1"
-                    },
-                    {
-                        "information": "Information item 2"
-                    },
-                    {
-                        "information": "Information item 3"
-                    }
-                ]
-            }   
-        }
-    },
-    {
-        "_id":"c-80",
-        "_parentId":"b-60",
-        "_type":"component",
-        "_component":"fluidLayout",
-        "_classes":"component-background",
-        "_layout":"full",
-        "title":"Fluid Layout",
-        "displayTitle":"Fluid Layout",
-        "body":"<img class='top-right' src='course/en/images/gqcq-1-small.gif'/>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.<br><br> Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.<br><br> Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.<img class='left' src='course/en/images/gqcq-1-small.gif'/>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.<br><br> Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.<br><br> Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.<br><br> Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.",
-        "instruction":"",
-        "_text-align": "left",
-        "_componentSpec": {
-            "_browserSupport": {
-                "title": "Browser Support",
-                "minimumSupport": "IE8+",
-                "notes": "Browser Support Notes"
-            },
-            "_accessibilitySupport": {
-                "title": "Accessibility Support",
-                "supported": "AA",
-                "notes": "Accessibility notes"
-            },
-            "_additionalInformation": {
-                "title": "Additional Information",
-                "_additionalInformationItems": [
-                    {
-                        "information": "Information item 1"
-                    },
-                    {
-                        "information": "Information item 2"
-                    },
-                    {
-                        "information": "Information item 3"
-                    }
-                ]
-            }   
-        }
-    },
-    {
-        "_id":"c-85",
-        "_parentId":"b-65",
-        "_type":"component",
-        "_component":"nativeMedia",
-        "_classes":"",
-        "_layout":"full",
-        "title":"Native Media",
-        "displayTitle":"Native Media",
-        "body":"A native media component.",
-        "instruction":"",
-        "_setCompletionOn":"inview",
-        "_media": {
-            "mp4": "course/en/video/big_buck_bunny.mp4",
-            "ogv": "course/en/video/big_buck_bunny.ogv",
-            "poster": "course/en/video/big_buck_bunny-large.jpg"
-        },
-        "_transcript": {
-            "button": "Transcript",
-            "body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum."
-        },
-        "_componentSpec": {
-            "_browserSupport": {
-                "title": "Browser Support",
-                "minimumSupport": "IE8+",
-                "notes": "Browser Support Notes"
-            },
-            "_accessibilitySupport": {
-                "title": "Accessibility Support",
-                "supported": "AA",
-                "notes": "Accessibility notes"
-            },
-            "_additionalInformation": {
-                "title": "Additional Information",
-                "_additionalInformationItems": [
-                    {
-                        "information": "Information item 1"
-                    },
-                    {
-                        "information": "Information item 2"
-                    },
-                    {
-                        "information": "Information item 3"
-                    }
-                ]
-            }   
-        }
+        ]
     },
     {
         "_id":"c-90",
@@ -1299,27 +774,7 @@
                 "body": "This is display text 5. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.<br/><br/>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus.",
                 "graphic": "course/en/images/base_assets/list_item_selected.png"
             }
-        ],
-        "_componentSpec": {
-            "_browserSupport": {
-                "title": "Browser Support",
-                "minimumSupport": "IE9+",
-                "notes": "Browser Support Notes"
-            },
-            "_accessibilitySupport": {
-                "title": "Accessibility Support",
-                "supported": "AA",
-                "notes": "Accessibility notes"
-            },
-            "_additionalInformation": {
-                "title": "Additional Information",
-                "_additionalInformationItems": [
-                    {
-                        "information": "Tabs set to top layout."
-                    }
-                ]
-            }   
-        }
+        ]
     },
     {
         "_id":"c-91",
@@ -1359,527 +814,7 @@
                 "body": "This is display text 5. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.<br/><br/>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.",
                 "graphic": "course/en/images/base_assets/list_item_selected.png"
             }
-        ],
-        "_componentSpec": {
-            "_browserSupport": {
-                "title": "Browser Support",
-                "minimumSupport": "IE9+",
-                "notes": "Browser Support Notes"
-            },
-            "_accessibilitySupport": {
-                "title": "Accessibility Support",
-                "supported": "AA",
-                "notes": "Accessibility notes"
-            },
-            "_additionalInformation": {
-                "title": "Additional Information",
-                "_additionalInformationItems": [
-                    {
-                        "information": "Tabs set to left layout."
-                    }
-                ]
-            }   
-        }
-    },
-    {
-        "_id": "c-100",
-        "_parentId":"b-80",
-        "_type":"component",
-        "_classes": "",
-        "_layout": "full",
-        "_component": "youtube",
-        "title": "Youtube",
-        "displayTitle": "Youtube",
-        "body": "Youtube component",
-        "instruction":"Click play to watch.",
-        "_setCompletionOn": "play",
-        "_media": {
-            "_source": "https://www.youtube.com/embed/YiQWgWiwBqc",
-            "_isAutoPlay": false,
-            "_isShowRelated": false,
-            "_isLoop": false,
-            "_isKeyboardDisabled": false,
-            "_isModestBranding": true,
-            "_isHD": true,
-            "_isShowClosedCaptions": true,
-            "_isAutoHideControls": true,
-            "_isAllowFullscreen": true,
-            "_progressColor": "red",
-            "_isLightTheme": true
-        },
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        },
-        "_componentSpec": {
-            "_browserSupport": {
-                "title": "Browser Support",
-                "minimumSupport": "IE8+",
-                "notes": "Browser Support Notes"
-            },
-            "_accessibilitySupport": {
-                "title": "Accessibility Support",
-                "supported": "AA",
-                "notes": "Accessibility notes"
-            },
-            "_additionalInformation": {
-                "title": "Additional Information",
-                "_additionalInformationItems": [
-                    {
-                        "information": "Information item 1"
-                    },
-                    {
-                        "information": "Information item 2"
-                    },
-                    {
-                        "information": "Information item 3"
-                    }
-                ]
-            }   
-        }
-    },
-    {
-        "_id":"c-105",
-        "_parentId":"b-85",
-        "_type":"component",
-        "_component": "narrativestrip",
-        "_classes":"",
-        "_layout":"left",
-        "title": "Graphic Strip",
-        "displayTitle": "Graphic Strip",
-        "body": "Graphic that strips.",
-        "instruction":"Instruction text",
-        "_images": [
-            {
-                "_id": 1,
-                "src": "course/en/images/base_assets/graphic_strip_1.jpg",
-                "alt": "",
-                "title": ""
-            },
-            {
-                "_id": 2,
-                "src": "course/en/images/base_assets/graphic_strip_2.jpg",
-                "alt": "",
-                "title": ""
-            },
-            {
-                "_id": 3,
-                "src": "course/en/images/base_assets/graphic_strip_3.jpg",
-                "alt": "",
-                "title": ""
-            },
-            {
-                "_id": 4,
-                "src": "course/en/images/base_assets/graphic_strip_3.jpg",
-                "alt": "",
-                "title": ""
-            }
-        ],
-        "_items": [
-            {
-                "_id": "top",
-                "_initialItemIndex": 1,
-                "_subItems": [
-                    {
-                        "_imageId": 1,
-                        "strapline": "Top 1"
-                    },
-                    {
-                        "_imageId": 3,
-                        "strapline": "Top 3"
-                    },
-                    {
-                        "_imageId": 4,
-                        "strapline": "Top 4"
-                    },
-                    {
-                        "_imageId": 2,
-                        "strapline": "Top 2"
-                    }
-                ]
-            },
-            {
-                "_id": "middle",
-                "_initialItemIndex": 1,
-                "_subItems": [
-                    {
-                        "_imageId": 2,
-                        "strapline": "Middle 2"
-                    },
-                    {
-                        "_imageId": 1,
-                        "strapline": "Middle 1"
-                    },
-                    {
-                        "_imageId": 3,
-                        "strapline": "Middle 3"
-                    },
-                    {
-                        "_imageId": 4,
-                        "strapline": "Middle 4"
-                    }
-                ]
-            },
-            {
-                "_id": "bottom",
-                "_initialItemIndex": 1,
-                "_subItems": [
-                    {
-                        "_imageId": 4,
-                        "strapline": "Bottom 4"
-                    },
-                    {
-                        "_imageId": 1,
-                        "strapline": "Bottom 1"
-                    },
-                    {
-                        "_imageId": 2,
-                        "strapline": "Bottom 2"
-                    },
-                    {
-                        "_imageId": 3,
-                        "strapline": "Bottom 3"
-                    }
-                ]
-            }
-        ],
-        "_pageLevelProgress": {
-            "_isEnabled": false
-        },
-        "_componentSpec": {
-            "_browserSupport": {
-                "title": "Browser Support",
-                "minimumSupport": "IE8+",
-                "notes": "Browser Support Notes"
-            },
-            "_accessibilitySupport": {
-                "title": "Accessibility Support",
-                "supported": "AA",
-                "notes": "Accessibility notes"
-            },
-            "_additionalInformation": {
-                "title": "Additional Information",
-                "_additionalInformationItems": [
-                    {
-                        "information": "Information item 1"
-                    },
-                    {
-                        "information": "Information item 2"
-                    },
-                    {
-                        "information": "Information item 3"
-                    }
-                ]
-            }   
-        }
-    },
-    {
-        "_id":"c-200",
-        "_parentId":"b-100",
-        "_type":"component",
-        "_component":"ppq",
-        "_classes":"",
-        "_layout":"full",
-        "title":"PPQ",
-        "displayTitle":"PPQ",
-        "body":"Pin point questions (or PPQs) are full scale graphics which learners can place pins onto to give their answer. They do this by selecting an area of the image. Try it out now – where on the globe do you think the UK, Italy and India sit?",
-        "instruction":"<span class='no-touch-text'>Click the areas of the image you want to drop a pin onto and select Submit</span><span class='touch-text'>Tap the areas of the image you want to drop a pin onto and select Submit.</span>",
-        "_isResetOnRevisit": false,
-        "_attempts":1,
-        "_questionWeight":1,
-        "_developerMode":false,
-        "_pinboardDesktop": {
-            "src": "course/en/images/base_assets/pin_point.jpg",
-            "alt": "alt text",
-            "title": "title text"
-        },
-        "_pinboardMobile": {
-            "src": "course/en/images/base_assets/pin_point.jpg",
-            "alt": "alt text",
-            "title": "title text"
-        },
-        "_items": [
-            {
-                "desktop": {
-                    "left": 0,
-                    "top": 0,
-                    "width": 45,
-                    "height": 45 
-                },
-                "mobile": {
-                    "left": 0,
-                    "top": 0,
-                    "width": 45,
-                    "height": 45 
-                }
-            },
-            {
-                "desktop": {
-                    "left": 62,
-                    "top": 62,
-                    "width": 38,
-                    "height": 38 
-                },
-                "mobile": {
-                    "left": 62,
-                    "top": 62,
-                    "width": 38,
-                    "height": 38 
-                }
-            },
-            {
-                "desktop": {
-                    "left": 75,
-                    "top": 0,
-                    "width": 25,
-                    "height": 25 
-                },
-                "mobile": {
-                    "left": 75,
-                    "top": 0,
-                    "width": 25,
-                    "height": 25 
-                }
-            }
-        ],
-        "_feedback": {
-            "correct": "Correct answer feedback.<br/><br/>Well done, that’s right. This feedback pop up will give more information on why learners are correct in their choices.",
-            "_incorrect": {
-                "notFinal": "",
-                "final": "Incorrect answer feedback.<br/><br/>That’s not right. This incorrect feedback pop up will give more information on where the pins should have been placed."
-            },
-            "_partlyCorrect": {
-                "notFinal": "",
-                "final": "Partially correct answer feedback.<br/><br/>Almost. This partially correct feedback pop up will give more information on where the pins should have been placed."
-            }
-        },
-        "_buttons":{
-            "submit":"Submit",
-            "reset":"Reset",
-            "showCorrectAnswer":"Model Answer",
-            "hideCorrectAnswer":"Your Answer"
-        }, 
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        },
-        "_componentSpec": {
-            "_browserSupport": {
-                "title": "Browser Support",
-                "minimumSupport": "IE8+",
-                "notes": "Browser Support Notes"
-            },
-            "_accessibilitySupport": {
-                "title": "Accessibility Support",
-                "supported": "AA",
-                "notes": "Accessibility notes"
-            },
-            "_additionalInformation": {
-                "title": "Additional Information",
-                "_additionalInformationItems": [
-                    {
-                        "information": "Information item 1"
-                    },
-                    {
-                        "information": "Information item 2"
-                    },
-                    {
-                        "information": "Information item 3"
-                    }
-                ]
-            }   
-        }
-    },
-    {
-        "_id": "c-202",
-        "_parentId": "b-102",
-        "_type": "component",
-        "_component": "timed-sequence",
-        "_classes": "",
-        "_layout": "left",
-        "title": "Timed sequence",
-        "displayTitle": "Timed sequence",
-        "body": "Body text",
-        "instruction": "Press start to begin. When the sequence has started press the ID button if the person in the image requires ID. Correct answers are image two and four.",
-        "_questionWeight": 1,
-        "_timerInterval": 3,
-        "_answerLeniency": 1,
-        "_startGraphic": {
-            "src": "assets/start-image.jpg",
-            "alt": "",
-            "title": ""
-        },
-        "_endGraphic": {
-            "src": "assets/end-image.jpg",
-            "alt": "",
-            "title": ""
-        },
-        "_controls": {
-            "start": "Start",
-            "answer": "ID",
-            "complete": "Completed!"
-        },
-        "_items": [
-            {
-                "_shouldBeSelected": false,
-                "_graphic": {
-                    "src": "assets/first-image.jpg",
-                    "alt": "",
-                    "title": ""
-                }
-            },
-            {
-                "_shouldBeSelected": true,
-                "_graphic": {
-                    "src": "assets/second-image.jpg",
-                    "alt": "",
-                    "title": ""
-                }
-            },
-            {
-                "_shouldBeSelected": false,
-                "_graphic": {
-                    "src": "assets/third-image.jpg",
-                    "alt": "",
-                    "title": ""
-                }
-            },
-            {
-                "_shouldBeSelected": true,
-                "_graphic": {
-                    "src": "assets/fourth-image.jpg",
-                    "alt": "",
-                    "title": ""
-                }
-            },
-            {
-                "_shouldBeSelected": false,
-                "_graphic": {
-                    "src": "assets/fifth-image.jpg",
-                    "alt": "",
-                    "title": ""
-                }
-            }
-        ],
-        "_feedback": {
-            "correct": "Correct feedback.",
-            "_partlyCorrect": {
-                "final": "Partly correct feedback."
-            },
-            "_incorrect": {
-                "final": "Incorrect feedback."
-            }
-        },
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        },
-        "_componentSpec": {
-            "_browserSupport": {
-                "title": "Browser Support",
-                "minimumSupport": "IE8+",
-                "notes": "Browser Support Notes"
-            },
-            "_accessibilitySupport": {
-                "title": "Accessibility Support",
-                "supported": "AA",
-                "notes": "Accessibility notes"
-            },
-            "_additionalInformation": {
-                "title": "Additional Information",
-                "_additionalInformationItems": [
-                    {
-                        "information": "Information item 1"
-                    },
-                    {
-                        "information": "Information item 2"
-                    },
-                    {
-                        "information": "Information item 3"
-                    }
-                ]
-            }   
-        }
-    },
-    {
-        "_id":"c-203",
-        "_parentId":"b-102",
-        "_type":"component",
-        "_component":"shallowBranchingMCQ",
-        "_classes":"",
-        "_layout":"right",
-        "_attempts":2,
-        "_questionWeight":1,
-        "_isRandom":false,
-        "_selectable":1,
-        "_shouldAutoReset": true,
-        "title": "Shallow Branching MCQ",
-        "displayTitle": "Shallow Branching MCQ",
-        "body": "Which of the following options would you consider to be correct?",
-        "instruction": "",
-        "_items": [
-            {
-                "text": "This is option 1.",
-                "_shouldBeSelected":true,
-                "questionStem": "Option one question stem",
-                "feedback": "Option one feedback"
-            },
-            {
-                "text": "This is option 2.",
-                "_shouldBeSelected":false,
-                "questionStem": "Option two question stem",
-                "feedback": "Option two feedback"
-            },
-            {
-                "text": "This is option 3.",
-                "_shouldBeSelected":false,
-                "questionStem": "Option three question stem",
-                "feedback": "Option three feedback"
-            }
-        ],
-        "_feedback":{
-            "correct":"This is the instruction that is appended to bottom of <strong>correct</strong> feedback",
-            "_incorrect": {
-                "notFinal": "This is the instruction that is appended to bottom of option specific feedback, on <strong>incorrect 1st attempt</strong>",
-                "final": "This is the instruction that is appended to bottom of option specific feedback. on <strong>incorrect 2nd attempt</strong>"
-            },
-            "_partlyCorrect": {
-                "notFinal": "",
-                "final": "This feedback will appear if you answered part of the question correctly."
-          }
-        },
-        "_buttons":{
-            "submit":"",
-            "reset":"",
-            "showCorrectAnswer":"",
-            "hideCorrectAnswer":""
-        },
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        },
-        "_componentSpec": {
-            "_browserSupport": {
-                "title": "Browser Support",
-                "minimumSupport": "IE8+",
-                "notes": "Browser Support Notes"
-            },
-            "_accessibilitySupport": {
-                "title": "Accessibility Support",
-                "supported": "AA",
-                "notes": "Accessibility notes"
-            },
-            "_additionalInformation": {
-                "title": "Additional Information",
-                "_additionalInformationItems": [
-                    {
-                        "information": "Information item 1"
-                    },
-                    {
-                        "information": "Information item 2"
-                    },
-                    {
-                        "information": "Information item 3"
-                    }
-                ]
-            }   
-        }
+        ]
     },
     {
         "_id": "c-205",
@@ -1944,21 +879,6 @@
     {
         "_id": "c-225",
         "_parentId": "b-125",
-        "_type": "component",
-        "_component": "text",
-        "_classes": "",
-        "_layout": "full",
-        "title": "Text",
-        "displayTitle": "Under construction",
-        "body": "This component you're reading is a text component. All components take this form of a title and body - except a blank component. However it's important to realise that title and body attributes are not needed. <br><br>Take for instance the media component opposite or below on a smaller device - has no body attribute. Instead of the HTML being rendered Adapt simply doesn't render it. The title attribute is simply a break tag to push the media component level with the opposite component.",
-        "instruction": "",
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        }
-    },
-    {
-        "_id": "c-230",
-        "_parentId": "b-130",
         "_type": "component",
         "_component": "text",
         "_classes": "",

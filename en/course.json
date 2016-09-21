@@ -1,4 +1,69 @@
 {
+    "_globals": {
+        "_components": {
+            "_accordion": {
+                "ariaRegion": "This component is an accordion comprised of collapsible content panels containing display text. Select the item titles to toggle the visibility of these content panels."
+            },
+            "_gmcq": {
+                "ariaRegion": "This component is a graphical multiple choice question. Once you have selected an option select the submit button below."
+            },
+            "_graphic": {
+                "ariaRegion": ""
+            },
+            "_hotgraphic": {
+                "ariaRegion": "Below is a component which allows you to select hot spots over an image. Select a hot spot to trigger a popup that includes an image with display text. Select the close button to close the popup.",
+                "ariaPopupLabel": "Hotgraphic popup"
+            },
+            "_matching": {
+                "ariaRegion": "This question component requires you to select the matching answer from a drop down list below. When you have selected your answers select the submit button."
+            },
+            "_mcq": {
+                "ariaRegion": "This component is a multiple choice question. Once you have selected an option select the submit button below"
+            },
+            "_media": {
+                "ariaRegion": "This is a media component which plays a video. Select the play / pause button to watch or listen.",
+                "transcriptButton": "Alternatively you can select the link below for the transcript."
+            },
+            "_narrative": {
+                "ariaRegion": "This component displays an image gallery with accompanying text. Use the next and back navigation controls to work through the narrative."
+            },
+            "_slider": {
+                "ariaRegion": "This component requires you to answer the question by selecting the relevant value. After selecting a value select the submit button below."
+            },
+            "_text": {
+                "ariaRegion": ""
+            },
+            "_textinput": {
+                "ariaRegion": "This question component requires you to input your answer in the textbox provided. When you have answered the question select the submit button below."
+            },
+            "_hotgrid": {
+                "ariaRegion": "This component contains selectable grid items. Select an item to trigger a popup that includes an image with display text. Select the close button to close the popup."
+            },
+            "_tabs": {
+                "ariaRegion": "A tabbed content container. Content can be text, graphic or both."
+            }
+        },
+        "_extensions": {
+            "_close": {
+                "closeButton": "Select here to close the window."
+            },
+            "_pageLevelProgress": {
+                "pageLevelProgress": "Page sections",
+                "pageLevelProgressIndicatorBar": "Progress bar. Select here to view your current progress, and select an item to navigate to it. You have completed ",
+                "pageLevelProgressMenuBar": "You have completed ",
+                "pageLevelProgressEnd": "You have reached the end of the list of page sections.",
+                "optionalContent": "Optional Content"
+            }
+        },
+        "_menu": {
+            "_boxmenu": {
+                "ariaRegion": "Menu",
+                "durationLabel": "Duration:",
+                "menuItem": "Menu item.",
+                "menuEnd": "You have reached the end of the menu."
+            }
+        }
+    },
     "_id": "course",
     "_type": "course",
     "title": "Adapt Kitchen Sink",
@@ -19,7 +84,7 @@
         "_tooltipsAlwaysVisible": false,
         "_back": {
             "_isEnabled": true,
-            "_class":"navigation-back-button",
+            "_class": "navigation-back-button",
             "_iconTypeClass": "icon-controls-small-left",
             "_tooltip": "Back",
             "_showTooltip": true,
@@ -28,7 +93,7 @@
         },
         "_menu": {
             "_isEnabled": true,
-            "_class":"navigation-menu-button",
+            "_class": "navigation-menu-button",
             "_iconTypeClass": "icon-home",
             "_tooltip": "Menu",
             "_showTooltip": true,
@@ -38,12 +103,12 @@
         "_title": {
             "_isEnabled": true,
             "_text": "Adapt Learning",
-            "_class":"navigation-title",
+            "_class": "navigation-title",
             "_layout": "left"
         },
         "_drawer": {
             "_isEnabled": true,
-            "_class":"navigation-drawer-toggle-button",
+            "_class": "navigation-drawer-toggle-button",
             "_iconTypeClass": "icon-list",
             "_tooltip": "Drawer",
             "_showTooltip": true,
@@ -56,14 +121,14 @@
                 "_showTooltip": true,
                 "_layout": "right"
             }
-        }       
+        }
     },
     "_accessibility": {
         "_accessibilityToggleTextOn": "Turn accessibility on?",
         "_accessibilityToggleTextOff": "Turn accessibility off?",
-        "_ariaLabels": { 
-            "page": "",  
-            "menuView": "Select here to enter.",     
+        "_ariaLabels": {
+            "page": "",
+            "menuView": "Select here to enter.",
             "previous": "Back",
             "navigationBack": "Navigate back",
             "navigationDrawer": "Open course resources and search.",
@@ -97,8 +162,8 @@
             "modelLabel": "Select here to view model answer.",
             "feedbackLabel": "Select here to show feedback."
         }
-    },    
-    "_latestTrackingId": 18,
+    },
+    "_latestTrackingId": 47,
     "_pageLevelProgress": {
         "_altText": "of components completed on this page"
     },
@@ -144,8 +209,8 @@
         "noResultsMessage": "Sorry, no results were found",
         "buttonAria": "Search"
     },
-    "_courseinfo" : {
-        "_filterButtons":{
+    "_courseinfo": {
+        "_filterButtons": {
             "all": "All",
             "articles": "Articles",
             "blocks": "Blocks"
@@ -165,25 +230,25 @@
             "hasassessment": "Course has assessment",
             "hasnoassessment": "Course has no assessment",
             "assessmentincomplete": "Assessment is incomplete",
-            "score" : "Score"
+            "score": "Score"
         },
-        "_finishedText" : {
-            "passed" : {
+        "_finishedText": {
+            "passed": {
                 "title": "Congratulations",
                 "body": "Well done! You have passed the assessment!"
             },
-            "failed" : {
+            "failed": {
                 "title": "Oh Well",
                 "body": "Unfortunately you have failed the assessment! Oh Well!"
             }
         },
         "_defaultFilter": "articles"
     },
-     "_scormDataInfo": {
+    "_scormDataInfo": {
         "title": "Scorm Data Info",
         "description": "Shows LMS Scorm status information"
     },
-    "_banks" : {
+    "_banks": {
         "1": {
             "title": "Bank1 - Learning outcome etc."
         },
@@ -201,30 +266,30 @@
             "hide": 200
         }
     },
-     "_bottomnavigation": {
+    "_bottomnavigation": {
         "_duration": {
             "show": 200,
             "hide": 200
         },
         "_showMenu": false
     },
-     "_glossary": {
+    "_glossary": {
         "title": "Glossary",
         "description": "Click here to view glossary for this course",
         "searchPlaceholder": "Search",
         "notFoundMessage": "Sorry! No results to display",
         "_glossaryItems": [
             {
-                "term":"Button idea",
-                "description":"Click here to see a proposed button idea"
+                "term": "Button idea",
+                "description": "Click here to see a proposed button idea"
             },
             {
-                "term":"Adapt Learning YouTube Channel",
-                "description":"Fancy catching up on some Adapt material"
+                "term": "Adapt Learning YouTube Channel",
+                "description": "Fancy catching up on some Adapt material"
             },
             {
-                "term":"Community Site",
-                "description":"Click here to view our community site"
+                "term": "Community Site",
+                "description": "Click here to view our community site"
             }
         ]
     },
@@ -238,7 +303,7 @@
             "no": "No"
         }
     },
-        "_pageIncompletePrompt" : {
+    "_pageIncompletePrompt": {
         "_isEnabled": true,
         "_buttons": {
             "yes": "Yes",

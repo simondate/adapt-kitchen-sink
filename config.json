@@ -1,4 +1,9 @@
 {
+    "screenSize": {
+        "small": 520,
+        "medium": 760,
+        "large": 900
+    },
     "_defaultLanguage": "en",
     "_questionWeight": 1,
     "_accessibility": {

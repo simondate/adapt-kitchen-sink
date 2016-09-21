@@ -168,62 +168,6 @@
         }
     },
     {
-        "_id":"co-20",
-        "_parentId":"course",
-        "_type":"page",
-        "_classes":"",
-        "title":"Kineo Question Components",
-        "displayTitle":"Kineo Question Components",
-        "body":"Kineo have added the following question components to the core bundle. Remember that anything outside of the core bundle might not be IE8 compatible or accessible so check the details.",
-        "instruction":"Scroll down to see what we have on offer.",
-        "_graphic": {
-            "alt": "Welcome to Adapt Learning",
-            "src": "course/en/images/origami-menu-one.jpg"
-        },
-        "linkText":"View",
-        "duration":"2 mins",
-        "_theme": {
-            "_pageHeader": {
-                "_isEnabled": true,
-                "_layout": "left",
-                "_showScrollButton": true,
-                "_backgroundImage": {
-                    "_large": "course/en/images/base_assets/hero_image.jpg",
-                    "_medium": "course/en/images/base_assets/hero_image.jpg",
-                    "_small": "course/en/images/base_assets/hero_image_mobile.jpg"
-                },
-                "_minimumHeaderHeights": {
-                    "_large": 500,
-                    "_medium": 500,
-                    "_small": 300
-                }
-            }
-        },
-        "_quicknav": {
-            "_isEnabled": true,
-            "_isContinuous": "global",
-            "_buttons": {
-                "_root": {
-                    "_isHidden": false,
-                    "text": "Menu"
-                },
-                "_up": {
-                    "_isHidden": true,
-                    "text": "Back to menu"
-                },
-                "_previous": {
-                    "_isHidden": false,
-                    "text": "Previous"
-                },
-                "_next": {
-                    "_isHidden": false,
-                    "text": "Next"
-                }
-            },
-            "_isEnableNextOnCompletion": false
-        }
-    },
-    {
         "_id":"co-25",
         "_parentId":"course",
         "_type":"page",
