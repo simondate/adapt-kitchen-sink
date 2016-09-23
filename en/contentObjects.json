@@ -8,6 +8,7 @@
     "displayTitle": "Core Presentation Components",
     "body": "Interactivity is crucial to getting learners engaged with your content. No matter how interesting the information you’re trying to present is, a learner who’s not engaged is a learner who’s not learning. Add some spark to their learning experience by offering them an interactive journey through the content.<br/><br/>All core components will work with IE8, offer RTL language support and accessibility to at least AA.",
     "instruction": "Scroll down to see what presentation components we have on offer.",
+    "pageBody": "pageBody",
     "_graphic": {
       "alt": "Welcome to Adapt Learning",
       "src": "course/en/images/origami-menu-one.jpg"
@@ -66,6 +67,7 @@
     "title": "Core Question Components",
     "displayTitle": "Core Question Components",
     "body": "Interactivity is crucial to getting learners engaged with your content. No matter how interesting the information you’re trying to present is, a learner who’s not engaged is a learner who’s not learning. Add some spark to their learning experience by offering them an interactive journey through the content.<br/><br/>All core components will work with IE8, offer RTL language support and accessibility to at least AA.",
+    "pageBody": "pageBody",
     "instruction": "Scroll down to see what question components we have on offer.",
     "_graphic": {
       "alt": "Welcome to Adapt Learning",
@@ -126,6 +128,7 @@
     "displayTitle": "Kineo Presentation Components",
     "body": "Kineo have added the following question components to the core bundle. Remember that anything outside of the core bundle might not be IE8 compatible or accessible so check the details.",
     "instruction": "Scroll down to see what we have on offer.",
+    "pageBody": "pageBody",
     "_graphic": {
       "alt": "Welcome to Adapt Learning",
       "src": "course/en/images/origami-menu-one.jpg"
@@ -184,6 +187,7 @@
     "title": "Article Reveal",
     "displayTitle": "Article Reveal",
     "body": "This page contains an Article Reveal.",
+    "pageBody": "pageBody",
     "_graphic": {
       "alt": "Welcome to Adapt Learning",
       "src": "course/en/images/origami-menu-one.jpg"
@@ -234,7 +238,7 @@
       "_isEnableNextOnCompletion": false
     }
   },
-    {
+  {
     "_id": "co-30",
     "_parentId": "course",
     "_type": "page",
@@ -242,6 +246,7 @@
     "title": "Assessment",
     "displayTitle": "Assessment",
     "body": "",
+    "pageBody": "pageBody",
     "instruction": "Scroll down to see what we have on offer.",
     "_graphic": {
       "alt": "Welcome to Adapt Learning",
@@ -301,6 +306,7 @@
     "title": "Trickle Extension",
     "displayTitle": "Trickle Extension",
     "body": "Trickle is an extension that requires a learner to complete a block's compoenent(s) before they can progress. ",
+    "pageBody": "pageBody",
     "_graphic": {
       "alt": "Welcome to Adapt Learning",
       "src": "course/en/images/origami-menu-one.jpg"
