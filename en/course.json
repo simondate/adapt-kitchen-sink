@@ -62,262 +62,126 @@
                 "menuItem": "Menu item.",
                 "menuEnd": "You have reached the end of the menu."
             }
+        },
+        "_resources": {
+            "title": "Resources",
+            "description": "Click here to view resources for this course",
+            "_filterButtons": {
+                "all": "All",
+                "document": "PDF",
+                "media": "Media",
+                "link": "Link"
+            },
+            "_filterAria": {
+                "allAria": "View all resources",
+                "documentAria": "View document resources",
+                "mediaAria": "View media resources",
+                "linkAria": "View resource links"
+            },
+            "_resourcesItems": [
+                {
+                    "_type": "document",
+                    "title": "Button idea",
+                    "description": "Click here to see a proposed button idea",
+                    "_link": "course/en/pdf/adapt-framework-prototypes-buttons.pdf"
+                },
+                {
+                    "_type": "media",
+                    "title": "Adapt Learning YouTube Channel",
+                    "description": "Fancy catching up on some Adapt material",
+                    "_link": "https://www.youtube.com/channel/UCW8SlSFuCc--B66Gf9fAEcQ"
+                },
+                {
+                    "_type": "link",
+                    "title": "Community Site",
+                    "description": "Click here to view our community site",
+                    "_link": "https://community.adaptlearning.org"
+                }
+            ]
+        },
+        "_search": {
+            "title": "",
+            "description": "Type in search words and enter",
+            "noResultsMessage": "Sorry, no results were found",
+            "awaitingResultsMessage": "Formulating results...",
+            "_showHighlights": true,
+            "_showFoundWords": true,
+            "_previewWords": 15,
+            "_previewCharacters": 30
+        },
+        "_accessibility": {
+            "_accessibilityToggleTextOn": "Turn accessibility on?",
+            "_accessibilityToggleTextOff": "Turn accessibility off?",
+            "_accessibilityInstructions": {
+                "touch": "Usage instructions. Use swipe right for next. Use swipe left for previous. Use a double tap to select. Use a two finger slide up to go to the top of the page.",
+                "notouch": "Usage instructions. Use tab for next. Use shift tab for previous. Use enter to select. Use escape to go to the top of the page.",
+                "ipad": "Usage instructions for touchscreens. Use swipe right for next. Use swipe left for previous. Use a double tap to select. Use a two finger slide up to go to the top of the page. Usage instructions for keyboard access. Use right for next. Use left for previous. Use up and down together to select."
+            },
+            "_ariaLabels": {
+                "navigation": "Course navigation bar",
+                "menuLoaded": "Menu Loaded.",
+                "menu": "Menu",
+                "page": "Page",
+                "pageLoaded": "Page Loaded.",
+                "pageEnd": "You have reached the end of the page.",
+                "previous": "Back",
+                "navigationBack": "Navigate back",
+                "navigationDrawer": "Open course resources.",
+                "close": "Close",
+                "closeDrawer": "Close Drawer",
+                "closeResources": "Close resources",
+                "resourcesEnd": "You have reached the end of the list of resources.",
+                "drawerBack": "Back to drawer",
+                "drawer": "Top of side drawer",
+                "closePopup": "Close popup",
+                "next": "Next",
+                "done": "Done",
+                "complete": "Completed",
+                "incomplete": "Incomplete",
+                "incorrect": "Incorrect",
+                "correct": "Correct",
+                "locked": "Locked",
+                "accessibilityToggleButton": "By selecting this button you can set whether accessibility is turned on or off",
+                "feedbackPopUp": "Popup opened.",
+                "menuBack": "Back to menu",
+                "visited": "Visited"
+            }
         }
-    },
-    "_buttons": {
-        "submit": "Submit",
-        "reset": "Reset",
-        "showCorrectAnswer": "Model Answer",
-        "hideCorrectAnswer": "My Answer",
-        "showFeedback": "Show feedback",
-        "remainingAttempts": "attempts remaining",
-        "remainingAttempt": "final attempt"
     },
     "_id": "course",
     "_type": "course",
-    "title": "Adapt Kitchen Sink",
-    "displayTitle": "Adapt Kitchen Sink",
-    "body": "A demo course the showcases all current out of the box functionality.",
-    "_navigation": {
-        "_showIconBorders": false,
-        "_showAllTooltipsOnHover": true,
-        "_tooltipsAlwaysVisible": false,
-        "_back": {
-            "_isEnabled": true,
-            "_class": "navigation-back-button",
-            "_iconTypeClass": "icon-controls-small-left",
-            "_tooltip": "Back",
-            "_showTooltip": true,
-            "_layout": "left",
-            "_dataEvent": "backButton"
+    "title": "title",
+    "displayTitle": "title",
+    "description": "",
+    "body": "body",
+    "_buttons": {
+        "_submit": {
+            "buttonText": "Submit",
+            "ariaLabel": "Submit your answer by clicking here."
         },
-        "_menu": {
-            "_isEnabled": true,
-            "_class": "navigation-menu-button",
-            "_iconTypeClass": "icon-home",
-            "_tooltip": "Menu",
-            "_showTooltip": true,
-            "_layout": "left",
-            "_dataEvent": "menuButton"
+        "_reset": {
+            "buttonText": "Reset",
+            "ariaLabel": "Reset the question by clicking here."
         },
-        "_title": {
-            "_isEnabled": true,
-            "_text": "Adapt Learning",
-            "_class": "navigation-title",
-            "_layout": "left"
+        "_showCorrectAnswer": {
+            "buttonText": "Correct answer",
+            "ariaLabel": "Show the correct answer by clicking here."
         },
-        "_drawer": {
-            "_isEnabled": true,
-            "_class": "navigation-drawer-toggle-button",
-            "_iconTypeClass": "icon-list",
-            "_tooltip": "Drawer",
-            "_showTooltip": true,
-            "_layout": "right",
-            "_dataEvent": "toggleDrawer"
+        "_hideCorrectAnswer": {
+            "buttonText": "My answer",
+            "ariaLabel": "Show the answer you gave by clicking here."
         },
-        "_extensions": {
-            "_pageLevelProgress": {
-                "_tooltip": "Progress",
-                "_showTooltip": true,
-                "_layout": "right"
-            }
-        }
+        "_showFeedback": {
+            "buttonText": "Show feedback",
+            "ariaLabel": "View the question feedback again by clicking here."
+        },
+        "remainingAttemptsText": "attempts remaining",
+        "remainingAttemptText": "final attempt",
+        "disabledAriaLabel": "This button is disabled at the moment."
     },
-    "_accessibility": {
-        "_accessibilityToggleTextOn": "Turn accessibility on?",
-        "_accessibilityToggleTextOff": "Turn accessibility off?",
-        "_accessibilityInstructions": {
-            "touch": "Usage instructions. Use swipe right for next. Use swipe left for previous. Use a double tap to select. Use a two finger slide up to go to the top of the page.",
-            "notouch": "Usage instructions. Use tab for next. Use shift tab for previous. Use enter to select. Use escape to go to the top of the page.",
-            "ipad": "Usage instructions for touchscreens. Use swipe right for next. Use swipe left for previous. Use a double tap to select. Use a two finger slide up to go to the top of the page. Usage instructions for keyboard access. Use right for next. Use left for previous. Use up and down together to select."
-        },
-        "_ariaLabels": {
-            "navigation": "Course navigation bar",
-            "menuLoaded": "Menu Loaded.",
-            "menu": "Menu",
-            "page": "Page",
-            "pageLoaded": "Page Loaded.",
-            "pageEnd": "You have reached the end of the page.",
-            "previous": "Back",
-            "navigationBack": "Navigate back",
-            "navigationDrawer": "Open course resources.",
-            "close": "Close",
-            "closeDrawer": "Close Drawer",
-            "closeResources": "Close resources",
-            "resourcesEnd": "You have reached the end of the list of resources.",
-            "drawerBack": "Back to drawer",
-            "drawer": "Top of side drawer",
-            "closePopup": "Close popup",
-            "next": "Next",
-            "done": "Done",
-            "complete": "Completed",
-            "incomplete": "Incomplete",
-            "incorrect": "Incorrect",
-            "correct": "Correct",
-            "locked": "Locked",
-            "accessibilityToggleButton": "By selecting this button you can set whether accessibility is turned on or off",
-            "feedbackPopUp": "Popup opened.",
-            "menuBack": "Back to menu",
-            "visited": "Visited"
-        }
-    },
-    "_latestTrackingId": 53,
     "_pageLevelProgress": {
-        "_isEnabled": true
-    },
-    "_resources": {
-        "title": "Resources",
-        "description": "Click here to view resources for this course",
-        "_filterButtons": {
-            "all": "All",
-            "document": "PDF",
-            "media": "Media",
-            "link": "Link"
-        },
-        "_filterAria": {
-            "allAria": "View all resources",
-            "documentAria": "View document resources",
-            "mediaAria": "View media resources",
-            "linkAria": "View resource links"
-        },
-        "_resourcesItems": [
-            {
-                "_type": "document",
-                "title": "Button idea",
-                "description": "Click here to see a proposed button idea",
-                "_link": "course/en/pdf/adapt-framework-prototypes-buttons.pdf"
-            },
-            {
-                "_type": "media",
-                "title": "Adapt Learning YouTube Channel",
-                "description": "Fancy catching up on some Adapt material",
-                "_link": "https://www.youtube.com/channel/UCW8SlSFuCc--B66Gf9fAEcQ"
-            },
-            {
-                "_type": "link",
-                "title": "Community Site",
-                "description": "Click here to view our community site",
-                "_link": "https://community.adaptlearning.org"
-            }
-        ]
-    },
-    "_search": {
-        "title": "",
-        "description": "Type in search words and enter",
-        "noResultsMessage": "Sorry, no results were found",
-        "awaitingResultsMessage": "Formulating results...",
-        "_showHighlights": true,
-        "_showFoundWords": true,
-        "_previewWords": 15,
-        "_previewCharacters": 30
-    },
-    "_courseinfo": {
-        "_filterButtons": {
-            "all": "All",
-            "articles": "Articles",
-            "blocks": "Blocks"
-        },
-        "_allText": {
-            "title": "Title",
-            "status": "Status",
-            "pages": "Pages",
-            "menus": "Menus",
-            "articles": "Articles",
-            "blocks": "Blocks",
-            "components": "Components",
-            "assessment": "Assessment",
-            "total": "Total",
-            "incomplete": "Incomplete",
-            "completed": "Completed",
-            "hasassessment": "Course has assessment",
-            "hasnoassessment": "Course has no assessment",
-            "assessmentincomplete": "Assessment is incomplete",
-            "score": "Score"
-        },
-        "_finishedText": {
-            "passed": {
-                "title": "Congratulations",
-                "body": "Well done! You have passed the assessment!"
-            },
-            "failed": {
-                "title": "Oh Well",
-                "body": "Unfortunately you have failed the assessment! Oh Well!"
-            }
-        },
-        "_defaultFilter": "articles"
-    },
-    "_scormDataInfo": {
-        "title": "Scorm Data Info",
-        "description": "Shows LMS Scorm status information"
-    },
-    "_banks": {
-        "1": {
-            "title": "Bank1 - Learning outcome etc."
-        },
-        "2": {
-            "title": "Bank2 - Learning outcome etc."
-        }
-    },
-    "_learnerassistant": {
-        "_showAllBankQuestions": false,
-        "_showAssociatedLearningBy": "bank"
-    },
-    "_rollay": {
-        "_duration": {
-            "show": 200,
-            "hide": 200
-        }
-    },
-    "_bottomnavigation": {
-        "_duration": {
-            "show": 200,
-            "hide": 200
-        },
-        "_showMenu": false
-    },
-    "_glossary": {
-        "title": "Glossary",
-        "description": "Click here to view glossary for this course",
-        "searchPlaceholder": "Search",
-        "notFoundMessage": "Sorry! No results to display",
-        "_glossaryItems": [
-            {
-                "term": "Button idea",
-                "description": "Click here to see a proposed button idea"
-            },
-            {
-                "term": "Adapt Learning YouTube Channel",
-                "description": "Fancy catching up on some Adapt material"
-            },
-            {
-                "term": "Community Site",
-                "description": "Click here to view our community site"
-            }
-        ]
-    },
-    "_assessment": {
-        "_postTotalScoreToLms": true,
-        "_isPercentageBased": true,
-        "_scoreToPass": 75,
-        "_requireAssessmentPassed": true
-    },
-    "_bookmarking": {
         "_isEnabled": true,
-        "_level": "component",
-        "title": "Bookmarking",
-        "message": "Whould you like to continue where you left off?",
-        "_buttons": {
-            "yes": "Yes",
-            "no": "No"
-        }
+        "_altText": "of components completed on this page."
     },
-    "_pageIncompletePrompt": {
-        "_isEnabled": true,
-        "_buttons": {
-            "yes": "Yes",
-            "no": "No"
-        },
-        "title": "You haven't finished this page yet.",
-        "message": "Are you sure you want to leave?"
-    }
+    "_latestTrackingId": 53
 }
