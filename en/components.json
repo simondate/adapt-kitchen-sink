@@ -21,7 +21,7 @@
     "_parentId": "b-05",
     "_type": "component",
     "_component": "text",
-    "_classes": "",
+    "_classes": "primary-color",
     "_layout": "right",
     "title": "Text",
     "displayTitle": "Text",
@@ -53,7 +53,7 @@
     "_parentId": "b-10",
     "_type": "component",
     "_component": "accordion",
-    "_classes": "",
+    "_classes": "tertiary-color",
     "_layout": "right",
     "title": "Accordion single width",
     "displayTitle": "Accordion single width",
@@ -222,11 +222,8 @@
     "instruction": "Select the play button to start the video.",
     "_setCompletionOn": "inview",
     "_media": {
-      "mp4": "course/en/assets/video/big_buck_bunny.mp4",
-      "ogv": "course/en/assets/video/big_buck_bunny.ogv",
-      "poster": "course/en/images/base_assets/video.jpg",
-      "transcriptLink": "assets/transcript.pdf",
-      "transcriptText": "Transcript"
+      "source": "//www.youtube.com/watch?v=RT-KmgAgxuo",
+      "type": "video/youtube"
     },
     "_pageLevelProgress": {
       "_isEnabled": true
