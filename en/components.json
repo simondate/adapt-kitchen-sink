@@ -739,39 +739,53 @@
     "_type": "component",
     "_component": "tabs",
     "_classes": "",
-    "_layout": "full",
-    "title": "Adapt Tabs",
-    "displayTitle": "Adapt Tabs",
+    "_layout": " full",
+    "title": "Tabs",
+    "displayTitle": "Tabs",
     "body": "Body text.",
     "instruction": "Select the tabs to find out more.",
-    "_tabLayout": "top",
+    "_tabLayout": "left",
     "_items": [
       {
+        "tabTitle": "Tab Title 1",
         "title": "Tab item 1 title",
         "body": "This is display text 1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.<br/><br/>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.",
-        "graphic": "course/en/images/base_assets/list_item_selected.png"
+        "_graphic": {
+          "alt": "alt text",
+          "src": "course/en/images/tabs.jpg"
+        }
       },
       {
+        "tabTitle": "Tab Title 2",
         "title": "Tab item 2 title",
         "body": "This is display text 2. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.",
-        "graphic": "course/en/images/base_assets/list_item_selected.png"
+        "_graphic": {
+          "alt": "alt text",
+          "src": "course/en/images/tabs.jpg"
+        }
       },
       {
+        "tabTitle": "Tab Title 3",
         "title": "Tab item 3 title",
-        "body": "This is display text 3. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.<br/><br/>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.",
-        "graphic": "course/en/images/base_assets/list_item_selected.png"
+        "body": "This is display text 3. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.",
+        "_graphic": {
+          "alt": "alt text",
+          "src": "course/en/images/tabs.jpg"
+        }
       },
       {
+        "tabTitle": "Tab Title 4",
         "title": "Tab item 4 title",
-        "body": "This is display text 4. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
-        "graphic": "course/en/images/base_assets/list_item_selected.png"
-      },
-      {
-        "title": "Tab item 5 title",
-        "body": "This is display text 5. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.<br/><br/>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus.",
-        "graphic": "course/en/images/base_assets/list_item_selected.png"
+        "body": "This is display text 4. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.",
+        "_graphic": {
+          "alt": "alt text",
+          "src": "course/en/images/tabs.jpg"
+        }
       }
-    ]
+    ],
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
   },
   {
     "_id": "c-91",
@@ -779,39 +793,53 @@
     "_type": "component",
     "_component": "tabs",
     "_classes": "",
-    "_layout": "full",
-    "title": "Adapt Tabs",
-    "displayTitle": "Adapt Tabs",
+    "_layout": " full",
+    "title": "Tabs",
+    "displayTitle": "Tabs",
     "body": "Body text.",
     "instruction": "Select the tabs to find out more.",
-    "_tabLayout": "left",
+    "_tabLayout": "top",
     "_items": [
       {
+        "tabTitle": "Tab Title 1",
         "title": "Tab item 1 title",
-        "body": "This is display text 1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.<br/><br/>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram.",
-        "graphic": "course/en/images/base_assets/list_item_selected.png"
+        "body": "This is display text 1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.<br/><br/>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.",
+        "_graphic": {
+          "alt": "alt text",
+          "src": "course/en/images/tabs.jpg"
+        }
       },
       {
+        "tabTitle": "Tab Title 2",
         "title": "Tab item 2 title",
-        "body": "This is display text 2. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.",
-        "graphic": "course/en/images/base_assets/list_item_selected.png"
+        "body": "This is display text 2. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.",
+        "_graphic": {
+          "alt": "alt text",
+          "src": "course/en/images/tabs.jpg"
+        }
       },
       {
+        "tabTitle": "Tab Title 3",
         "title": "Tab item 3 title",
-        "body": "This is display text 3. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.<br/><br/>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.",
-        "graphic": "course/en/images/base_assets/list_item_selected.png"
+        "body": "This is display text 3. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.",
+        "_graphic": {
+          "alt": "alt text",
+          "src": "course/en/images/tabs.jpg"
+        }
       },
       {
+        "tabTitle": "Tab Title 4",
         "title": "Tab item 4 title",
-        "body": "This is display text 4. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
-        "graphic": "course/en/images/base_assets/list_item_selected.png"
-      },
-      {
-        "title": "Tab item 5 title",
-        "body": "This is display text 5. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.<br/><br/>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.",
-        "graphic": "course/en/images/base_assets/list_item_selected.png"
+        "body": "This is display text 4. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.",
+        "_graphic": {
+          "alt": "alt text",
+          "src": "course/en/images/tabs.jpg"
+        }
       }
-    ]
+    ],
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
   },
   {
     "_id": "c-205",
@@ -1032,48 +1060,48 @@
     }
   },
   {
-      "_id": "c-235",
-      "_parentId": "b-135",
-      "_type": "component",
-      "_component": "assessmentResults",
-      "_classes": "",
-      "_layout": "layout",
-      "_isVisibleBeforeCompletion": false,
-      "_assessmentId": "a-35",
-      "title": "assessmentResults",
-      "displayTitle": "assessmentResults",
-      "body": "",
-      "instruction": "instruction",
-      "_retry": {
-          "button": "Retry Assessment",
-          "_comment": "use {{attempts}}, {{attemptsSpent}} and {{attemptsLeft}} to display attempts",
-          "feedback": "feedback"
+    "_id": "c-235",
+    "_parentId": "b-135",
+    "_type": "component",
+    "_component": "assessmentResults",
+    "_classes": "",
+    "_layout": "layout",
+    "_isVisibleBeforeCompletion": false,
+    "_assessmentId": "a-35",
+    "title": "assessmentResults",
+    "displayTitle": "assessmentResults",
+    "body": "",
+    "instruction": "instruction",
+    "_retry": {
+      "button": "Retry Assessment",
+      "_comment": "use {{attempts}}, {{attemptsSpent}} and {{attemptsLeft}} to display attempts",
+      "feedback": "feedback"
+    },
+    "_comment": "use {{score}}, {{maxScore}} and {{scoreAsPercent}} to display score and percentage",
+    "_completionBody": "You got {{score}} out of {{maxScore}}. {{{feedback}}}",
+    "_bands": [
+      {
+        "_score": 0,
+        "feedback": "You didn't pass this time!",
+        "_allowRetry": true,
+        "_classes": ""
       },
-      "_comment": "use {{score}}, {{maxScore}} and {{scoreAsPercent}} to display score and percentage",
-      "_completionBody": "You got {{score}} out of {{maxScore}}. {{{feedback}}}",
-      "_bands": [
-          {
-              "_score": 0,
-              "feedback": "You didn't pass this time!",
-              "_allowRetry": true,
-              "_classes": ""
-          },
-          {
-              "_score": 50,
-              "feedback": "You were close but you didn't pass.",
-              "_allowRetry": true,
-              "_classes": ""
-          },
-          {
-              "_score": 75,
-              "feedback": "Congratulations! You passed!",
-              "_allowRetry": false,
-              "_classes": ""
-          }
-      ],
-      "_pageLevelProgress": {
-          "_isEnabled": true
+      {
+        "_score": 50,
+        "feedback": "You were close but you didn't pass.",
+        "_allowRetry": true,
+        "_classes": ""
+      },
+      {
+        "_score": 75,
+        "feedback": "Congratulations! You passed!",
+        "_allowRetry": false,
+        "_classes": ""
       }
+    ],
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
   },
   {
     "_id": "c-260",
